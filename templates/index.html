@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GIMP Color Palettes</title>
+  <meta name="description" content="A collection of color palettes for GIMP and Inkscape.">
+  <meta name="keywords" content="GIMP, Inkscape, Color-Palettes, Colors, Design">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    .lato {
+      font-family: 'Lato', sans-serif;
+    }
+
+    #notifications {
+      top: 1rem;
+      right: 1rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 lato">
+  <div id="notifications" class="fixed">
+  </div>
+
+  <div class="flex flex-col content-center justify-center">
+    <div class="self-center">
+      <header class="flex my-5">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 self-center text-teal-500">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+        </svg>
+
+        <h1 class="uppercase font-semibold text-3xl m-3">GIMP Color Palettes</h1>
+      </header>
+    </div>
+
+    <div class="px-6 mb-6">
+      <div class="flex m-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-teal-500 self-center inline">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+        </svg>
+
+        <h2 class="uppercase font-semibold text-2xl mx-3 inline">
+          Table of Contents
+        </h2>
+      </div>
+
+      <ul class="list-disc list-inside mx-6">
+        {% for palette in palettes %}
+          <li>
+            <a href="#{{ palette.id }}" class="hover:text-blue-500 hover:underline">{{ palette.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="self-center">
+      <main class="mb-16">
+
+        {% for palette in palettes %}
+          <div class="palette mb-16">
+            <div class="mx-3 my-5 px-6">
+              <div class="flex justify-between">
+                <div class="flex">
+                  <a href="#{{ palette.id }}" class="self-center text-teal-500 hover:text-teal-600 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-teal-500">
+                      <path fill-rule="evenodd" d="M9.243 3.03a1 1 0 01.727 1.213L9.53 6h2.94l.56-2.243a1 1 0 111.94.486L14.53 6H17a1 1 0 110 2h-2.97l-1 4H15a1 1 0 110 2h-2.47l-.56 2.242a1 1 0 11-1.94-.485L10.47 14H7.53l-.56 2.242a1 1 0 11-1.94-.485L5.47 14H3a1 1 0 110-2h2.97l1-4H5a1 1 0 110-2h2.47l.56-2.243a1 1 0 011.213-.727zM9.03 8l-1 4h2.938l1-4H9.031z" clip-rule="evenodd" />
+                    </svg>
+                  </a>
+
+                  <h2 class="uppercase font-semibold text-2xl mb-1" id="{{ palette.id }}">
+                    {{ palette.name }}
+                  </h2>
+
+                  {% if palette.url %}
+                    <a href="{{ palette.url }}" class="self-center text-blue-400 ml-3 hover:text-blue-500 hover:underline">Source</a>
+                  {% endif %}
+                </div>
+
+                <button onclick="savePalette('{{ palette.id }}')">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 self-center text-teal-500">
+                    <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="colors flex flex-wrap justify-center">
+              {% for color in palette.colors %}
+                <div class="color flex flex-col m-1">
+                  <div class="w-32 h-24 bg-red-500 rounded-t shadow-md" style="background-color: {{ color.hex }} !important;">
+                    <button class="w-full h-full" onclick="copyToClipboard('{{ color.hex }}')"></button>
+                  </div>
+                  <div class="flex-1 w-32 bg-white text-gray-600 rounded-b shadow-md border b-t p-3">
+                    {% if color.name %}
+                      <p class="font-bold text-gray-700">{{ color.name }}</p>
+                    {% endif %}
+
+                    <p>{{ color.hex }}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+
+      </main>
+    </div>
+
+    <div>
+      <footer class="w-full text-center py-3">
+        You can find the code on GitHub.
+      </footer>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js" integrity="sha256-u/J1Urdrk3nCYFefpoeTMgI5viU1ujCDu2fXXoSJjhg=" crossorigin="anonymous"></script>
+
+<script>
+const gpl = {{ gpl|tojson }};
+
+function savePalette(id) {
+  var file = new File([gpl[id]], `${id}.gpl`, {type: "text/plain;charset=utf-8"});
+  saveAs(file);
+}
+
+function copyToClipboard(text) {
+  const element = document.createElement('textarea');
+  element.value = text;
+
+  document.body.appendChild(element);
+  element.select();
+  document.execCommand('copy');
+  document.body.removeChild(element);
+
+  createNotification(`${text} copied to clipboard.`)
+};
+
+function createNotification(text) {
+  const notifications = document.getElementById('notifications');
+  const element = document.createElement('p');
+
+  element.classList.add('bg-gray-700', 'text-white', 'rounded', 'shadow', 'py-1', 'px-3', 'm-3');
+  element.innerHTML = text;
+
+  notifications.appendChild(element);
+
+  setTimeout(() => {
+    notifications.removeChild(element);
+  }, 666);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+GIMP Palette
+Name: Materialize CSS
+Columns: 14
+# https://materializecss.com/color.html
+255  235  238  Red Lighten 5
+255  205  210  Red Lighten 4
+239  154  154  Red Lighten 3
+229  115  115  Red Lighten 2
+239   83   80  Red Lighten 1
+244   67   54  Red
+229   57   53  Red Darken 1
+211   47   47  Red Darken 2
+198   40   40  Red Darken 3
+183   28   28  Red Darken 4
+255  138  128  Red Accent 1
+255   82   82  Red Accent 2
+255   23   68  Red Accent 3
+213    0    0  Red Accent 4
+252  228  236  Pink Lighten 5
+248  187  208  Pink Lighten 4
+244  143  177  Pink Lighten 3
+240   98  146  Pink Lighten 2
+236   64  122  Pink Lighten 1
+233   30   99  Pink
+216   27   96  Pink Darken 1
+194   24   91  Pink Darken 2
+173   20   87  Pink Darken 3
+136   14   79  Pink Darken 4
+255  128  171  Pink Accent 1
+255   64  129  Pink Accent 2
+245    0   87  Pink Accent 3
+197   17   98  Pink Accent 4
+243  229  245  Purple Lighten 5
+225  190  231  Purple Lighten 4
+206  147  216  Purple Lighten 3
+186  104  200  Purple Lighten 2
+171   71  188  Purple Lighten 1
+156   39  176  Purple
+142   36  170  Purple Darken 1
+123   31  162  Purple Darken 2
+106   27  154  Purple Darken 3
+ 74   20  140  Purple Darken 4
+234  128  252  Purple Accent 1
+224   64  251  Purple Accent 2
+213    0  249  Purple Accent 3
+170    0  255  Purple Accent 4
+237  231  246  Deep Purple Lighten 5
+209  196  233  Deep Purple Lighten 4
+179  157  219  Deep Purple Lighten 3
+149  117  205  Deep Purple Lighten 2
+126   87  194  Deep Purple Lighten 1
+103   58  183  Deep Purple
+ 94   53  177  Deep Purple Darken 1
+ 81   45  168  Deep Purple Darken 2
+ 69   39  160  Deep Purple Darken 3
+ 49   27  146  Deep Purple Darken 4
+179  136  255  Deep Purple Accent 1
+124   77  255  Deep Purple Accent 2
+101   31  255  Deep Purple Accent 3
+ 98    0  234  Deep Purple Accent 4
+232  234  246  Indigo Lighten 5
+197  202  233  Indigo Lighten 4
+159  168  218  Indigo Lighten 3
+121  134  203  Indigo Lighten 2
+ 92  107  192  Indigo Lighten 1
+ 63   81  181  Indigo
+ 57   73  171  Indigo Darken 1
+ 48   63  159  Indigo Darken 2
+ 40   53  147  Indigo Darken 3
+ 26   35  126  Indigo Darken 4
+140  158  255  Indigo Accent 1
+ 83  109  254  Indigo Accent 2
+ 61   90  254  Indigo Accent 3
+ 48   79  254  Indigo Accent 4
+227  242  253  Blue Lighten 5
+187  222  251  Blue Lighten 4
+144  202  249  Blue Lighten 3
+100  181  246  Blue Lighten 2
+ 66  165  245  Blue Lighten 1
+ 33  150  243  Blue
+ 30  136  229  Blue Darken 1
+ 25  118  210  Blue Darken 2
+ 21  101  192  Blue Darken 3
+ 13   71  161  Blue Darken 4
+130  177  255  Blue Accent 1
+ 68  138  255  Blue Accent 2
+ 41  121  255  Blue Accent 3
+ 41   98  255  Blue Accent 4
+225  245  254  Light Blue Lighten 5
+179  229  252  Light Blue Lighten 4
+129  212  250  Light Blue Lighten 3
+ 79  195  247  Light Blue Lighten 2
+ 41  182  246  Light Blue Lighten 1
+  3  169  244  Light Blue
+  3  155  229  Light Blue Darken 1
+  2  136  209  Light Blue Darken 2
+  2  119  189  Light Blue Darken 3
+  1   87  155  Light Blue Darken 4
+128  216  255  Light Blue Accent 1
+ 64  196  255  Light Blue Accent 2
+  0  176  255  Light Blue Accent 3
+  0  145  234  Light Blue Accent 4
+224  247  250  Cyan Lighten 5
+178  235  242  Cyan Lighten 4
+128  222  234  Cyan Lighten 3
+ 77  208  225  Cyan Lighten 2
+ 38  198  218  Cyan Lighten 1
+  0  188  212  Cyan
+  0  172  193  Cyan Darken 1
+  0  151  167  Cyan Darken 2
+  0  131  143  Cyan Darken 3
+  0   96  100  Cyan Darken 4
+132  255  255  Cyan Accent 1
+ 24  255  255  Cyan Accent 2
+  0  229  255  Cyan Accent 3
+  0  184  212  Cyan Accent 4
+224  242  241  Teal Lighten 5
+178  223  219  Teal Lighten 4
+128  203  196  Teal Lighten 3
+ 77  182  172  Teal Lighten 2
+ 38  166  154  Teal Lighten 1
+  0  150  136  Teal
+  0  137  123  Teal Darken 1
+  0  121  107  Teal Darken 2
+  0  105   92  Teal Darken 3
+  0   77   64  Teal Darken 4
+167  255  235  Teal Accent 1
+100  255  218  Teal Accent 2
+ 29  233  182  Teal Accent 3
+  0  191  165  Teal Accent 4
+232  245  233  Green Lighten 5
+200  230  201  Green Lighten 4
+165  214  167  Green Lighten 3
+129  199  132  Green Lighten 2
+102  187  106  Green Lighten 1
+ 76  175   80  Green
+ 67  160   71  Green Darken 1
+ 56  142   60  Green Darken 2
+ 46  125   50  Green Darken 3
+ 27   94   32  Green Darken 4
+185  246  202  Green Accent 1
+105  240  174  Green Accent 2
+  0  230  118  Green Accent 3
+  0  200   83  Green Accent 4
+241  248  233  Light Green Lighten 5
+220  237  200  Light Green Lighten 4
+197  225  165  Light Green Lighten 3
+174  213  129  Light Green Lighten 2
+156  204  101  Light Green Lighten 1
+139  195   74  Light Green
+124  179   66  Light Green Darken 1
+104  159   56  Light Green Darken 2
+ 85  139   47  Light Green Darken 3
+ 51  105   30  Light Green Darken 4
+204  255  144  Light Green Accent 1
+178  255   89  Light Green Accent 2
+118  255    3  Light Green Accent 3
+100  221   23  Light Green Accent 4
+249  251  231  Lime Lighten 5
+240  244  195  Lime Lighten 4
+230  238  156  Lime Lighten 3
+220  231  117  Lime Lighten 2
+212  225   87  Lime Lighten 1
+205  220   57  Lime
+192  202   51  Lime Darken 1
+175  180   43  Lime Darken 2
+158  157   36  Lime Darken 3
+130  119   23  Lime Darken 4
+244  255  129  Lime Accent 1
+238  255   65  Lime Accent 2
+198  255    0  Lime Accent 3
+174  234    0  Lime Accent 4
+255  253  231  Yellow Lighten 5
+255  249  196  Yellow Lighten 4
+255  245  157  Yellow Lighten 3
+255  241  118  Yellow Lighten 2
+255  238   88  Yellow Lighten 1
+255  235   59  Yellow
+253  216   53  Yellow Darken 1
+251  192   45  Yellow Darken 2
+249  168   37  Yellow Darken 3
+245  127   23  Yellow Darken 4
+255  255  141  Yellow Accent 1
+255  255    0  Yellow Accent 2
+255  234    0  Yellow Accent 3
+255  214    0  Yellow Accent 4
+255  248  225  Amber Lighten 5
+255  236  179  Amber Lighten 4
+255  224  130  Amber Lighten 3
+255  213   79  Amber Lighten 2
+255  202   40  Amber Lighten 1
+255  193    7  Amber
+255  179    0  Amber Darken 1
+255  160    0  Amber Darken 2
+255  143    0  Amber Darken 3
+255  111    0  Amber Darken 4
+255  229  127  Amber Accent 1
+255  215   64  Amber Accent 2
+255  196    0  Amber Accent 3
+255  171    0  Amber Accent 4
+255  243  224  Orange Lighten 5
+255  224  178  Orange Lighten 4
+255  204  128  Orange Lighten 3
+255  183   77  Orange Lighten 2
+255  167   38  Orange Lighten 1
+255  152    0  Orange
+251  140    0  Orange Darken 1
+245  124    0  Orange Darken 2
+239  108    0  Orange Darken 3
+230   81    0  Orange Darken 4
+255  209  128  Orange Accent 1
+255  171   64  Orange Accent 2
+255  145    0  Orange Accent 3
+255  109    0  Orange Accent 4
+251  233  231  Deep Orange Lighten 5
+255  204  188  Deep Orange Lighten 4
+255  171  145  Deep Orange Lighten 3
+255  138  101  Deep Orange Lighten 2
+255  112   67  Deep Orange Lighten 1
+255   87   34  Deep Orange
+244   81   30  Deep Orange Darken 1
+230   74   25  Deep Orange Darken 2
+216   67   21  Deep Orange Darken 3
+191   54   12  Deep Orange Darken 4
+255  158  128  Deep Orange Accent 1
+255  110   64  Deep Orange Accent 2
+255   61    0  Deep Orange Accent 3
+221   44    0  Deep Orange Accent 4
+239  235  233  Brown Lighten 5
+215  204  200  Brown Lighten 4
+188  170  164  Brown Lighten 3
+161  136  127  Brown Lighten 2
+141  110   99  Brown Lighten 1
+121   85   72  Brown
+109   76   65  Brown Darken 1
+ 93   64   55  Brown Darken 2
+ 78   52   46  Brown Darken 3
+ 62   39   35  Brown Darken 4
+250  250  250  Grey Lighten 5
+245  245  245  Grey Lighten 4
+238  238  238  Grey Lighten 3
+224  224  224  Grey Lighten 2
+189  189  189  Grey Lighten 1
+158  158  158  Grey
+117  117  117  Grey Darken 1
+ 97   97   97  Grey Darken 2
+ 66   66   66  Grey Darken 3
+ 33   33   33  Grey Darken 4
+236  239  241  Blue-Grey Lighten 5
+207  216  220  Blue-Grey Lighten 4
+176  190  197  Blue-Grey Lighten 3
+144  164  174  Blue-Grey Lighten 2
+120  144  156  Blue-Grey Lighten 1
+ 96  125  139  Blue-Grey
+ 84  110  122  Blue-Grey Darken 1
+ 69   90  100  Blue-Grey Darken 2
+ 55   71   79  Blue-Grey Darken 3
+ 38   50   56  Blue-Grey Darken 4
+  0    0    0  Black
+255  255  255  White

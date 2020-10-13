@@ -1,0 +1,64 @@
+{
+    "id": "semantic",
+    "name": "Semantic UI",
+    "columns": 9,
+    "url": "https://semantic-ui.com/usage/theming.html#sitewide-defaults",
+    "colors": [
+        {
+            "name": "Red",
+            "hex": "#B03060"
+        },
+        {
+            "name": "Orange",
+            "hex": "#FE9A76"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FFD700"
+        },
+        {
+            "name": "Olive",
+            "hex": "#32CD32"
+        },
+        {
+            "name": "Green",
+            "hex": "#016936"
+        },
+        {
+            "name": "Teal",
+            "hex": "#008080"
+        },
+        {
+            "name": "Blue",
+            "hex": "#0E6EB8"
+        },
+        {
+            "name": "Violet",
+            "hex": "#EE82EE"
+        },
+        {
+            "name": "Purple",
+            "hex": "#B413EC"
+        },
+        {
+            "name": "Pink",
+            "hex": "#FF1493"
+        },
+        {
+            "name": "Brown",
+            "hex": "#A52A2A"
+        },
+        {
+            "name": "Grey",
+            "hex": "#A0A0A0"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        }
+    ]
+}

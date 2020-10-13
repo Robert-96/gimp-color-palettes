@@ -1,0 +1,32 @@
+{
+    "id": "game-boy",
+    "name": "Game Boy",
+    "columns": 4,
+    "url": "https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#Game_Boy",
+    "colors": [
+        {
+            "hex": "#0F380F"
+        },
+        {
+            "hex": "#306230"
+        },
+        {
+            "hex": "#8BAC0F"
+        },
+        {
+            "hex": "#9BBC0F"
+        },
+        {
+            "hex": "#000000"
+        },
+        {
+            "hex": "#555555"
+        },
+        {
+            "hex": "#AAAAAA"
+        },
+        {
+            "hex": "#FFFFFF"
+        }
+    ]
+}

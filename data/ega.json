@@ -1,0 +1,72 @@
+{
+    "id": "ega",
+    "name": "Enhanced Graphics Adapter",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter#Color_palette",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "Blue",
+            "hex": "#0000AA"
+        },
+        {
+            "name": "Green",
+            "hex": "#00AA00"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#00AAAA"
+        },
+        {
+            "name": "Red",
+            "hex": "#AA0000"
+        },
+        {
+            "name": "Magenta",
+            "hex": "#AA00AA"
+        },
+        {
+            "name": "Brown",
+            "hex": "#AA5500"
+        },
+        {
+            "name": "White / Light Gray",
+            "hex": "#AAAAAA"
+        },
+        {
+            "name": "Dark Gray / Bright Black",
+            "hex": "#555555"
+        },
+        {
+            "name": "Bright Blue",
+            "hex": "#5555FF"
+        },
+        {
+            "name": "Bright Green",
+            "hex": "#55FF55"
+        },
+        {
+            "name": "Bright Cyan",
+            "hex": "#55FFFF"
+        },
+        {
+            "name": "Bright Red",
+            "hex": "#FF5555"
+        },
+        {
+            "name": "Bright Magenta",
+            "hex": "#FF55FF"
+        },
+        {
+            "name": "Bright Yellow",
+            "hex": "#FFFF55"
+        },
+        {
+            "name": "Bright White",
+            "hex": "#FFFFFF"
+        }
+    ]
+}

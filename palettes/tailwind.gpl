@@ -1,0 +1,87 @@
+GIMP Palette
+Name: Tailwind CSS
+Columns: 9
+# https://tailwindcss.com/docs/customizing-colors#default-color-palette
+247  250  252  Gray 100
+237  242  247  Gray 200
+226  232  240  Gray 300
+203  213  224  Gray 400
+160  174  192  Gray 500
+113  128  150  Gray 600
+ 74   85  104  Gray 700
+ 45   55   72  Gray 800
+ 26   32   44  Gray 900
+255  245  245  Red 100
+254  215  215  Red 200
+254  178  178  Red 300
+252  129  129  Red 400
+245  101  101  Red 500
+229   62   62  Red 600
+197   48   48  Red 700
+155   44   44  Red 800
+116   42   42  Red 900
+255  250  240  Orange 100
+254  235  200  Orange 200
+251  211  141  Orange 300
+246  173   85  Orange 400
+237  137   54  Orange 500
+221  107   32  Orange 600
+192   86   33  Orange 700
+156   66   33  Orange 800
+123   52   30  Orange 900
+255  255  240  Yellow 100
+254  252  191  Yellow 200
+250  240  137  Yellow 300
+246  224   94  Yellow 400
+236  201   75  Yellow 500
+214  158   46  Yellow 600
+183  121   31  Yellow 700
+151   90   22  Yellow 800
+116   66   16  Yellow 900
+240  255  244  Green 100
+198  246  213  Green 200
+154  230  180  Green 300
+104  211  145  Green 400
+ 72  187  120  Green 500
+ 56  161  105  Green 600
+ 47  133   90  Green 700
+ 39  103   73  Green 800
+ 34   84   61  Green 900
+230  255  250  Teal 100
+178  245  234  Teal 200
+129  230  217  Teal 300
+ 79  209  197  Teal 400
+ 56  178  172  Teal 500
+ 49  151  149  Teal 600
+ 44  122  123  Teal 700
+ 40   94   97  Teal 800
+ 35   78   82  Teal 900
+235  248  255  Blue 100
+190  227  248  Blue 200
+144  205  244  Blue 300
+ 99  179  237  Blue 400
+ 66  153  225  Blue 500
+ 49  130  206  Blue 600
+ 43  108  176  Blue 700
+ 44   82  130  Blue 800
+ 42   67  101  Blue 900
+235  244  255  Indigo 100
+195  218  254  Indigo 200
+163  191  250  Indigo 300
+127  156  245  Indigo 400
+102  126  234  Indigo 500
+ 90  103  216  Indigo 600
+ 76   81  191  Indigo 700
+ 67   65  144  Indigo 800
+ 60   54  107  Indigo 900
+255  245  247  Pink 100
+254  215  226  Pink 200
+251  182  206  Pink 300
+246  135  179  Pink 400
+237  100  166  Pink 500
+213   63  140  Pink 600
+184   50  128  Pink 700
+151   38  109  Pink 800
+112   36   89  Pink 900
+  0    0    0  Black
+255  255  255  White

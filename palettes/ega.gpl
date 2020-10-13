@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Enhanced Graphics Adapter
+Columns: 8
+# https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter#Color_palette
+  0    0    0  Black
+  0    0  170  Blue
+  0  170    0  Green
+  0  170  170  Cyan
+170    0    0  Red
+170    0  170  Magenta
+170   85    0  Brown
+170  170  170  White / Light Gray
+ 85   85   85  Dark Gray / Bright Black
+ 85   85  255  Bright Blue
+ 85  255   85  Bright Green
+ 85  255  255  Bright Cyan
+255   85   85  Bright Red
+255   85  255  Bright Magenta
+255  255   85  Bright Yellow
+255  255  255  Bright White

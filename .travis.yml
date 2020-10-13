@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.8"
+
+branches:
+  only:
+    - main
+
+install:
+  - pip install -r requirements.txt
+  - pip install -r requirements-dev.txt
+
+script:
+  - flake8 tests scripts
+  - pytest tests
+  - python3 -m scripts render
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: main
+  local-dir: dist
+  verbose: true

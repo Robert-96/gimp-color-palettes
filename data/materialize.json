@@ -1,0 +1,1032 @@
+{
+    "id": "materialize",
+    "name": "Materialize CSS",
+    "columns": 14,
+    "url": "https://materializecss.com/color.html",
+    "colors": [
+        {
+            "name": "Red Lighten 5",
+            "hex": "#FFEBEE"
+        },
+        {
+            "name": "Red Lighten 4",
+            "hex": "#FFCDD2"
+        },
+        {
+            "name": "Red Lighten 3",
+            "hex": "#EF9A9A"
+        },
+        {
+            "name": "Red Lighten 2",
+            "hex": "#E57373"
+        },
+        {
+            "name": "Red Lighten 1",
+            "hex": "#ef5350"
+        },
+        {
+            "name": "Red",
+            "hex": "#F44336"
+        },
+        {
+            "name": "Red Darken 1",
+            "hex": "#E53935"
+        },
+        {
+            "name": "Red Darken 2",
+            "hex": "#D32F2F"
+        },
+        {
+            "name": "Red Darken 3",
+            "hex": "#C62828"
+        },
+        {
+            "name": "Red Darken 4",
+            "hex": "#B71C1C"
+        },
+        {
+            "name": "Red Accent 1",
+            "hex": "#FF8A80"
+        },
+        {
+            "name": "Red Accent 2",
+            "hex": "#FF5252"
+        },
+        {
+            "name": "Red Accent 3",
+            "hex": "#FF1744"
+        },
+        {
+            "name": "Red Accent 4",
+            "hex": "#D50000"
+        },
+        {
+            "name": "Pink Lighten 5",
+            "hex": "#FCE4EC"
+        },
+        {
+            "name": "Pink Lighten 4",
+            "hex": "#F8BBD0"
+        },
+        {
+            "name": "Pink Lighten 3",
+            "hex": "#F48FB1"
+        },
+        {
+            "name": "Pink Lighten 2",
+            "hex": "#F06292"
+        },
+        {
+            "name": "Pink Lighten 1",
+            "hex": "#EC407A"
+        },
+        {
+            "name": "Pink",
+            "hex": "#E91E63"
+        },
+        {
+            "name": "Pink Darken 1",
+            "hex": "#D81B60"
+        },
+        {
+            "name": "Pink Darken 2",
+            "hex": "#C2185B"
+        },
+        {
+            "name": "Pink Darken 3",
+            "hex": "#AD1457"
+        },
+        {
+            "name": "Pink Darken 4",
+            "hex": "#880E4F"
+        },
+        {
+            "name": "Pink Accent 1",
+            "hex": "#FF80AB"
+        },
+        {
+            "name": "Pink Accent 2",
+            "hex": "#FF4081"
+        },
+        {
+            "name": "Pink Accent 3",
+            "hex": "#F50057"
+        },
+        {
+            "name": "Pink Accent 4",
+            "hex": "#C51162"
+        },
+        {
+            "name": "Purple Lighten 5",
+            "hex": "#F3E5F5"
+        },
+        {
+            "name": "Purple Lighten 4",
+            "hex": "#E1BEE7"
+        },
+        {
+            "name": "Purple Lighten 3",
+            "hex": "#CE93D8"
+        },
+        {
+            "name": "Purple Lighten 2",
+            "hex": "#BA68C8"
+        },
+        {
+            "name": "Purple Lighten 1",
+            "hex": "#AB47BC"
+        },
+        {
+            "name": "Purple",
+            "hex": "#9C27B0"
+        },
+        {
+            "name": "Purple Darken 1",
+            "hex": "#8E24AA"
+        },
+        {
+            "name": "Purple Darken 2",
+            "hex": "#7B1FA2"
+        },
+        {
+            "name": "Purple Darken 3",
+            "hex": "#6A1B9A"
+        },
+        {
+            "name": "Purple Darken 4",
+            "hex": "#4A148C"
+        },
+        {
+            "name": "Purple Accent 1",
+            "hex": "#EA80FC"
+        },
+        {
+            "name": "Purple Accent 2",
+            "hex": "#E040FB"
+        },
+        {
+            "name": "Purple Accent 3",
+            "hex": "#D500F9"
+        },
+        {
+            "name": "Purple Accent 4",
+            "hex": "#AA00FF"
+        },
+        {
+            "name": "Deep Purple Lighten 5",
+            "hex": "#EDE7f6"
+        },
+        {
+            "name": "Deep Purple Lighten 4",
+            "hex": "#D1C4E9"
+        },
+        {
+            "name": "Deep Purple Lighten 3",
+            "hex": "#B39DDB"
+        },
+        {
+            "name": "Deep Purple Lighten 2",
+            "hex": "#9575CD"
+        },
+        {
+            "name": "Deep Purple Lighten 1",
+            "hex": "#7E57C2"
+        },
+        {
+            "name": "Deep Purple",
+            "hex": "#673AB7"
+        },
+        {
+            "name": "Deep Purple Darken 1",
+            "hex": "#5E35B1"
+        },
+        {
+            "name": "Deep Purple Darken 2",
+            "hex": "#512DA8"
+        },
+        {
+            "name": "Deep Purple Darken 3",
+            "hex": "#4527A0"
+        },
+        {
+            "name": "Deep Purple Darken 4",
+            "hex": "#311B92"
+        },
+        {
+            "name": "Deep Purple Accent 1",
+            "hex": "#B388FF"
+        },
+        {
+            "name": "Deep Purple Accent 2",
+            "hex": "#7C4DFF"
+        },
+        {
+            "name": "Deep Purple Accent 3",
+            "hex": "#651FFF"
+        },
+        {
+            "name": "Deep Purple Accent 4",
+            "hex": "#6200EA"
+        },
+        {
+            "name": "Indigo Lighten 5",
+            "hex": "#E8EAF6"
+        },
+        {
+            "name": "Indigo Lighten 4",
+            "hex": "#C5CAE9"
+        },
+        {
+            "name": "Indigo Lighten 3",
+            "hex": "#9FA8DA"
+        },
+        {
+            "name": "Indigo Lighten 2",
+            "hex": "#7986CB"
+        },
+        {
+            "name": "Indigo Lighten 1",
+            "hex": "#5C6BC0"
+        },
+        {
+            "name": "Indigo",
+            "hex": "#3F51B5"
+        },
+        {
+            "name": "Indigo Darken 1",
+            "hex": "#3949AB"
+        },
+        {
+            "name": "Indigo Darken 2",
+            "hex": "#303F9F"
+        },
+        {
+            "name": "Indigo Darken 3",
+            "hex": "#283593"
+        },
+        {
+            "name": "Indigo Darken 4",
+            "hex": "#1A237E"
+        },
+        {
+            "name": "Indigo Accent 1",
+            "hex": "#8C9EFF"
+        },
+        {
+            "name": "Indigo Accent 2",
+            "hex": "#536DFE"
+        },
+        {
+            "name": "Indigo Accent 3",
+            "hex": "#3D5AFE"
+        },
+        {
+            "name": "Indigo Accent 4",
+            "hex": "#304FFE"
+        },
+        {
+            "name": "Blue Lighten 5",
+            "hex": "#E3F2FD"
+        },
+        {
+            "name": "Blue Lighten 4",
+            "hex": "#BBDEFB"
+        },
+        {
+            "name": "Blue Lighten 3",
+            "hex": "#90CAF9"
+        },
+        {
+            "name": "Blue Lighten 2",
+            "hex": "#64B5F6"
+        },
+        {
+            "name": "Blue Lighten 1",
+            "hex": "#42A5F5"
+        },
+        {
+            "name": "Blue",
+            "hex": "#2196F3"
+        },
+        {
+            "name": "Blue Darken 1",
+            "hex": "#1E88E5"
+        },
+        {
+            "name": "Blue Darken 2",
+            "hex": "#1976D2"
+        },
+        {
+            "name": "Blue Darken 3",
+            "hex": "#1565C0"
+        },
+        {
+            "name": "Blue Darken 4",
+            "hex": "#0D47A1"
+        },
+        {
+            "name": "Blue Accent 1",
+            "hex": "#82B1FF"
+        },
+        {
+            "name": "Blue Accent 2",
+            "hex": "#448AFF"
+        },
+        {
+            "name": "Blue Accent 3",
+            "hex": "#2979FF"
+        },
+        {
+            "name": "Blue Accent 4",
+            "hex": "#2962FF"
+        },
+        {
+            "name": "Light Blue Lighten 5",
+            "hex": "#E1F5FE"
+        },
+        {
+            "name": "Light Blue Lighten 4",
+            "hex": "#B3E5FC"
+        },
+        {
+            "name": "Light Blue Lighten 3",
+            "hex": "#81D4FA"
+        },
+        {
+            "name": "Light Blue Lighten 2",
+            "hex": "#4FC3F7"
+        },
+        {
+            "name": "Light Blue Lighten 1",
+            "hex": "#29B6F6"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#03A9F4"
+        },
+        {
+            "name": "Light Blue Darken 1",
+            "hex": "#039BE5"
+        },
+        {
+            "name": "Light Blue Darken 2",
+            "hex": "#0288D1"
+        },
+        {
+            "name": "Light Blue Darken 3",
+            "hex": "#0277BD"
+        },
+        {
+            "name": "Light Blue Darken 4",
+            "hex": "#01579B"
+        },
+        {
+            "name": "Light Blue Accent 1",
+            "hex": "#80D8FF"
+        },
+        {
+            "name": "Light Blue Accent 2",
+            "hex": "#40C4FF"
+        },
+        {
+            "name": "Light Blue Accent 3",
+            "hex": "#00B0FF"
+        },
+        {
+            "name": "Light Blue Accent 4",
+            "hex": "#0091EA"
+        },
+        {
+            "name": "Cyan Lighten 5",
+            "hex": "#E0F7FA"
+        },
+        {
+            "name": "Cyan Lighten 4",
+            "hex": "#B2EBF2"
+        },
+        {
+            "name": "Cyan Lighten 3",
+            "hex": "#80DEEA"
+        },
+        {
+            "name": "Cyan Lighten 2",
+            "hex": "#4DD0E1"
+        },
+        {
+            "name": "Cyan Lighten 1",
+            "hex": "#26C6DA"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#00BCD4"
+        },
+        {
+            "name": "Cyan Darken 1",
+            "hex": "#00ACC1"
+        },
+        {
+            "name": "Cyan Darken 2",
+            "hex": "#0097A7"
+        },
+        {
+            "name": "Cyan Darken 3",
+            "hex": "#00838F"
+        },
+        {
+            "name": "Cyan Darken 4",
+            "hex": "#006064"
+        },
+        {
+            "name": "Cyan Accent 1",
+            "hex": "#84FFFF"
+        },
+        {
+            "name": "Cyan Accent 2",
+            "hex": "#18FFFF"
+        },
+        {
+            "name": "Cyan Accent 3",
+            "hex": "#00E5FF"
+        },
+        {
+            "name": "Cyan Accent 4",
+            "hex": "#00B8D4"
+        },
+        {
+            "name": "Teal Lighten 5",
+            "hex": "#E0F2F1"
+        },
+        {
+            "name": "Teal Lighten 4",
+            "hex": "#B2DfDB"
+        },
+        {
+            "name": "Teal Lighten 3",
+            "hex": "#80CBC4"
+        },
+        {
+            "name": "Teal Lighten 2",
+            "hex": "#4DB6AC"
+        },
+        {
+            "name": "Teal Lighten 1",
+            "hex": "#26A69A"
+        },
+        {
+            "name": "Teal",
+            "hex": "#009688"
+        },
+        {
+            "name": "Teal Darken 1",
+            "hex": "#00897B"
+        },
+        {
+            "name": "Teal Darken 2",
+            "hex": "#00796B"
+        },
+        {
+            "name": "Teal Darken 3",
+            "hex": "#00695C"
+        },
+        {
+            "name": "Teal Darken 4",
+            "hex": "#004D40"
+        },
+        {
+            "name": "Teal Accent 1",
+            "hex": "#A7FFEB"
+        },
+        {
+            "name": "Teal Accent 2",
+            "hex": "#64FFDA"
+        },
+        {
+            "name": "Teal Accent 3",
+            "hex": "#1DE9B6"
+        },
+        {
+            "name": "Teal Accent 4",
+            "hex": "#00BFA5"
+        },
+        {
+            "name": "Green Lighten 5",
+            "hex": "#E8F5E9"
+        },
+        {
+            "name": "Green Lighten 4",
+            "hex": "#C8E6C9"
+        },
+        {
+            "name": "Green Lighten 3",
+            "hex": "#A5D6A7"
+        },
+        {
+            "name": "Green Lighten 2",
+            "hex": "#81C784"
+        },
+        {
+            "name": "Green Lighten 1",
+            "hex": "#66BB6A"
+        },
+        {
+            "name": "Green",
+            "hex": "#4CAF50"
+        },
+        {
+            "name": "Green Darken 1",
+            "hex": "#43A047"
+        },
+        {
+            "name": "Green Darken 2",
+            "hex": "#388E3C"
+        },
+        {
+            "name": "Green Darken 3",
+            "hex": "#2E7D32"
+        },
+        {
+            "name": "Green Darken 4",
+            "hex": "#1B5E20"
+        },
+        {
+            "name": "Green Accent 1",
+            "hex": "#B9F6CA"
+        },
+        {
+            "name": "Green Accent 2",
+            "hex": "#69F0AE"
+        },
+        {
+            "name": "Green Accent 3",
+            "hex": "#00E676"
+        },
+        {
+            "name": "Green Accent 4",
+            "hex": "#00C853"
+        },
+        {
+            "name": "Light Green Lighten 5",
+            "hex": "#F1F8E9"
+        },
+        {
+            "name": "Light Green Lighten 4",
+            "hex": "#DCEDC8"
+        },
+        {
+            "name": "Light Green Lighten 3",
+            "hex": "#C5E1A5"
+        },
+        {
+            "name": "Light Green Lighten 2",
+            "hex": "#AED581"
+        },
+        {
+            "name": "Light Green Lighten 1",
+            "hex": "#9CCC65"
+        },
+        {
+            "name": "Light Green",
+            "hex": "#8BC34A"
+        },
+        {
+            "name": "Light Green Darken 1",
+            "hex": "#7CB342"
+        },
+        {
+            "name": "Light Green Darken 2",
+            "hex": "#689F38"
+        },
+        {
+            "name": "Light Green Darken 3",
+            "hex": "#558B2F"
+        },
+        {
+            "name": "Light Green Darken 4",
+            "hex": "#33691E"
+        },
+        {
+            "name": "Light Green Accent 1",
+            "hex": "#CCFF90"
+        },
+        {
+            "name": "Light Green Accent 2",
+            "hex": "#B2FF59"
+        },
+        {
+            "name": "Light Green Accent 3",
+            "hex": "#76FF03"
+        },
+        {
+            "name": "Light Green Accent 4",
+            "hex": "#64DD17"
+        },
+        {
+            "name": "Lime Lighten 5",
+            "hex": "#F9FBE7"
+        },
+        {
+            "name": "Lime Lighten 4",
+            "hex": "#F0F4C3"
+        },
+        {
+            "name": "Lime Lighten 3",
+            "hex": "#E6EE9C"
+        },
+        {
+            "name": "Lime Lighten 2",
+            "hex": "#DCE775"
+        },
+        {
+            "name": "Lime Lighten 1",
+            "hex": "#D4E157"
+        },
+        {
+            "name": "Lime",
+            "hex": "#CDDC39"
+        },
+        {
+            "name": "Lime Darken 1",
+            "hex": "#C0CA33"
+        },
+        {
+            "name": "Lime Darken 2",
+            "hex": "#AFB42B"
+        },
+        {
+            "name": "Lime Darken 3",
+            "hex": "#9E9D24"
+        },
+        {
+            "name": "Lime Darken 4",
+            "hex": "#827717"
+        },
+        {
+            "name": "Lime Accent 1",
+            "hex": "#F4FF81"
+        },
+        {
+            "name": "Lime Accent 2",
+            "hex": "#EEFF41"
+        },
+        {
+            "name": "Lime Accent 3",
+            "hex": "#C6FF00"
+        },
+        {
+            "name": "Lime Accent 4",
+            "hex": "#AEEA00"
+        },
+        {
+            "name": "Yellow Lighten 5",
+            "hex": "#FFFDE7"
+        },
+        {
+            "name": "Yellow Lighten 4",
+            "hex": "#FFF9C4"
+        },
+        {
+            "name": "Yellow Lighten 3",
+            "hex": "#FFF59D"
+        },
+        {
+            "name": "Yellow Lighten 2",
+            "hex": "#FFF176"
+        },
+        {
+            "name": "Yellow Lighten 1",
+            "hex": "#FFEE58"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FFEB3B"
+        },
+        {
+            "name": "Yellow Darken 1",
+            "hex": "#FDD835"
+        },
+        {
+            "name": "Yellow Darken 2",
+            "hex": "#FBC02D"
+        },
+        {
+            "name": "Yellow Darken 3",
+            "hex": "#F9A825"
+        },
+        {
+            "name": "Yellow Darken 4",
+            "hex": "#F57f17"
+        },
+        {
+            "name": "Yellow Accent 1",
+            "hex": "#FFFF8D"
+        },
+        {
+            "name": "Yellow Accent 2",
+            "hex": "#FFFF00"
+        },
+        {
+            "name": "Yellow Accent 3",
+            "hex": "#FFEA00"
+        },
+        {
+            "name": "Yellow Accent 4",
+            "hex": "#FFD600"
+        },
+        {
+            "name": "Amber Lighten 5",
+            "hex": "#FFF8E1"
+        },
+        {
+            "name": "Amber Lighten 4",
+            "hex": "#FFECB3"
+        },
+        {
+            "name": "Amber Lighten 3",
+            "hex": "#FFE082"
+        },
+        {
+            "name": "Amber Lighten 2",
+            "hex": "#FFD54F"
+        },
+        {
+            "name": "Amber Lighten 1",
+            "hex": "#FFCA28"
+        },
+        {
+            "name": "Amber",
+            "hex": "#FFC107"
+        },
+        {
+            "name": "Amber Darken 1",
+            "hex": "#FFB300"
+        },
+        {
+            "name": "Amber Darken 2",
+            "hex": "#FFA000"
+        },
+        {
+            "name": "Amber Darken 3",
+            "hex": "#FF8F00"
+        },
+        {
+            "name": "Amber Darken 4",
+            "hex": "#FF6F00"
+        },
+        {
+            "name": "Amber Accent 1",
+            "hex": "#FFE57F"
+        },
+        {
+            "name": "Amber Accent 2",
+            "hex": "#FFD740"
+        },
+        {
+            "name": "Amber Accent 3",
+            "hex": "#FFC400"
+        },
+        {
+            "name": "Amber Accent 4",
+            "hex": "#FFAB00"
+        },
+        {
+            "name": "Orange Lighten 5",
+            "hex": "#FFF3E0"
+        },
+        {
+            "name": "Orange Lighten 4",
+            "hex": "#FFE0B2"
+        },
+        {
+            "name": "Orange Lighten 3",
+            "hex": "#FFCC80"
+        },
+        {
+            "name": "Orange Lighten 2",
+            "hex": "#FFB74D"
+        },
+        {
+            "name": "Orange Lighten 1",
+            "hex": "#FFA726"
+        },
+        {
+            "name": "Orange",
+            "hex": "#FF9800"
+        },
+        {
+            "name": "Orange Darken 1",
+            "hex": "#FB8C00"
+        },
+        {
+            "name": "Orange Darken 2",
+            "hex": "#F57C00"
+        },
+        {
+            "name": "Orange Darken 3",
+            "hex": "#EF6C00"
+        },
+        {
+            "name": "Orange Darken 4",
+            "hex": "#E65100"
+        },
+        {
+            "name": "Orange Accent 1",
+            "hex": "#FFD180"
+        },
+        {
+            "name": "Orange Accent 2",
+            "hex": "#FFAB40"
+        },
+        {
+            "name": "Orange Accent 3",
+            "hex": "#FF9100"
+        },
+        {
+            "name": "Orange Accent 4",
+            "hex": "#FF6D00"
+        },
+        {
+            "name": "Deep Orange Lighten 5",
+            "hex": "#FBE9E7"
+        },
+        {
+            "name": "Deep Orange Lighten 4",
+            "hex": "#FFCCBC"
+        },
+        {
+            "name": "Deep Orange Lighten 3",
+            "hex": "#FFAB91"
+        },
+        {
+            "name": "Deep Orange Lighten 2",
+            "hex": "#FF8A65"
+        },
+        {
+            "name": "Deep Orange Lighten 1",
+            "hex": "#FF7043"
+        },
+        {
+            "name": "Deep Orange",
+            "hex": "#FF5722"
+        },
+        {
+            "name": "Deep Orange Darken 1",
+            "hex": "#F4511E"
+        },
+        {
+            "name": "Deep Orange Darken 2",
+            "hex": "#E64A19"
+        },
+        {
+            "name": "Deep Orange Darken 3",
+            "hex": "#D84315"
+        },
+        {
+            "name": "Deep Orange Darken 4",
+            "hex": "#BF360C"
+        },
+        {
+            "name": "Deep Orange Accent 1",
+            "hex": "#FF9E80"
+        },
+        {
+            "name": "Deep Orange Accent 2",
+            "hex": "#FF6E40"
+        },
+        {
+            "name": "Deep Orange Accent 3",
+            "hex": "#FF3D00"
+        },
+        {
+            "name": "Deep Orange Accent 4",
+            "hex": "#DD2C00"
+        },
+        {
+            "name": "Brown Lighten 5",
+            "hex": "#EFEBE9"
+        },
+        {
+            "name": "Brown Lighten 4",
+            "hex": "#D7CCC8"
+        },
+        {
+            "name": "Brown Lighten 3",
+            "hex": "#BCAAA4"
+        },
+        {
+            "name": "Brown Lighten 2",
+            "hex": "#A1887F"
+        },
+        {
+            "name": "Brown Lighten 1",
+            "hex": "#8D6E63"
+        },
+        {
+            "name": "Brown",
+            "hex": "#795548"
+        },
+        {
+            "name": "Brown Darken 1",
+            "hex": "#6D4C41"
+        },
+        {
+            "name": "Brown Darken 2",
+            "hex": "#5D4037"
+        },
+        {
+            "name": "Brown Darken 3",
+            "hex": "#4E342E"
+        },
+        {
+            "name": "Brown Darken 4",
+            "hex": "#3E2723"
+        },
+        {
+            "name": "Grey Lighten 5",
+            "hex": "#FAFAFA"
+        },
+        {
+            "name": "Grey Lighten 4",
+            "hex": "#F5F5F5"
+        },
+        {
+            "name": "Grey Lighten 3",
+            "hex": "#EEEEEE"
+        },
+        {
+            "name": "Grey Lighten 2",
+            "hex": "#E0E0E0"
+        },
+        {
+            "name": "Grey Lighten 1",
+            "hex": "#BDBDBD"
+        },
+        {
+            "name": "Grey",
+            "hex": "#9E9E9E"
+        },
+        {
+            "name": "Grey Darken 1",
+            "hex": "#757575"
+        },
+        {
+            "name": "Grey Darken 2",
+            "hex": "#616161"
+        },
+        {
+            "name": "Grey Darken 3",
+            "hex": "#424242"
+        },
+        {
+            "name": "Grey Darken 4",
+            "hex": "#212121"
+        },
+        {
+            "name": "Blue-Grey Lighten 5",
+            "hex": "#ECEFF1"
+        },
+        {
+            "name": "Blue-Grey Lighten 4",
+            "hex": "#CFD8DC"
+        },
+        {
+            "name": "Blue-Grey Lighten 3",
+            "hex": "#B0BEC5"
+        },
+        {
+            "name": "Blue-Grey Lighten 2",
+            "hex": "#90A4AE"
+        },
+        {
+            "name": "Blue-Grey Lighten 1",
+            "hex": "#78909C"
+        },
+        {
+            "name": "Blue-Grey",
+            "hex": "#607D8B"
+        },
+        {
+            "name": "Blue-Grey Darken 1",
+            "hex": "#546E7A"
+        },
+        {
+            "name": "Blue-Grey Darken 2",
+            "hex": "#455A64"
+        },
+        {
+            "name": "Blue-Grey Darken 3",
+            "hex": "#37474F"
+        },
+        {
+            "name": "Blue-Grey Darken 4",
+            "hex": "#263238"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        }
+    ]
+}

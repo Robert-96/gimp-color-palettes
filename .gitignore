@@ -1,0 +1,33 @@
+# python
+__pycache__/
+*.pyc
+
+# builds
+*.egg-info/
+.eggs/
+wheels/
+build/
+sdist/
+dist/
+lib/
+
+# pytest
+.pytest_cache/
+
+# request cache
+github.sqlite
+
+# logs
+*.log
+
+# env
+.env
+
+# vscode
+.vscode
+
+# macOS
+.DS_Store
+
+# output
+dist/
