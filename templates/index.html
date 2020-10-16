@@ -32,7 +32,7 @@
   </div>
 
   <div class="flex flex-col content-center justify-center">
-    <header class="gradient mb-5 px-10 py-5">
+    <header class="gradient px-10 py-5 shadow">
       <div class="flex justify-center md:justify-start mb-5">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 self-center text-white">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -77,25 +77,21 @@
       </div>
     </header>
 
-    <div class="px-6 mb-6">
-      <div class="flex m-3">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-teal-500 self-center inline">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+    <nav class="flex flex-col sm:flex-row flex-wrap px-10 py-5 mb-6 bg-gray-800  shadow">
+      <div class="flex mb-3 sm:mb-0 mr-8">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 mr-1 self-center">
+          <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
         </svg>
 
-        <h2 class="uppercase font-semibold text-2xl mx-3 inline">
-          Table of Contents
-        </h2>
+        <p class="font-semibold">Palettes</p>
       </div>
 
-      <ul class="list-disc list-inside mx-6">
-        {% for palette in palettes %}
-          <li>
-            <a href="#{{ palette.id }}" class="hover:text-blue-500 hover:underline">{{ palette.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+      {% for palette in palettes %}
+        <div>
+          <a href="#{{ palette.id }}" class="mr-5 hover:text-green-500 hover:underline">{{ palette.name }}</a>
+        </div>
+      {% endfor %}
+    </nav>
 
     <div class="self-center">
       <main class="mb-16">
