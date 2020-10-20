@@ -1,5 +1,6 @@
 import os
 import json
+from distutils.dir_util import copy_tree
 
 from jinja2 import Environment
 
@@ -56,6 +57,8 @@ def render_html():
         os.mkdir("./dist")
     except FileExistsError:
         pass
+
+    copy_tree("./templates/public", "./dist/public")
 
     with open("./dist/index.html", "w") as fp:
         fp.write(html)

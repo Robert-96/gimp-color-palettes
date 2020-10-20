@@ -1,0 +1,21 @@
+{
+    "name": "GIMP Color Palettes",
+    "short_name": "GIMP Color Palettes",
+    "description": "A collection of color palettes for GIMP and Inkscape.",
+    "display": "standalone",
+    "scope": "/gimp-color-palettes/",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "icons": [
+        {
+            "src":"/public/icons/android-chrome-192x192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+        {
+            "src":"/public/icons/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

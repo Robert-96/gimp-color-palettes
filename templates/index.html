@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>GIMP Color Palettes</title>
+  <title>GIMP Color Palettes | A collection of color palettes for GIMP and Inkscape.</title>
   <meta name="description" content="A collection of color palettes for GIMP and Inkscape.">
-  <meta name="keywords" content="GIMP, Inkscape, Color-Palettes, Colors, Design">
+  <meta name="keywords" content="GIMP, Inkscape, Colors, Color-Palette, Palette, Color-Scheme, Scheme, Design">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/icons/favicon-16x16.png">
+  <link rel="manifest" href="/public/icons/site.webmanifest">
 
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
@@ -137,7 +143,7 @@
                   <button class="w-full h-full focus:outline-none" onclick="copyToClipboard('{{ color.hex }}')">
                   </button>
                 </div>
-                <div class="flex-1 w-24 bg-white text-sm text-gray-600 rounded-b shadow-md border b-t p-3">
+                <div class="flex-1 w-24 bg-white text-sm break-words text-gray-600 rounded-b shadow-md border b-t p-3">
                   {% if color.name %}
                     <p class="font-bold text-gray-700">{{ color.name }}</p>
                   {% endif %}
