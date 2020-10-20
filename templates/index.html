@@ -21,10 +21,6 @@
       background-image: linear-gradient(#38B2AC, #48BB78);
     }
 
-    .secondary-gradient {
-      background-image: linear-gradient(#2D3748, #4A5568);
-    }
-
     #notifications {
       top: 1rem;
       right: 2.5rem;
@@ -75,9 +71,10 @@
         </div>
 
         <div>
-          <a href="https://github.com/Robert-96/gimp-color-palettes" class="inline-flex justify-center w-full md:w-auto border rounded p-3 bg-white hover:bg-gray-100 text-teal-500 hover:text-teal-600 transition duration-500 ease-in-out transform hover:scale-105">
+          <a href="https://github.com/Robert-96/gimp-color-palettes" class="inline-flex justify-center w-full md:w-auto border rounded p-3 bg-white hover:bg-gray-100 text-teal-500 hover:text-teal-600 transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
             <svg width="24" height="24" fill="currentColor" class="mr-3">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z">
+              </path>
             </svg>
 
             View on GitHub
@@ -123,7 +120,7 @@
                 {% endif %}
               </div>
 
-              <button onclick="savePalette('{{ palette.id }}')" class="flex justify-center px-3 py-3 sm:py-0 rounded bg-teal-500 transition duration-500 ease-in-out transform hover:scale-105">
+              <button onclick="savePalette('{{ palette.id }}')" class="flex justify-center px-3 py-3 sm:py-0 rounded bg-green-500 transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 mr-1 self-center text-white">
                   <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
                 </svg>
@@ -137,7 +134,8 @@
             {% for color in palette.colors %}
               <div class="color flex flex-col mx-1 mb-2">
                 <div class="w-24 h-24 bg-red-500 rounded-t shadow-md" style="background-color: {{ color.hex }} !important;">
-                  <button class="w-full h-full" onclick="copyToClipboard('{{ color.hex }}')"></button>
+                  <button class="w-full h-full focus:outline-none" onclick="copyToClipboard('{{ color.hex }}')">
+                  </button>
                 </div>
                 <div class="flex-1 w-24 bg-white text-sm text-gray-600 rounded-b shadow-md border b-t p-3">
                   {% if color.name %}
@@ -153,7 +151,7 @@
       {% endfor %}
 
       <div id="up-arrow" class="sticky hidden flex justify-end z-50">
-        <button onclick="scrollToTop()">
+        <button onclick="scrollToTop()" class="transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 fill-white text-gray-700">
             <circle cx="10" cy="10" r="5" fill="white"></circle>
             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
@@ -162,7 +160,7 @@
       </div>
     </main>
 
-    <footer class="flex flex-col md:flex-row md:justify-between w-full secondary-gradient px-10 py-5 shadow">
+    <footer class="flex flex-col md:flex-row md:justify-between w-full bg-gray-800 px-10 py-5 shadow">
       <div class="mb-6">
         <div class="flex">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 self-center text-teal-500">
@@ -206,7 +204,7 @@
 const gpl = {{ gpl|tojson }};
 
 function savePalette(id) {
-  var file = new File([gpl[id]], `${id}.gpl`, {type: "text/plain;charset=utf-8"});
+  var file = new File([gpl[id]], `${id}.gpl`, { type: "text/plain;charset=utf-8" });
   saveAs(file);
 }
 
@@ -241,13 +239,13 @@ function scrollToTop() {
 }
 
 function scrollHandler() {
-  const upAbrrow = document.getElementById('up-arrow');
+  const upArrow = document.getElementById('up-arrow');
   const screenHeight = screen.height;
 
   if (document.body.scrollTop > screenHeight || document.documentElement.scrollTop > screenHeight) {
-    upAbrrow.classList.remove('hidden');
+    upArrow.classList.remove('hidden');
   } else {
-    upAbrrow.classList.add('hidden');
+    upArrow.classList.add('hidden');
   }
 }
 
