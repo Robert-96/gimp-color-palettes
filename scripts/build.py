@@ -4,7 +4,7 @@ import shutil
 from zipfile import ZipFile
 
 import click
-from jinja2 import Environment
+from jinja2 import Environment, FileSystemLoader
 
 from .convert import json_to_gpl
 
@@ -14,7 +14,9 @@ def _has_extension(file_name, extension=".json"):
 
 
 def _get_file_by_extension(path, extension=".json"):
-    return [os.path.join(path, fileName) for fileName in os.listdir(path) if _has_extension(fileName, extension=extension)]
+    return [
+        os.path.join(path, fileName) for fileName in os.listdir(path) if _has_extension(fileName, extension=extension)
+    ]
 
 
 def _get_json_files(path):
@@ -44,7 +46,11 @@ def get_template():
 
 
 def render_template(template, palettes):
-    env = Environment(trim_blocks=True, lstrip_blocks=True)
+    env = Environment(
+        loader=FileSystemLoader('./templates'),
+        trim_blocks=True,
+        lstrip_blocks=True
+    )
     template = env.from_string(template)
 
     return template.render({
