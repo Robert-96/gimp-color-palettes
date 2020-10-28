@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Apple II
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#Apple_II_series
+  0    0    0  Black
+114   38   64  Magenta
+ 64   51  127  Dark Blue
+228   52  254  Purple
+ 14   89   64  Dark Green
+128  128  128  Grey #2
+ 27  154  254  Medium Blue
+191  179  255  Light Blue
+ 64   76    0  Brown
+228  101    1  Orange
+128  128  128  Grey #2
+241  166  191  Pink
+ 27  203    1  Green
+191  204  128  Yellow
+141  217  191  Aqua
+255  255  255  White

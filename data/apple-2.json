@@ -1,0 +1,72 @@
+{
+    "id": "apple-2",
+    "name": "Apple II",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#Apple_II_series",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "Magenta",
+            "hex": "#722640"
+        },
+        {
+            "name": "Dark Blue",
+            "hex": "#40337F"
+        },
+        {
+            "name": "Purple",
+            "hex": "#E434FE"
+        },
+        {
+            "name": "Dark Green",
+            "hex": "#0E5940"
+        },
+        {
+            "name": "Grey #2",
+            "hex": "#808080"
+        },
+        {
+            "name": "Medium Blue",
+            "hex": "#1B9AFE"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#BFB3FF"
+        },
+        {
+            "name": "Brown",
+            "hex": "#404C00"
+        },
+        {
+            "name": "Orange",
+            "hex": "#E46501"
+        },
+        {
+            "name": "Grey #2",
+            "hex": "#808080"
+        },
+        {
+            "name": "Pink",
+            "hex": "#F1A6BF"
+        },
+        {
+            "name": "Green",
+            "hex": "#1BCB01"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#BFCC80"
+        },
+        {
+            "name": "Aqua",
+            "hex": "#8DD9BF"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        }
+    ]
+}

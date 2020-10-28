@@ -1,0 +1,136 @@
+{
+    "id": "pico-8",
+    "name": "PICO-8",
+    "columns": 16,
+    "url": "https://en.wikipedia.org/wiki/Pico-8#Capabilities",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "Dark Blue",
+            "hex": "#1D2B53"
+        },
+        {
+            "name": "Dark Magenta",
+            "hex": "#7E2553"
+        },
+        {
+            "name": "Dark Green",
+            "hex": "#008751"
+        },
+        {
+            "name": "Brown",
+            "hex": "#AB5236"
+        },
+        {
+            "name": "Dark Gray",
+            "hex": "#5F574F"
+        },
+        {
+            "name": "Light Gray",
+            "hex": "#C2C3C7"
+        },
+        {
+            "name": "White",
+            "hex": "#FFF1E8"
+        },
+        {
+            "name": "Red",
+            "hex": "#FF004D"
+        },
+        {
+            "name": "Yellow-Orange",
+            "hex": "#FFA300"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FFEC27"
+        },
+        {
+            "name": "Green",
+            "hex": "#00E436"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#29ADFF"
+        },
+        {
+            "name": "Indigo",
+            "hex": "#83769C"
+        },
+        {
+            "name": "Pink",
+            "hex": "#FF77A8"
+        },
+        {
+            "name": "Peach",
+            "hex": "#FFCCAA"
+        },
+        {
+            "name": "Ultra Dark Brown",
+            "hex": "#291814"
+        },
+        {
+            "name": "Midnight Dark Blue",
+            "hex": "#111D35"
+        },
+        {
+            "name": "Dark Maroon",
+            "hex": "#422136"
+        },
+        {
+            "name": "Ultra Dark Green",
+            "hex": "#125359"
+        },
+        {
+            "name": "Dark Brown",
+            "hex": "#742F29"
+        },
+        {
+            "name": "Dark Purple",
+            "hex": "#49333B"
+        },
+        {
+            "name": "Dark Saturated Tan",
+            "hex": "#A28879"
+        },
+        {
+            "name": "Bright Yellow",
+            "hex": "#F3Ef7D"
+        },
+        {
+            "name": "Dark Red",
+            "hex": "#BE1250"
+        },
+        {
+            "name": "Orange",
+            "hex": "#FF6C24"
+        },
+        {
+            "name": "Green-Yellow",
+            "hex": "#A8E72E"
+        },
+        {
+            "name": "Dark Green",
+            "hex": "#00B543"
+        },
+        {
+            "name": "Blue",
+            "hex": "#065AB5"
+        },
+        {
+            "name": "Purple",
+            "hex": "#754665"
+        },
+        {
+            "name": "Red-Pink",
+            "hex": "#FF6E59"
+        },
+        {
+            "name": "Red-Tan",
+            "hex": "#FF9D81"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "id": "c-64",
+    "name": "Commodore 64",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#C-64",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Red",
+            "hex": "#883932"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#67B6BD"
+        },
+        {
+            "name": "Purple",
+            "hex": "#8B3F96"
+        },
+        {
+            "name": "Green",
+            "hex": "#55A049"
+        },
+        {
+            "name": "Blue",
+            "hex": "#40318D"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#BFCE72"
+        },
+        {
+            "name": "Orange",
+            "hex": "#8B5429"
+        },
+        {
+            "name": "Brown",
+            "hex": "#574200"
+        },
+        {
+            "name": "Light Red",
+            "hex": "#B86962"
+        },
+        {
+            "name": "Dark Grey",
+            "hex": "#505050"
+        },
+        {
+            "name": "Grey",
+            "hex": "#787878"
+        },
+        {
+            "name": "Light Green",
+            "hex": "#94E089"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#7869C4"
+        },
+        {
+            "name": "Light Grey",
+            "hex": "#9F9F9F"
+        }
+    ]
+}

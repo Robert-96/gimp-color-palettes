@@ -1,0 +1,492 @@
+{
+    "id": "c-16",
+    "name": "Commodore 16",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#C-16_and_Plus/4",
+    "colors": [
+        {
+            "name": "White 0",
+            "hex": "#202020"
+        },
+        {
+            "name": "White 1",
+            "hex": "#404040"
+        },
+        {
+            "name": "White 2",
+            "hex": "#606060"
+        },
+        {
+            "name": "White 3",
+            "hex": "#808080"
+        },
+        {
+            "name": "White 4",
+            "hex": "#9F9F9F"
+        },
+        {
+            "name": "White 5",
+            "hex": "#BFBFBF"
+        },
+        {
+            "name": "White 6",
+            "hex": "#DFDFDF"
+        },
+        {
+            "name": "White 7",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Red 0",
+            "hex": "#580902"
+        },
+        {
+            "name": "Red 1",
+            "hex": "#782922"
+        },
+        {
+            "name": "Red 2",
+            "hex": "#984942"
+        },
+        {
+            "name": "Red 3",
+            "hex": "#B86962"
+        },
+        {
+            "name": "Red 4",
+            "hex": "#D88882"
+        },
+        {
+            "name": "Red 5",
+            "hex": "#F7A8A2"
+        },
+        {
+            "name": "Red 6",
+            "hex": "#FFC8C2"
+        },
+        {
+            "name": "Red 7",
+            "hex": "#FFE8E2"
+        },
+        {
+            "name": "Cyan 0",
+            "hex": "#00373D"
+        },
+        {
+            "name": "Cyan 1",
+            "hex": "#08575D"
+        },
+        {
+            "name": "Cyan 2",
+            "hex": "#27777D"
+        },
+        {
+            "name": "Cyan 3",
+            "hex": "#47969D"
+        },
+        {
+            "name": "Cyan 4",
+            "hex": "#67B6BD"
+        },
+        {
+            "name": "Cyan 5",
+            "hex": "#87D6DD"
+        },
+        {
+            "name": "Cyan 6",
+            "hex": "#A7F6FD"
+        },
+        {
+            "name": "Cyan 7",
+            "hex": "#C7FFFF"
+        },
+        {
+            "name": "Purple 0",
+            "hex": "#4B0056"
+        },
+        {
+            "name": "Purple 1",
+            "hex": "#6B1F76"
+        },
+        {
+            "name": "Purple 2",
+            "hex": "#8B3F96"
+        },
+        {
+            "name": "Purple 3",
+            "hex": "#AA5FB6"
+        },
+        {
+            "name": "Purple 4",
+            "hex": "#CA7FD6"
+        },
+        {
+            "name": "Purple 5",
+            "hex": "#EA9FF6"
+        },
+        {
+            "name": "Purple 6",
+            "hex": "#FFBFFF"
+        },
+        {
+            "name": "Purple 7",
+            "hex": "#FFDFFF"
+        },
+        {
+            "name": "Green 0",
+            "hex": "#004000"
+        },
+        {
+            "name": "Green 1",
+            "hex": "#156009"
+        },
+        {
+            "name": "Green 2",
+            "hex": "#358029"
+        },
+        {
+            "name": "Green 3",
+            "hex": "#55A049"
+        },
+        {
+            "name": "Green 4",
+            "hex": "#74C069"
+        },
+        {
+            "name": "Green 5",
+            "hex": "#94E089"
+        },
+        {
+            "name": "Green 6",
+            "hex": "#B4FFA9"
+        },
+        {
+            "name": "Green 7",
+            "hex": "#D4FFC9"
+        },
+        {
+            "name": "Blue 0",
+            "hex": "#20116D"
+        },
+        {
+            "name": "Blue 1",
+            "hex": "#40318D"
+        },
+        {
+            "name": "Blue 2",
+            "hex": "#6051AC"
+        },
+        {
+            "name": "Blue 3",
+            "hex": "#8071CC"
+        },
+        {
+            "name": "Blue 4",
+            "hex": "#9F90EC"
+        },
+        {
+            "name": "Blue 5",
+            "hex": "#BFB0FF"
+        },
+        {
+            "name": "Blue 6",
+            "hex": "#DFD0FF"
+        },
+        {
+            "name": "Blue 7",
+            "hex": "#FFF0FF"
+        },
+        {
+            "name": "Yellow 0",
+            "hex": "#202F00"
+        },
+        {
+            "name": "Yellow 1",
+            "hex": "#404F00"
+        },
+        {
+            "name": "Yellow 2",
+            "hex": "#606F13"
+        },
+        {
+            "name": "Yellow 3",
+            "hex": "#808E33"
+        },
+        {
+            "name": "Yellow 4",
+            "hex": "#9FAE53"
+        },
+        {
+            "name": "Yellow 5",
+            "hex": "#BFCE72"
+        },
+        {
+            "name": "Yellow 6",
+            "hex": "#DFEE92"
+        },
+        {
+            "name": "Yellow 7",
+            "hex": "#FFFFB2"
+        },
+        {
+            "name": "Orange 0",
+            "hex": "#4B1500"
+        },
+        {
+            "name": "Orange 1",
+            "hex": "#6B3409"
+        },
+        {
+            "name": "Orange 2",
+            "hex": "#8B5429"
+        },
+        {
+            "name": "Orange 3",
+            "hex": "#AA7449"
+        },
+        {
+            "name": "Orange 4",
+            "hex": "#CA9469"
+        },
+        {
+            "name": "Orange 5",
+            "hex": "#EAB489"
+        },
+        {
+            "name": "Orange 6",
+            "hex": "#FFD4A9"
+        },
+        {
+            "name": "Orange 7",
+            "hex": "#FFF4C9"
+        },
+        {
+            "name": "Brown 0",
+            "hex": "#372200"
+        },
+        {
+            "name": "Brown 1",
+            "hex": "#574200"
+        },
+        {
+            "name": "Brown 2",
+            "hex": "#776219"
+        },
+        {
+            "name": "Brown 3",
+            "hex": "#978139"
+        },
+        {
+            "name": "Brown 4",
+            "hex": "#B7A158"
+        },
+        {
+            "name": "Brown 5",
+            "hex": "#D7C178"
+        },
+        {
+            "name": "Brown 6",
+            "hex": "#F6E198"
+        },
+        {
+            "name": "Brown 7",
+            "hex": "#FFFFB8"
+        },
+        {
+            "name": "Yellow-Green 0",
+            "hex": "#093A00"
+        },
+        {
+            "name": "Yellow-Green 1",
+            "hex": "#285900"
+        },
+        {
+            "name": "Yellow-Green 2",
+            "hex": "#487919"
+        },
+        {
+            "name": "Yellow-Green 3",
+            "hex": "#689939"
+        },
+        {
+            "name": "Yellow-Green 4",
+            "hex": "#88B958"
+        },
+        {
+            "name": "Yellow-Green 5",
+            "hex": "#A8D978"
+        },
+        {
+            "name": "Yellow-Green 6",
+            "hex": "#C8F998"
+        },
+        {
+            "name": "Yellow-Green 7",
+            "hex": "#E8FFB8"
+        },
+        {
+            "name": "Pink 0",
+            "hex": "#5D0120"
+        },
+        {
+            "name": "Pink 1",
+            "hex": "#7D2140"
+        },
+        {
+            "name": "Pink 2",
+            "hex": "#9C4160"
+        },
+        {
+            "name": "Pink 3",
+            "hex": "#BC6180"
+        },
+        {
+            "name": "Pink 4",
+            "hex": "#DC809F"
+        },
+        {
+            "name": "Pink 5",
+            "hex": "#FCA0BF"
+        },
+        {
+            "name": "Pink 6",
+            "hex": "#FFC0DF"
+        },
+        {
+            "name": "Pink 7",
+            "hex": "#FFE0FF"
+        },
+        {
+            "name": "Blue-Green 0",
+            "hex": "#003F20"
+        },
+        {
+            "name": "Blue-Green 1",
+            "hex": "#035F40"
+        },
+        {
+            "name": "Blue-Green 2",
+            "hex": "#237F60"
+        },
+        {
+            "name": "Blue-Green 3",
+            "hex": "#439E80"
+        },
+        {
+            "name": "Blue-Green 4",
+            "hex": "#63BE9F"
+        },
+        {
+            "name": "Blue-Green 5",
+            "hex": "#82DEBF"
+        },
+        {
+            "name": "Blue-Green 6",
+            "hex": "#A2FEDF"
+        },
+        {
+            "name": "Blue-Green 7",
+            "hex": "#C2FFFF"
+        },
+        {
+            "name": "Light Blue 0",
+            "hex": "#002B56"
+        },
+        {
+            "name": "Light Blue 1",
+            "hex": "#154B76"
+        },
+        {
+            "name": "Light Blue 2",
+            "hex": "#356B96"
+        },
+        {
+            "name": "Light Blue 3",
+            "hex": "#558BB6"
+        },
+        {
+            "name": "Light Blue 4",
+            "hex": "#74ABD6"
+        },
+        {
+            "name": "Light Blue 5",
+            "hex": "#94CBF6"
+        },
+        {
+            "name": "Light Blue 6",
+            "hex": "#B4EAFF"
+        },
+        {
+            "name": "Light Blue 7",
+            "hex": "#D4FFFF"
+        },
+        {
+            "name": "Dark Blue 0",
+            "hex": "#370667"
+        },
+        {
+            "name": "Dark Blue 1",
+            "hex": "#572687"
+        },
+        {
+            "name": "Dark Blue 2",
+            "hex": "#7746A7"
+        },
+        {
+            "name": "Dark Blue 3",
+            "hex": "#9766C6"
+        },
+        {
+            "name": "Dark Blue 4",
+            "hex": "#B786E6"
+        },
+        {
+            "name": "Dark Blue 5",
+            "hex": "#D7A6FF"
+        },
+        {
+            "name": "Dark Blue 6",
+            "hex": "#F6C5FF"
+        },
+        {
+            "name": "Dark Blue 7",
+            "hex": "#FFE5FF"
+        },
+        {
+            "name": "Light Green 0",
+            "hex": "#004202"
+        },
+        {
+            "name": "Light Green 1",
+            "hex": "#086222"
+        },
+        {
+            "name": "Light Green 2",
+            "hex": "#278242"
+        },
+        {
+            "name": "Light Green 3",
+            "hex": "#47A262"
+        },
+        {
+            "name": "Light Green 4",
+            "hex": "#67C282"
+        },
+        {
+            "name": "Light Green 5",
+            "hex": "#87E2A2"
+        },
+        {
+            "name": "Light Green 6",
+            "hex": "#A7FFC2"
+        },
+        {
+            "name": "Light Green 7",
+            "hex": "#C7FFE2"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        }
+    ]
+}

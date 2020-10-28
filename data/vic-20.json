@@ -1,0 +1,72 @@
+{
+    "id": "vic-20",
+    "name": "Commodore VIC-20",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#VIC-20",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Red",
+            "hex": "#8D3E37"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#72C1C8"
+        },
+        {
+            "name": "Purple",
+            "hex": "#80348B"
+        },
+        {
+            "name": "Green",
+            "hex": "#55A049"
+        },
+        {
+            "name": "Blue",
+            "hex": "#40318D"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#AAB95D"
+        },
+        {
+            "name": "Orange",
+            "hex": "#8B5429"
+        },
+        {
+            "name": "Light Orange",
+            "hex": "#D59F74"
+        },
+        {
+            "name": "Light Red",
+            "hex": "#B86962"
+        },
+        {
+            "name": "Light Cyan",
+            "hex": "#87D6DD"
+        },
+        {
+            "name": "Light Purple",
+            "hex": "#AA5FB6"
+        },
+        {
+            "name": "Light Green",
+            "hex": "#94E089"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#8071CC"
+        },
+        {
+            "name": "Light Yellow",
+            "hex": "#FFFFB2"
+        }
+    ]
+}

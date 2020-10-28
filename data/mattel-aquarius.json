@@ -1,0 +1,72 @@
+{
+    "id": "mattel-aquarius",
+    "name": "Mattel Aquarius",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#Mattel_Aquarius",
+    "colors": [
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "Red",
+            "hex": "#C3001B"
+        },
+        {
+            "name": "Green",
+            "hex": "#07BF00"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#C8B907"
+        },
+        {
+            "name": "Blue",
+            "hex": "#0006B7"
+        },
+        {
+            "name": "Magenta",
+            "hex": "#B700D1"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#00C6A4"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Gray",
+            "hex": "#BFBFBF"
+        },
+        {
+            "name": "Cyan 2",
+            "hex": "#40A695"
+        },
+        {
+            "name": "Magenta 2",
+            "hex": "#832790"
+        },
+        {
+            "name": "Blue 2",
+            "hex": "#050D68"
+        },
+        {
+            "name": "Yellow 2",
+            "hex": "#B9B156"
+        },
+        {
+            "name": "Green 2",
+            "hex": "#3B972E"
+        },
+        {
+            "name": "Red 2",
+            "hex": "#7E192A"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        }
+    ]
+}

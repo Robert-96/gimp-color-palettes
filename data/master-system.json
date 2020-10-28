@@ -1,0 +1,200 @@
+{
+    "id": "master-system",
+    "name": "Sega Master System",
+    "columns": 16,
+    "url": "https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#Master_System",
+    "colors": [
+        {
+            "hex": "#000000"
+        },
+        {
+            "hex": "#000055"
+        },
+        {
+            "hex": "#0000AA"
+        },
+        {
+            "hex": "#0000FF"
+        },
+        {
+            "hex": "#550000"
+        },
+        {
+            "hex": "#550055"
+        },
+        {
+            "hex": "#5500AA"
+        },
+        {
+            "hex": "#5500FF"
+        },
+        {
+            "hex": "#AA0000"
+        },
+        {
+            "hex": "#AA0055"
+        },
+        {
+            "hex": "#AA00AA"
+        },
+        {
+            "hex": "#AA00FF"
+        },
+        {
+            "hex": "#FF0000"
+        },
+        {
+            "hex": "#FF0055"
+        },
+        {
+            "hex": "#FF00AA"
+        },
+        {
+            "hex": "#FF00FF"
+        },
+        {
+            "hex": "#005500"
+        },
+        {
+            "hex": "#005555"
+        },
+        {
+            "hex": "#0055AA"
+        },
+        {
+            "hex": "#0055FF"
+        },
+        {
+            "hex": "#555500"
+        },
+        {
+            "hex": "#555555"
+        },
+        {
+            "hex": "#5555AA"
+        },
+        {
+            "hex": "#5555FF"
+        },
+        {
+            "hex": "#AA5500"
+        },
+        {
+            "hex": "#AA5555"
+        },
+        {
+            "hex": "#AA55AA"
+        },
+        {
+            "hex": "#AA55FF"
+        },
+        {
+            "hex": "#FF5500"
+        },
+        {
+            "hex": "#FF5555"
+        },
+        {
+            "hex": "#FF55AA"
+        },
+        {
+            "hex": "#FF55FF"
+        },
+        {
+            "hex": "#00AA00"
+        },
+        {
+            "hex": "#00AA55"
+        },
+        {
+            "hex": "#00AAAA"
+        },
+        {
+            "hex": "#00AAFF"
+        },
+        {
+            "hex": "#55AA00"
+        },
+        {
+            "hex": "#55AA55"
+        },
+        {
+            "hex": "#55AAAA"
+        },
+        {
+            "hex": "#55AAFF"
+        },
+        {
+            "hex": "#AAAA00"
+        },
+        {
+            "hex": "#AAAA55"
+        },
+        {
+            "hex": "#AAAAAA"
+        },
+        {
+            "hex": "#AAAAFF"
+        },
+        {
+            "hex": "#FFAA00"
+        },
+        {
+            "hex": "#FFAA55"
+        },
+        {
+            "hex": "#FFAAAA"
+        },
+        {
+            "hex": "#FFAAFF"
+        },
+        {
+            "hex": "#00FF00"
+        },
+        {
+            "hex": "#00FF55"
+        },
+        {
+            "hex": "#00FFAA"
+        },
+        {
+            "hex": "#00FFFF"
+        },
+        {
+            "hex": "#55FF00"
+        },
+        {
+            "hex": "#55FF55"
+        },
+        {
+            "hex": "#55FFAA"
+        },
+        {
+            "hex": "#55FFFF"
+        },
+        {
+            "hex": "#AAFF00"
+        },
+        {
+            "hex": "#AAFF55"
+        },
+        {
+            "hex": "#AAFFAA"
+        },
+        {
+            "hex": "#AAFFFF"
+        },
+        {
+            "hex": "#FFFF00"
+        },
+        {
+            "hex": "#FFFF55"
+        },
+        {
+            "hex": "#FFFFAA"
+        },
+        {
+            "hex": "#FFFFFF"
+        }
+    ]
+}

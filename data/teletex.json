@@ -1,0 +1,32 @@
+{
+    "id": "teletex",
+    "name": "Teletex",
+    "columns": 8,
+    "url": "https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#Level_1",
+    "colors": [
+        {
+            "hex": "#000000"
+        },
+        {
+            "hex": "#0000FF"
+        },
+        {
+            "hex": "#FF0000"
+        },
+        {
+            "hex": "#FF00FF"
+        },
+        {
+            "hex": "#00FF00"
+        },
+        {
+            "hex": "#00FFFF"
+        },
+        {
+            "hex": "#FFFF00"
+        },
+        {
+            "hex": "#FFFFFF"
+        }
+    ]
+}

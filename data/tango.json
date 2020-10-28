@@ -1,0 +1,116 @@
+{
+    "id": "tango",
+    "name": "Tango Desktop Project",
+    "columns": 9,
+    "url": "https://en.wikipedia.org/wiki/Tango_Desktop_Project#Palette",
+    "colors": [
+        {
+            "name": "Butter 100",
+            "hex": "#FCE94F"
+        },
+        {
+            "name": "Butter 200",
+            "hex": "#EDD400"
+        },
+        {
+            "name": "Butter 300",
+            "hex": "#C4A000"
+        },
+        {
+            "name": "Orange 100",
+            "hex": "#FCAF3E"
+        },
+        {
+            "name": "Orange 200",
+            "hex": "#F57900"
+        },
+        {
+            "name": "Orange 300",
+            "hex": "#CE5C00"
+        },
+        {
+            "name": "Chocolate 100",
+            "hex": "#E9B96E"
+        },
+        {
+            "name": "Chocolate 200",
+            "hex": "#C17D11"
+        },
+        {
+            "name": "Chocolate 300",
+            "hex": "#8F5902"
+        },
+        {
+            "name": "Chameleon 100",
+            "hex": "#8AE234"
+        },
+        {
+            "name": "Chameleon 200",
+            "hex": "#73D216"
+        },
+        {
+            "name": "Chameleon 300",
+            "hex": "#4E9A06"
+        },
+        {
+            "name": "Sky Blue 100",
+            "hex": "#729FCF"
+        },
+        {
+            "name": "Sky Blue 200",
+            "hex": "#3465A4"
+        },
+        {
+            "name": "Sky Blue 300",
+            "hex": "#204A87"
+        },
+        {
+            "name": "Plum 100",
+            "hex": "#AD7FA8"
+        },
+        {
+            "name": "Plum 200",
+            "hex": "#75507B"
+        },
+        {
+            "name": "Plum 300",
+            "hex": "#5C3566"
+        },
+        {
+            "name": "Scarlet Red 100",
+            "hex": "#EF2929"
+        },
+        {
+            "name": "Scarlet Red 200",
+            "hex": "#CC0000"
+        },
+        {
+            "name": "Scarlet Red 300",
+            "hex": "#A40000"
+        },
+        {
+            "name": "Aluminium 100",
+            "hex": "#EEEEEC"
+        },
+        {
+            "name": "Aluminium 200",
+            "hex": "#D3D7CF"
+        },
+        {
+            "name": "Aluminium 300",
+            "hex": "#BABDB6"
+        },
+        {
+            "name": "Dark Aluminium 100",
+            "hex": "#888A85"
+        },
+        {
+            "name": "Dark Aluminium 200",
+            "hex": "#555753"
+        },
+        {
+            "name": "Dark Aluminium 300",
+            "hex": "#2E3436"
+        }
+    ]
+}

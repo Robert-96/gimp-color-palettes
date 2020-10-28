@@ -1,0 +1,87 @@
+{
+    "id": "flat-ui",
+    "name": "Flat UI",
+    "colomns": 8,
+    "colors": [
+        {
+            "name": "Turquoise",
+            "hex": "#1ABC9C"
+        },
+        {
+            "name": "Green Sea",
+            "hex": "#16A085"
+        },
+        {
+            "name": "Emerald",
+            "hex": "#2ECC71"
+        },
+        {
+            "name": "Nephritis",
+            "hex": "#27AE60"
+        },
+        {
+            "name": "Peter River",
+            "hex": "#3498DB"
+        },
+        {
+            "name": "Belize Hole",
+            "hex": "#2980B9"
+        },
+        {
+            "name": "Amethyst",
+            "hex": "#9B59B6"
+        },
+        {
+            "name": "Wisteria",
+            "hex": "#8E44AD"
+        },
+        {
+            "name": "Wet Asphalt",
+            "hex": "#34495E"
+        },
+        {
+            "name": "Midnight Blue",
+            "hex": "#2C3E50"
+        },
+        {
+            "name": "Sun Flower",
+            "hex": "#F1C40F"
+        },
+        {
+            "name": "Orange",
+            "hex": "#F39C12"
+        },
+        {
+            "name": "Carrot",
+            "hex": "#E67E22"
+        },
+        {
+            "name": "Pumpkin",
+            "hex": "#D35400"
+        },
+        {
+            "name": "Alizarin",
+            "hex": "#E74C3C"
+        },
+        {
+            "name": "Pomegranate",
+            "hex": "#C0392B"
+        },
+        {
+            "name": "Clouds",
+            "hex": "#ECF0F1"
+        },
+        {
+            "name": "Silver",
+            "hex": "#BDC3C7"
+        },
+        {
+            "name": "Concrete",
+            "hex": "#95A5A6"
+        },
+        {
+            "name": "Asbestos",
+            "hex": "#7F8C8D"
+        }
+    ]
+}

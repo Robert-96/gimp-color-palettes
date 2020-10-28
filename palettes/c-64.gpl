@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Commodore 64
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#C-64
+  0    0    0  Black
+255  255  255  White
+136   57   50  Red
+103  182  189  Cyan
+139   63  150  Purple
+ 85  160   73  Green
+ 64   49  141  Blue
+191  206  114  Yellow
+139   84   41  Orange
+ 87   66    0  Brown
+184  105   98  Light Red
+ 80   80   80  Dark Grey
+120  120  120  Grey
+148  224  137  Light Green
+120  105  196  Light Blue
+159  159  159  Light Grey
