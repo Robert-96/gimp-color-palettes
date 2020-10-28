@@ -8,6 +8,14 @@ A collection of color palettes for [GIMP](https://www.gimp.org/) and [Inkscape](
 
 You can preview and download all these palettes [directly in the browser](https://robert-96.github.io/gimp-color-palettes/).
 
+## Table of Contents
+
+* [Format](#format)
+* [Adding the palettes](#adding-the-palettes)
+  * [GIMP](#gimp)
+  * [Inkscape](#inkscape)
+* [License](#license)
+
 ## Format
 
 GIMP palettes are stored using a special file format, in files with the extension `.gpl`.
@@ -41,17 +49,17 @@ Columns: 2
 
 ## Adding the palettes
 
-### Inkscape
-
-Copy the `.gpl` file in the folder `/palettes`, which you create in the folder indicated at **Edit ‣ Preferences ‣ System: User config**.
-
-Restart Inkscape to see the new palette in the list.
-
 ### GIMP
 
 Copy the `.gpl` file in the folder `/palettes`, which you create in the folder indicated at **Edit ‣ Preferences ‣ Folders ‣ Palettes**.
 
 Restart GIMP to see the new palette in the list.
+
+### Inkscape
+
+Copy the `.gpl` file in the folder indicated at **Edit ‣ Preferences ‣ System: User palettes**.
+
+Restart Inkscape to see the new palette in the list.
 
 ## License
 
