@@ -13,7 +13,7 @@ install:
 script:
   - flake8 tests scripts
   - pytest tests
-  - python3 -m scripts render
+  - python3 -m scripts build
 
 deploy:
   provider: pages
