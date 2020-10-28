@@ -4,6 +4,8 @@
 
 A collection of color palettes for GIMP and Inkscape.
 
+You can preview and download all these palettes [directly in the browser](https://robert-96.github.io/gimp-color-palettes/).
+
 ## Format
 
 GIMP palettes are stored using a special file format, in files with the extension `.gpl`.
