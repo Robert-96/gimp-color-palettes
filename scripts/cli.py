@@ -26,7 +26,7 @@ def cli():
 def build():
     """Render the HTML page."""
 
-    click.secho("Build the HTML page...", bold=True, fg="bright_black")
+    click.secho("Build the HTML page...\n", bold=True, fg="bright_black")
     buid_project()
     click.secho("HTML page successfully build.", bold=True, fg="green")
 

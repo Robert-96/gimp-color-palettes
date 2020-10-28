@@ -3,17 +3,18 @@ import json
 import shutil
 from zipfile import ZipFile
 
+import click
 from jinja2 import Environment
 
 from .convert import json_to_gpl
 
 
-def _has_extension(path, file_name, extension=".json"):
-    return os.path.isfile(os.path.join(path, file_name)) and os.path.splitext(file_name)[1] == extension
+def _has_extension(file_name, extension=".json"):
+    return os.path.splitext(file_name)[1] == extension
 
 
 def _get_file_by_extension(path, extension=".json"):
-    return [os.path.join(path, fileName) for fileName in os.listdir(path) if _has_extension(path, fileName, extension=extension)]
+    return [os.path.join(path, fileName) for fileName in os.listdir(path) if _has_extension(fileName, extension=extension)]
 
 
 def _get_json_files(path):
@@ -60,7 +61,7 @@ def generate_html():
 
 
 def clear_build():
-    shutil.rmtree("./dist")
+    shutil.rmtree("./dist", ignore_errors=True)
     os.mkdir("./dist")
 
 
@@ -84,7 +85,14 @@ def copy_assets():
 
 
 def buid_project():
+    click.echo("  * Clear build directory")
     clear_build()
+
+    click.echo("  * Create index.html")
     create_index()
+
+    click.echo("  * Create palettes archive")
     create_archive()
+
+    click.echo("  * Copy assets\n")
     copy_assets()
