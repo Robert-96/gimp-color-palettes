@@ -4,8 +4,8 @@ import json
 import click
 from click_help_colors import HelpColorsGroup
 
+from .build import buid_project
 from .convert import json_to_gpl
-from .html import render_html
 
 
 CONTEXT_SETTINGS = dict(help_option_names=["--help", "-h"])
@@ -20,6 +20,15 @@ CONTEXT_SETTINGS = dict(help_option_names=["--help", "-h"])
 @click.version_option(None, "--version", "-v", prog_name="gimp-palettes")
 def cli():
     """A CLI tool for converting JSON into GIMP color palettes."""
+
+
+@cli.command()
+def build():
+    """Render the HTML page."""
+
+    click.secho("Build the HTML page...", bold=True, fg="bright_black")
+    buid_project()
+    click.secho("HTML page successfully build.", bold=True, fg="green")
 
 
 @cli.command()
@@ -50,15 +59,6 @@ def convert(input_path, output_path, verbose):
 
     click.echo()
     click.secho("GIMP color palette create at {}.".format(output_path), bold=True, fg="green")
-
-
-@cli.command()
-def render():
-    """Render the HTML page."""
-
-    click.secho("Render the HTML page...", bold=True, fg="bright_black")
-    render_html()
-    click.secho("HTML page successfully rendered.", bold=True, fg="green")
 
 
 if __name__ == "__main__":
