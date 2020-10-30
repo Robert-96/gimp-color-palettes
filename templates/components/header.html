@@ -1,0 +1,48 @@
+<header class="main-gradient px-10 py-5 shadow">
+  <div class="flex justify-center lg:justify-start mb-5">
+    {{ icons.logo(class='w-8 h-8 self-center text-white') }}
+
+    <h1 id="title" class="uppercase font-semibold text-xl md:text-2xl m-3">GIMP Color Palettes</h1>
+  </div>
+
+  <div class="flex flex-col lg:flex-row lg:justify-between">
+    <div class="flex-1">
+      <div class="text-center lg:text-left font-light mb-8">
+        <p class="text-3xl leading-snug">A collection of color palettes for {{ utils.link('GIMP', 'https://www.gimp.org/') }} and {{ utils.link('Inkscape', 'https://inkscape.org/') }},</p>
+        <span class="text-xl">but also {{ utils.link('Aseprite', 'https://www.aseprite.org/') }}, {{ utils.link('Drawpile', 'https://drawpile.net/') }}, {{ utils.link('Krita', 'https://krita.org/') }} and {{ utils.link('MyPaint', 'http://mypaint.org/') }}.</span>
+      </div>
+
+      <ul class="flex flex-wrap justify-center lg:justify-start mb-5">
+        <li class="flex mr-6">
+          {{ icons.trending_up(class='self-center mr-1 w-4 h-4') }}
+
+          {{ palettes|length }} Color Palettes
+        </li>
+        <li class="flex mr-6">
+          {{ icons.scale(class='self-center mr-1 w-4 h-4') }}
+
+          MIT Licensed
+        </li>
+        <li class="flex mr-6">
+          {{ icons.tag(class='self-center mr-1 w-4 h-4') }}
+
+          Version {{ version }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="md:self-center text-base">
+      <a href="./archive/gimp-color-palettes-{{ version }}.zip" download class="inline-flex justify-center w-full md:w-auto rounded py-3 px-5 md:mr-3 mb-3 bg-gray-100 hover:bg-white text-teal-500 hover:text-teal-600 transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
+        {{ icons.download(class='w-6 h-6 mr-3') }}
+
+        Download All
+      </a>
+
+      <a href="https://github.com/Robert-96/gimp-color-palettes" class="inline-flex justify-center w-full md:w-auto rounded py-3 px-5 bg-gray-100 hover:bg-white text-teal-800 hover:text-teal-900 transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
+        {{ icons.github(class='w-6 h-6 mr-3') }}
+
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</header>

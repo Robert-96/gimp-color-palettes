@@ -1,0 +1,38 @@
+{% set link_class = 'font-semibold text-teal-500 hover:underline' %}
+
+<footer class="flex flex-col md:flex-row md:justify-between w-full bg-gray-800 px-10 py-5 shadow">
+  <div class="mb-6 md:mb-0">
+    <div class="flex mb-3">
+      {{ icons.logo(class='w-6 h-6 self-center text-teal-500') }}
+
+      <h1 class="uppercase font-semibold text-2xl m-3">GIMP Color Palettes</h1>
+    </div>
+
+    <p class="text-lg font-light mb-5">
+      A collection of color palettes for {{ utils.link('GIMP', 'https://www.gimp.org/', class=link_class) }} and {{ utils.link('Inkscape', 'https://inkscape.org/', class=link_class) }}, </br>
+      but also {{ utils.link('Aseprite', 'https://www.aseprite.org/', class=link_class) }}, {{ utils.link('Drawpile', 'https://drawpile.net/', class=link_class) }}, {{ utils.link('Krita', 'https://krita.org/', class=link_class) }} and {{ utils.link('MyPaint', 'http://mypaint.org/', class=link_class) }}.
+    </p>
+
+    <ul class="flex flex-wrap justify-start mb-5">
+      <li class="flex mr-6">
+        {{ icons.trending_up(class='self-center mr-1 w-4 h-4') }}
+
+        {{ palettes|length }} Color Palettes
+      </li>
+      <li class="flex mr-6">
+        {{ icons.scale(class='self-center mr-1 w-4 h-4') }}
+
+        MIT Licensed
+      </li>
+      <li class="flex mr-6">
+        {{ icons.tag(class='self-center mr-1 w-4 h-4') }}
+
+        Version {{ version }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="md:self-center">
+    <p>Check out the source code on <a href="https://github.com/Robert-96/gimp-color-palettes" class="{{ link_class }}">GitHub →</a></p>
+  </div>
+</footer>

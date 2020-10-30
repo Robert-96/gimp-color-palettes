@@ -1,0 +1,11 @@
+<nav class="flex flex-col sm:flex-row flex-wrap px-10 py-5 mb-6 bg-gray-800 text-center sm:text-left shadow">
+  <div class="flex mb-3 sm:mb-0 mr-5 self-center sm:self-start">
+    {{ icons.paper_clip(class='w-4 h-4 mr-1 self-center') }}
+
+    <p class="font-semibold">Palettes</p>
+  </div>
+
+  {% for palette in palettes %}
+    <a href="#{{ palette.id }}" class="mr-5 hover:text-green-500 hover:underline">{{ palette.name }}</a>
+  {% endfor %}
+</nav>

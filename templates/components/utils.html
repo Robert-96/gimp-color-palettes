@@ -1,0 +1,3 @@
+{% macro link(text, location, class='font-semibold hover:underline') -%}
+  <a href="{{ location }}" class="{{ class }}" target="_blank" rel="noopener noreferrer">{{ text }}</a>
+{%- endmacro %}

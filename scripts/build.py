@@ -6,6 +6,7 @@ from zipfile import ZipFile
 import click
 from jinja2 import Environment, FileSystemLoader
 
+from .__version__ import VERSION
 from .convert import json_to_gpl
 
 
@@ -54,6 +55,7 @@ def render_template(template, palettes):
     template = env.from_string(template)
 
     return template.render({
+        'version': VERSION,
         'palettes': palettes,
         'gpl': {palette.get("id"): json_to_gpl(palette) for palette in palettes}
     })
@@ -81,7 +83,7 @@ def create_index():
 def create_archive():
     os.mkdir("./dist/archive")
 
-    with ZipFile('./dist/archive/gimp-color-palettes.zip', 'w') as archive:
+    with ZipFile('./dist/archive/gimp-color-palettes-{}.zip'.format(VERSION), 'w') as archive:
         for path in _get_gpl_files('./palettes'):
             archive.write(path)
 

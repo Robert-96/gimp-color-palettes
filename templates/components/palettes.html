@@ -1,0 +1,53 @@
+<main class="static w-screen self-center py-4 mb-16">
+  {% for palette in palettes %}
+    <div class="palette mb-16">
+      <div class="mb-5 px-10">
+        <div class="flex flex-col sm:flex-row sm:justify-between">
+          <div class="flex mb-3 sm:mb-0">
+            <a href="#{{ palette.id }}" class="self-center mr-2">
+              {{ icons.hashtag(class='w-6 h-6 text-teal-500 hover:text-teal-400') }}
+            </a>
+
+            <h2 id="{{ palette.id }}" class="text-2xl uppercase font-semibold mb-1 mr-3">
+              {{ palette.name }}
+            </h2>
+
+            {% if palette.url %}
+              {{ utils.link('Source →', palette.url, class='self-center text-blue-400 hover:text-blue-500 hover:underline')}}
+            {% endif %}
+          </div>
+
+          <button onclick="savePalette('{{ palette.id }}')" class="flex justify-center px-5 py-3 sm:py-0 rounded bg-green-500 text-white transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
+            {{ icons.download(class='w-5 h-5 mr-1 self-center') }}
+
+            <p class="self-center">Download</p>
+          </button>
+        </div>
+      </div>
+
+      <div class="colors flex flex-wrap justify-center px-9">
+        {% for color in palette.colors %}
+          <div class="color w-1/3 sm:w-1/6 md:w-1/6 lg:w-1/9 xl:w-1/12 flex flex-col mb-2">
+            <div class="h-24 bg-red-500 rounded-t shadow-md mx-1" style="background-color: {{ color.hex }} !important;">
+              <button class="w-full h-full focus:outline-none" onclick="copyToClipboard('{{ color.hex }}')">
+              </button>
+            </div>
+            <div class="flex-1 bg-white text-sm break-words text-gray-600 rounded-b shadow-md border b-t p-3 mx-1">
+              {% if color.name %}
+                <p class="font-bold text-gray-700">{{ color.name }}</p>
+              {% endif %}
+
+              <p>{{ color.hex }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+
+  <div id="up-arrow" class="sticky hidden flex justify-end px-10 z-50">
+    <button onclick="scrollToTop()" class="transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
+      {{ icons.arrow_circle_up(class='w-10 h-10 fill-white text-gray-700') }}
+    </button>
+  </div>
+</main>

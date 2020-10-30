@@ -17,7 +17,7 @@ CONTEXT_SETTINGS = dict(help_option_names=["--help", "-h"])
     help_headers_color='yellow',
     help_options_color='green'
 )
-@click.version_option(None, "--version", "-v", prog_name="gimp-palettes")
+@click.version_option(None, "--version", "-v")
 def cli():
     """A CLI tool for converting JSON into GIMP color palettes."""
 

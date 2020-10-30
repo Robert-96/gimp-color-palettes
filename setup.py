@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
+from scripts.__version__ import VERSION
+
 
 NAME = 'gimp-color-palettes'
-VERSION = '0.1.0'
 DESCRIPTION = 'A collection of color palettes for GIMP and Inkscape.'
 URL = 'https://github.com/Robert-96/gimp-color-palettes'
 EMAIL = 'dezmereanrobert@gmail.com'
