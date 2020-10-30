@@ -1,8 +1,16 @@
 <header class="main-gradient px-10 py-5 shadow">
-  <div class="flex justify-center lg:justify-start mb-5">
-    {{ icons.logo(class='w-8 h-8 self-center text-white') }}
+  <div class="flex justify-center content-center md:justify-between py-5">
+    <div class="self-center flex">
+      {{ icons.logo(class='w-8 h-8 self-center text-white') }}
 
-    <h1 id="title" class="uppercase font-semibold text-xl md:text-2xl m-3">GIMP Color Palettes</h1>
+      <h1 id="title" class="uppercase font-semibold text-xl sm:text-2xl mx-3">GIMP Color Palettes</h1>
+    </div>
+
+    <a class="self-center hidden md:flex hover:underline transition duration-100 ease-in-out transform hover:scale-105" href="https://twitter.com/intent/tweet?text=Check%20out%20GIMP%20Color%20Palettes%20%23GimpColorPalettes&url=https%3A%2F%2Frobert-96.github.io%2Fgimp-color-palettes%2F">
+      {{ icons.twitter(class='w-5 h-5 my-1') }}
+
+      <span class="self-center ml-3">Share on Twitter →</span>
+    </a>
   </div>
 
   <div class="flex flex-col lg:flex-row lg:justify-between">
