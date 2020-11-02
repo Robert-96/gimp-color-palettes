@@ -54,7 +54,7 @@ def test_format_color(color, expected):
 
 
 def test_json_to_gpl():
-    json = {
+    JSON = {
         "name": "Color Palette Name",
         "columns": 8,
         "url": "https://github.com/",
@@ -70,12 +70,13 @@ def test_json_to_gpl():
         ]
     }
 
-    gpl = [
+    GPL = [
         "GIMP Palette",
         "Name: Color Palette Name",
         "Columns: 8",
+        "# https://github.com/",
         "  0    0    0  Black",
         "255  255  255  White"
     ]
 
-    assert json_to_gpl(json), gpl
+    assert json_to_gpl(JSON) == "\n".join(GPL)

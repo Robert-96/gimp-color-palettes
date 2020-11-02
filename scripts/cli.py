@@ -24,7 +24,7 @@ def cli():
 
 @cli.command()
 def build():
-    """Render the HTML page."""
+    """Build the HTML page."""
 
     click.secho("Build the HTML page...\n", bold=True, fg="bright_black")
     buid_project()
@@ -43,7 +43,7 @@ def convert(input_path, output_path, verbose):
     click.secho("Convert {} into a GIMP color palette...".format(input_path), bold=True, fg="bright_black")
 
     with open(input_path) as fp:
-        palette = json.loads(fp.read())
+        palette = json.load(fp)
 
     if not output_path:
         file_name = os.path.splitext(os.path.basename(input_path))[0]
