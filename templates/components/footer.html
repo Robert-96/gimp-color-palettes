@@ -1,9 +1,9 @@
-{% set link_class = 'font-semibold text-teal-500 hover:underline' %}
+{% set link_class = 'font-semibold text-teal-400 hover:underline' %}
 
 <footer class="flex flex-col md:flex-row md:justify-between w-full bg-gray-800 px-10 py-5 shadow">
   <div class="mb-6 md:mb-0">
     <div class="flex mb-3">
-      {{ icons.logo(class='w-6 h-6 self-center text-teal-500') }}
+      {{ icons.logo(class='w-6 h-6 self-center text-teal-400') }}
 
       <h1 class="uppercase font-semibold text-2xl m-3">GIMP Color Palettes</h1>
     </div>
@@ -33,6 +33,6 @@
   </div>
 
   <div class="md:self-center">
-    <p>Check out the source code on <a href="https://github.com/Robert-96/gimp-color-palettes" class="{{ link_class }}">GitHub →</a></p>
+    <p>Check out the source code on {{ utils.link('GitHub →', 'https://github.com/Robert-96/gimp-color-palettes', class=link_class) }}</p>
   </div>
 </footer>
