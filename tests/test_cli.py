@@ -1,7 +1,6 @@
 import os
 import json
 
-import pytest
 from click.testing import CliRunner
 
 from scripts.cli import cli
