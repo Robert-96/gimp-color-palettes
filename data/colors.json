@@ -1,0 +1,76 @@
+{
+    "id": "colors-css",
+    "name": "Colors CSS",
+    "columns": 8,
+    "url": "https://github.com/mrmrs/colors#the-css",
+    "colors": [
+        {
+            "name": "Navy",
+            "hex": "#001F3F"
+        },
+        {
+            "name": "Blue",
+            "hex": "#0074D9"
+        },
+        {
+            "name": "Aqua",
+            "hex": "#7FDBFF"
+        },
+        {
+            "name": "Teal",
+            "hex": "#39CCCC"
+        },
+        {
+            "name": "Olive",
+            "hex": "#3D9970"
+        },
+        {
+            "name": "Green",
+            "hex": "#2ECC40"
+        },
+        {
+            "name": "Lime",
+            "hex": "#01FF70"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FFDC00"
+        },
+        {
+            "name": "Orange",
+            "hex": "#FF851B"
+        },
+        {
+            "name": "Red",
+            "hex": "#FF4136"
+        },
+        {
+            "name": "Fuchsia",
+            "hex": "#F012BE"
+        },
+        {
+            "name": "Purple",
+            "hex": "#B10DC9"
+        },
+        {
+            "name": "Maroon",
+            "hex": "#85144B"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Silver",
+            "hex": "#DDDDDD"
+        },
+        {
+            "name": "Gray",
+            "hex": "#AAAAAA"
+        },
+        {
+            "name": "Black",
+            "hex": "#111111"
+        }
+    ]
+}

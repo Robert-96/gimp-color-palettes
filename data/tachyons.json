@@ -1,0 +1,108 @@
+{
+    "id": "tachyons",
+    "name": "Tachyons",
+    "columns": 8,
+    "url": "http://tachyons.io/",
+    "colors": [
+        {
+            "name": "Dark Red",
+            "hex": "#E7040F"
+        },
+        {
+            "name": "Red",
+            "hex": "#FF4136"
+        },
+        {
+            "name": "Light Red",
+            "hex": "#FF725C"
+        },
+        {
+            "name": "Orange",
+            "hex": "#FF6300"
+        },
+        {
+            "name": "Gold",
+            "hex": "#FFB700"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FFDE37"
+        },
+        {
+            "name": "Light Yellow",
+            "hex": "#FBF1A9"
+        },
+        {
+            "name": "Purple",
+            "hex": "#5E2CA5"
+        },
+        {
+            "name": "Light Purple",
+            "hex": "#A463F2"
+        },
+        {
+            "name": "Dark Pink",
+            "hex": "#D5008F"
+        },
+        {
+            "name": "Hot Pink",
+            "hex": "#FF41B4"
+        },
+        {
+            "name": "Pink",
+            "hex": "#FF80CC"
+        },
+        {
+            "name": "Light Pink",
+            "hex": "#FFA3D7"
+        },
+        {
+            "name": "Dark Green",
+            "hex": "#137752"
+        },
+        {
+            "name": "Green",
+            "hex": "#19A974"
+        },
+        {
+            "name": "Light Green",
+            "hex": "#9EEBCF"
+        },
+        {
+            "name": "Navy",
+            "hex": "#001B44"
+        },
+        {
+            "name": "Dark Blue",
+            "hex": "#00449E"
+        },
+        {
+            "name": "Blue",
+            "hex": "#357EDD"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#96CCFF"
+        },
+        {
+            "name": "Lightest Blue",
+            "hex": "#CDECFF"
+        },
+        {
+            "name": "Washed Blue",
+            "hex": "#F6FFFE"
+        },
+        {
+            "name": "Washed Green",
+            "hex": "#E8FDF5"
+        },
+        {
+            "name": "Washed Yellow",
+            "hex": "#FFFCEB"
+        },
+        {
+            "name": "Washed Red",
+            "hex": "#FFDFDF"
+        }
+    ]
+}

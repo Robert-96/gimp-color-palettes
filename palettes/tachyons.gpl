@@ -1,0 +1,29 @@
+GIMP Palette
+Name: Tachyons
+Columns: 8
+# http://tachyons.io/
+231    4   15  Dark Red
+255   65   54  Red
+255  114   92  Light Red
+255   99    0  Orange
+255  183    0  Gold
+255  222   55  Yellow
+251  241  169  Light Yellow
+ 94   44  165  Purple
+164   99  242  Light Purple
+213    0  143  Dark Pink
+255   65  180  Hot Pink
+255  128  204  Pink
+255  163  215  Light Pink
+ 19  119   82  Dark Green
+ 25  169  116  Green
+158  235  207  Light Green
+  0   27   68  Navy
+  0   68  158  Dark Blue
+ 53  126  221  Blue
+150  204  255  Light Blue
+205  236  255  Lightest Blue
+246  255  254  Washed Blue
+232  253  245  Washed Green
+255  252  235  Washed Yellow
+255  223  223  Washed Red
