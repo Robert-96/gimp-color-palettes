@@ -1,4 +1,4 @@
-def _hex_to_rgb(color):
+def hex_to_rgb(color):
     color = color.lstrip('#')
     size = 1 if len(color) == 3 else 2
     factor = 2 if len(color) == 3 else 1
@@ -7,7 +7,7 @@ def _hex_to_rgb(color):
 
 
 def _format_color(color):
-    return "{:>3}  {:>3}  {:>3}  {}".format(*_hex_to_rgb(color["hex"]), color.get("name", "Unknown"))
+    return "{:>3}  {:>3}  {:>3}  {}".format(*hex_to_rgb(color["hex"]), color.get("name", "Unknown"))
 
 
 def json_to_gpl(palette):

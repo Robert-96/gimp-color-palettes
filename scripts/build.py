@@ -7,7 +7,7 @@ import click
 from jinja2 import Environment, FileSystemLoader
 
 from .__version__ import VERSION
-from .convert import json_to_gpl
+from .convert import json_to_gpl, hex_to_rgb
 
 
 def _has_extension(file_name, extension=".json"):
@@ -52,6 +52,7 @@ def render_template(template, palettes):
         trim_blocks=True,
         lstrip_blocks=True
     )
+    env.filters['rgb'] = lambda x: 'rgb({rgb[0]}, {rgb[1]}, {rgb[2]})'.format(rgb=hex_to_rgb(x))
     template = env.from_string(template)
 
     return template.render({
