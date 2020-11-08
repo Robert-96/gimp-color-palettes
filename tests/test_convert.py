@@ -1,6 +1,6 @@
 import pytest
 
-from scripts.convert import _hex_to_rgb, _format_color, json_to_gpl
+from scripts.convert import hex_to_rgb, _format_color, json_to_gpl
 
 
 @pytest.mark.parametrize(
@@ -17,7 +17,7 @@ from scripts.convert import _hex_to_rgb, _format_color, json_to_gpl
     ]
 )
 def test_hex_to_rgb(color, expected):
-    assert _hex_to_rgb(color) == expected
+    assert hex_to_rgb(color) == expected
 
 
 @pytest.mark.parametrize(
@@ -33,7 +33,7 @@ def test_hex_to_rgb(color, expected):
     ]
 )
 def test_hex_to_rgb_equality(long, short):
-    assert _hex_to_rgb(long) == _hex_to_rgb(short)
+    assert hex_to_rgb(long) == hex_to_rgb(short)
 
 
 @pytest.mark.parametrize(
