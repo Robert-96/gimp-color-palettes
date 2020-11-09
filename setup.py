@@ -4,7 +4,9 @@ from scripts.__version__ import VERSION
 
 
 NAME = 'gimp-color-palettes'
-DESCRIPTION = 'A collection of color palettes for GIMP and Inkscape.'
+DESCRIPTION = 'A collection of color palettes for GIMP and Inkscape (but also Aseprite, Drawpile, Krita and MyPaint).'
+KEYWORDS = 'GIMP,Inkscape,Aseprite,Drawpile,Krita,MyPaint,Colors,Color-Palette,Palette,Color-Scheme,Scheme,Design'
+
 URL = 'https://github.com/Robert-96/gimp-color-palettes'
 EMAIL = 'dezmereanrobert@gmail.com'
 AUTHOR = 'Robert-96'
@@ -75,5 +77,5 @@ setup(
         'Topic :: Text Processing :: Markup :: Markdown',
         'Topic :: Utilities'
     ],
-    keywords='gimp,inkscape,color,palettes',
+    keywords=KEYWORDS,
 )

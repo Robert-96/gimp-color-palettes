@@ -1,7 +1,7 @@
 {
-    "name": "GIMP Color Palettes",
+    "name": "GIMP Color Palettes | A collection of color palettes for GIMP and Inkscape.",
     "short_name": "GIMP Color Palettes",
-    "description": "A collection of color palettes for GIMP and Inkscape.",
+    "description": "A collection of color palettes for GIMP and Inkscape (but also Aseprite, Drawpile, Krita and MyPaint).",
     "display": "standalone",
     "scope": "/gimp-color-palettes/",
     "theme_color": "#FFFFFF",
