@@ -1,7 +1,7 @@
 <main class="static w-screen self-center py-4 mb-16">
   {% for palette in palettes %}
     <div class="palette mb-16">
-      <div class="mb-5 px-10">
+      <div class="mb-10 md:mb-5 {{ x_paddings }}">
         <div class="flex flex-col sm:flex-row sm:justify-between">
           <div class="flex mb-3 sm:mb-0">
             <a href="#{{ palette.id }}" class="self-center mr-2">
@@ -47,7 +47,7 @@
     </div>
   {% endfor %}
 
-  <div id="up-arrow" class="sticky hidden flex justify-end px-10 z-50">
+  <div id="up-arrow" class="sticky hidden flex justify-end z-50 {{ x_paddings }}">
     <button onclick="scrollToTop()" class="transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
       {{ icons.arrow_circle_up(class='w-10 h-10 fill-white text-gray-700') }}
     </button>
