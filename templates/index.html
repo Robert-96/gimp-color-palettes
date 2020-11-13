@@ -15,7 +15,7 @@
   <link rel="manifest" href="./public/icons/site.webmanifest">
 
   <!-- META Tags -->
-  {% include 'components/meta.html' %}
+  {% include 'components/_meta.html' %}
 
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
@@ -60,8 +60,8 @@
   </style>
 </head>
 <body class="bg-gray-900 text-gray-100 lato">
-  {% import 'components/utils.html' as utils %}
-  {% import 'components/icons.html' as icons %}
+  {% import 'components/_utils.html' as utils %}
+  {% import 'components/_icons.html' as icons %}
 
   <div id="notifications" class="fixed z-50 flex flex-col-reverse">
   </div>
@@ -69,13 +69,13 @@
   <div class="flex flex-col content-center justify-center">
     {% set x_paddings = 'px-5 md:px-10' %}
 
-    {% include 'components/header.html' %}
+    {% include 'components/_header.html' %}
 
-    {% include 'components/navigation.html' %}
+    {% include 'components/_navigation.html' %}
 
-    {% include 'components/palettes.html' %}
+    {% include 'components/_palettes.html' %}
 
-    {% include 'components/footer.html' %}
+    {% include 'components/_footer.html' %}
   </div>
 
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js" integrity="sha256-u/J1Urdrk3nCYFefpoeTMgI5viU1ujCDu2fXXoSJjhg=" crossorigin="anonymous"></script>

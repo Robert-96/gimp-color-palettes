@@ -24,11 +24,16 @@ def cli():
 
 @cli.command()
 def build():
-    """Build the HTML page."""
+    """Build the project."""
 
-    click.secho("Build the HTML page...\n", bold=True, fg="bright_black")
-    buid_project()
-    click.secho("HTML page successfully build.", bold=True, fg="green")
+    buid_project(reloader=False, web_server=False)
+
+
+@cli.command()
+def start():
+    """Build the project and start an development server."""
+
+    buid_project(reloader=True, web_server=True)
 
 
 @cli.command()
