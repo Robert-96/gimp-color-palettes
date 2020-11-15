@@ -142,13 +142,12 @@ class JinjaGenerator:
         server = WebServer(directory=self.outpath)
         server.start()
 
-        if reloader or web_server:
-            try:
-                while True:
-                    time.sleep(0.1)
-            except KeyboardInterrupt:
-                reloader.stop()
-                server.stop()
+        try:
+            while True:
+                time.sleep(0.1)
+        except KeyboardInterrupt:
+            reloader.stop()
+            server.stop()
 
 
 def get_palettes():
