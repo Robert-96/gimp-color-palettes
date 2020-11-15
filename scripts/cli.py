@@ -26,14 +26,14 @@ def cli():
 def build():
     """Build the project."""
 
-    buid_project(reloader=False, web_server=False)
+    buid_project()
 
 
 @cli.command()
 def start():
     """Build the project and start an development server."""
 
-    buid_project(reloader=True, web_server=True)
+    buid_project(develop=True)
 
 
 @cli.command()

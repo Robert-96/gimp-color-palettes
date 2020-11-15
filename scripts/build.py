@@ -1,21 +1,16 @@
 import os
-import sys
 import time
 import json
 import shutil
-import threading
-from functools import partial
-from signal import signal, SIGINT
-from http.server import HTTPServer, SimpleHTTPRequestHandler
 from zipfile import ZipFile
 
 import click
 from jinja2 import Environment, FileSystemLoader
-from watchdog.events import LoggingEventHandler
-from watchdog.observers import Observer
 
 from .__version__ import VERSION
 from .convert import json_to_gpl, hex_to_rgb
+from .monitor import FileMonitor
+from .server import WebServer
 
 
 def _has_extension(file_name, extension=".json"):
@@ -137,73 +132,23 @@ class JinjaGenerator:
 
         click.secho("Project successfully build.\n", bold=True, fg="green")
 
-    def start(self, reloader=True, web_server=True):
+    def start(self, monitorpaths=None):
         self.build()
 
-        if reloader:
-            reloader = Reloader(self.searchpath, self.build)
-            reloader.start()
+        monitorpaths = monitorpaths or []
+        reloader = FileMonitor([self.searchpath, *monitorpaths], self.build)
+        reloader.start()
 
-        if web_server:
-            server = WebServer(directory=self.outpath)
-            server.start()
+        server = WebServer(directory=self.outpath)
+        server.start()
 
         if reloader or web_server:
-            while True:
-                time.sleep(0.1)
-
-
-class Reloader:
-
-    def __init__(self, searchpath, callback):
-        self.searchpath = searchpath
-        self.callback = callback
-
-    def _handler(self, *args, **kwargs):
-        self.callback()
-
-    def start(self):
-        click.secho("Start monitoring {}...\n".format(self.searchpath), bold=True, fg="bright_black")
-
-        event_handler = LoggingEventHandler()
-
-        event_handler.on_created = self._handler
-        event_handler.on_deleted = self._handler
-        event_handler.on_modified = self._handler
-
-        observer = Observer()
-        observer.schedule(event_handler, self.searchpath, recursive=True)
-        observer.start()
-
-
-class WebServer:
-
-    def __init__(self, bind=None, port=8080, directory='.'):
-        self.bind = bind or 'localhost'
-        self.port = port
-
-        self.server_address = (self.bind, self.port)
-        self.directory = directory
-
-    def _target(self, server_address, directory):
-        httpd = HTTPServer(server_address, partial(SimpleHTTPRequestHandler, directory=directory))
-        httpd.serve_forever()
-
-    def _sigint_handler(self, *args, **kwargs):
-        self.thread.join(0)
-        sys.exit(0)
-
-    def run(self):
-        self.thread = threading.Thread(target=self._target, args=(self.server_address, self.directory), daemon=True)
-        self.thread.start()
-
-        signal(SIGINT, self._sigint_handler)
-
-    def start(self):
-        click.secho("Serving on http://{}:{}/".format(self.bind, self.port), bold=True, fg="bright_black")
-        click.secho("Press Ctrl + C to stop...\n", bold=True, fg="bright_black")
-
-        self.run()
+            try:
+                while True:
+                    time.sleep(0.1)
+            except KeyboardInterrupt:
+                reloader.stop()
+                server.stop()
 
 
 def get_palettes():
@@ -226,7 +171,7 @@ def create_archive(*args, outpath=None, **kwargs):
             archive.write(path)
 
 
-def buid_project(reloader=True, web_server=True):
+def buid_project(develop=False):
     palettes = get_palettes()
 
     generator = JinjaGenerator(
@@ -241,7 +186,11 @@ def buid_project(reloader=True, web_server=True):
         },
         after_callback=create_archive
     )
-    generator.start(reloader=reloader, web_server=web_server)
+
+    if develop:
+        generator.start(monitorpaths=['data'])
+    else:
+        generator.build()
 
 
 if __name__ == "__main__":
