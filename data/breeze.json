@@ -1,0 +1,110 @@
+{
+    "id": "breeze",
+    "name": "HIG Breeze",
+    "columns": 12,
+    "url": "https://hig.kde.org/style/color/default.html",
+    "colors": [
+        {
+            "hex": "#E74C3C"
+        },
+        {
+            "hex": "#DA4453"
+        },
+        {
+            "hex": "#ED1515"
+        },
+        {
+            "hex": "#C0392B"
+        },
+        {
+            "hex": "#F47750"
+        },
+        {
+            "hex": "#D35400"
+        },
+        {
+            "hex": "#D35400"
+        },
+        {
+            "hex": "#FDBC4B"
+        },
+        {
+            "hex": "#F67400"
+        },
+        {
+            "hex": "#C9CE3B"
+        },
+        {
+            "hex": "#F39C1F"
+        },
+        {
+            "hex": "#1CDC9A"
+        },
+        {
+            "hex": "#11D116"
+        },
+        {
+            "hex": "#2ECC71"
+        },
+        {
+            "hex": "#27AE60"
+        },
+        {
+            "hex": "#1ABC9C"
+        },
+        {
+            "hex": "#16A085"
+        },
+        {
+            "hex": "#3498DB"
+        },
+        {
+            "hex": "#3498DB"
+        },
+        {
+            "hex": "#2980B9"
+        },
+        {
+            "hex": "#3DAEE9"
+        },
+        {
+            "hex": "#1D99F3"
+        },
+        {
+            "hex": "#9B59B6"
+        },
+        {
+            "hex": "#8E44AD"
+        },
+        {
+            "hex": "#34495E"
+        },
+        {
+            "hex": "#2C3E50"
+        },
+        {
+            "hex": "#31363B"
+        },
+        {
+            "hex": "#232629"
+        },
+        {
+            "hex": "#7F8C8D"
+        },
+        {
+            "hex": "#4D4D4D"
+        },
+        {
+            "hex": "#BDC3C7"
+        },
+        {
+            "hex": "#95A5A6"
+        },
+        {
+            "hex": "#FCFCFC"
+        },
+        {
+            "hex": "#EFF0F1"
+        }
+    ]
+}

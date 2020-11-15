@@ -1,0 +1,248 @@
+{
+    "id": "elementary-os",
+    "name": "Elementary OS",
+    "columns": 5,
+    "url": "https://elementary.io/docs/human-interface-guidelines#color",
+    "colors": [
+        {
+            "name": "Strawberry 100",
+            "hex": "#FF8C82"
+        },
+        {
+            "name": "Strawberry 300",
+            "hex": "#ED5353"
+        },
+        {
+            "name": "Strawberry 500",
+            "hex": "#C6262E"
+        },
+        {
+            "name": "Strawberry 700",
+            "hex": "#A10705"
+        },
+        {
+            "name": "Strawberry 900",
+            "hex": "#7A0000"
+        },
+        {
+            "name": "Orange 100",
+            "hex": "#FFC27D"
+        },
+        {
+            "name": "Orange 300",
+            "hex": "#FFA154"
+        },
+        {
+            "name": "Orange 500",
+            "hex": "#F37329"
+        },
+        {
+            "name": "Orange 700",
+            "hex": "#CC3B02"
+        },
+        {
+            "name": "Orange 900",
+            "hex": "#A62100"
+        },
+        {
+            "name": "Banana 100",
+            "hex": "#FFF394"
+        },
+        {
+            "name": "Banana 300",
+            "hex": "#FFE16B"
+        },
+        {
+            "name": "Banana 500",
+            "hex": "#F9C440"
+        },
+        {
+            "name": "Banana 700",
+            "hex": "#D48E15"
+        },
+        {
+            "name": "Banana 900",
+            "hex": "#AD5F00"
+        },
+        {
+            "name": "Lime 100",
+            "hex": "#D1FF82"
+        },
+        {
+            "name": "Lime 300",
+            "hex": "#9BDB4D"
+        },
+        {
+            "name": "Lime 500",
+            "hex": "#68B723"
+        },
+        {
+            "name": "Lime 700",
+            "hex": "#3A9104"
+        },
+        {
+            "name": "Lime 900",
+            "hex": "#206B00"
+        },
+        {
+            "name": "Mint 100",
+            "hex": "#89FFDD"
+        },
+        {
+            "name": "Mint 300",
+            "hex": "#43D6B5"
+        },
+        {
+            "name": "Mint 500",
+            "hex": "#28BCA3"
+        },
+        {
+            "name": "Mint 700",
+            "hex": "#0E9A83"
+        },
+        {
+            "name": "Mint 900",
+            "hex": "#007367"
+        },
+        {
+            "name": "Blueberry 100",
+            "hex": "#8CD5FF"
+        },
+        {
+            "name": "Blueberry 300",
+            "hex": "#64BAFF"
+        },
+        {
+            "name": "Blueberry 500",
+            "hex": "#3689E6"
+        },
+        {
+            "name": "Blueberry 700",
+            "hex": "#0D52BF"
+        },
+        {
+            "name": "Blueberry 900",
+            "hex": "#002E99"
+        },
+        {
+            "name": "Grape 100",
+            "hex": "#E4C6FA"
+        },
+        {
+            "name": "Grape 300",
+            "hex": "#CD9EF7"
+        },
+        {
+            "name": "Grape 500",
+            "hex": "#A56DE2"
+        },
+        {
+            "name": "Grape 700",
+            "hex": "#7239B3"
+        },
+        {
+            "name": "Grape 900",
+            "hex": "#452981"
+        },
+        {
+            "name": "Bubblegum 100",
+            "hex": "#FE9AB8"
+        },
+        {
+            "name": "Bubblegum 300",
+            "hex": "#F4679D"
+        },
+        {
+            "name": "Bubblegum 500",
+            "hex": "#DE3E80"
+        },
+        {
+            "name": "Bubblegum 700",
+            "hex": "#BC245D"
+        },
+        {
+            "name": "Bubblegum 900",
+            "hex": "#910E38"
+        },
+        {
+            "name": "Cocoa 100",
+            "hex": "#A3907C"
+        },
+        {
+            "name": "Cocoa 300",
+            "hex": "#8A715E"
+        },
+        {
+            "name": "Cocoa 500",
+            "hex": "#715344"
+        },
+        {
+            "name": "Cocoa 700",
+            "hex": "#57392D"
+        },
+        {
+            "name": "Cocoa 900",
+            "hex": "#3D211B"
+        },
+        {
+            "name": "Silver 100",
+            "hex": "#FAFAFA"
+        },
+        {
+            "name": "Silver 300",
+            "hex": "#D4D4D4"
+        },
+        {
+            "name": "Silver 500",
+            "hex": "#ABACAE"
+        },
+        {
+            "name": "Silver 700",
+            "hex": "#7E8087"
+        },
+        {
+            "name": "Silver 900",
+            "hex": "#555761"
+        },
+        {
+            "name": "Slate 100",
+            "hex": "#95A3AB"
+        },
+        {
+            "name": "Slate 300",
+            "hex": "#667885"
+        },
+        {
+            "name": "Slate 500",
+            "hex": "#485A6C"
+        },
+        {
+            "name": "Slate 700",
+            "hex": "#273445"
+        },
+        {
+            "name": "Slate 900",
+            "hex": "#0E141F"
+        },
+        {
+            "name": "Black 100",
+            "hex": "#666666"
+        },
+        {
+            "name": "Black 300",
+            "hex": "#4D4D4D"
+        },
+        {
+            "name": "Black 500",
+            "hex": "#333333"
+        },
+        {
+            "name": "Black 700",
+            "hex": "#1A1A1A"
+        },
+        {
+            "name": "Black 900",
+            "hex": "#000000"
+        }
+    ]
+}
