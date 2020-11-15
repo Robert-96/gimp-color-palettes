@@ -14,6 +14,11 @@ lib/
 # pytest
 .pytest_cache/
 
+# pytest-cov
+htmlcov/
+coverage/
+.coverage
+
 # request cache
 github.sqlite
 
