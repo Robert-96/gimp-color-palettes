@@ -8,23 +8,22 @@ from .convert import json_to_gpl, hex_to_rgb
 from .generator import JinjaGenerator
 
 
-def _has_extension(file_name, extension=".json"):
+def _has_extension(file_name, extension):
     """Check if a file has an extension."""
 
     return os.path.splitext(file_name)[1] == extension
 
 
-def _get_file_by_extension(path, extension=".json"):
-    return (os.path.join(path, file_name) for file_name in os.listdir(path)
-            if _has_extension(file_name, extension=extension))
+def _get_file_by_extension(path, extension):
+    return (os.path.join(path, file_name) for file_name in os.listdir(path) if _has_extension(file_name, extension))
 
 
 def _get_json_files(path):
-    return _get_file_by_extension(path, extension=".json")
+    return _get_file_by_extension(path, ".json")
 
 
 def _get_gpl_files(path):
-    return _get_file_by_extension(path, extension=".gpl")
+    return _get_file_by_extension(path, ".gpl")
 
 
 def get_palettes():
