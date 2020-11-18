@@ -15,9 +15,8 @@ def _has_extension(file_name, extension=".json"):
 
 
 def _get_file_by_extension(path, extension=".json"):
-    return (
-        os.path.join(path, file_name) for file_name in os.listdir(path) if _has_extension(file_name, extension=extension)
-    )
+    return (os.path.join(path, file_name) for file_name in os.listdir(path)
+            if _has_extension(file_name, extension=extension))
 
 
 def _get_json_files(path):
@@ -43,7 +42,7 @@ def get_context():
 
     return {
         'version': VERSION,
-        'palettes': sorted(palettes, key=lambda  x: x.get('name')),
+        'palettes': sorted(palettes, key=lambda x: x.get('name')),
         'gpl': {palette.get("id"): json_to_gpl(palette) for palette in palettes}
     }
 

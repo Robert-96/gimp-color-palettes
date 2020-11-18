@@ -28,7 +28,7 @@ class FileMonitor:
         self.observer.start()
 
     def start(self):
-        click.secho("Start monitoring:".format(self.monitorpaths), bold=True, fg="bright_black")
+        click.secho("Start monitoring:", bold=True, fg="bright_black")
         for path in self.monitorpaths:
             click.secho(" * {}".format(path), bold=True, fg="cyan")
         click.echo()
