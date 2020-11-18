@@ -23,7 +23,9 @@ class WebServer:
         self.thread.start()
 
     def start(self):
-        click.secho("Serving on http://{}:{}/".format(self.bind, self.port), bold=True, fg="bright_black")
+        url = "http://{}:{}/".format(self.bind, self.port)
+
+        click.secho("Serving on {}".format(click.style(url, fg="cyan")), bold=True, fg="bright_black")
         click.secho("Press Ctrl + C to stop...\n", bold=True, fg="bright_black")
 
         self.run()
