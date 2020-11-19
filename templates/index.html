@@ -78,16 +78,7 @@
     {% include 'components/_footer.html' %}
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js" integrity="sha256-u/J1Urdrk3nCYFefpoeTMgI5viU1ujCDu2fXXoSJjhg=" crossorigin="anonymous"></script>
-
 <script>
-const gpl = {{ gpl|tojson }};
-
-function savePalette(id) {
-  var file = new File([gpl[id]], `${id}.gpl`, { type: "text/plain;charset=utf-8" });
-  saveAs(file);
-}
-
 function copyToClipboard(text) {
   const element = document.createElement('textarea');
   element.value = text;

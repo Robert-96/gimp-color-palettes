@@ -41,8 +41,7 @@ def get_context():
 
     return {
         'version': VERSION,
-        'palettes': sorted(palettes, key=lambda x: x.get('name')),
-        'gpl': {palette.get("id"): json_to_gpl(palette) for palette in palettes}
+        'palettes': sorted(palettes, key=lambda x: x.get('name'))
     }
 
 
