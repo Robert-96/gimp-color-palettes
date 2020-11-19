@@ -1,0 +1,217 @@
+GIMP Palette
+Name: RAL Classic
+Columns: 16
+# https://en.wikipedia.org/wiki/List_of_RAL_colors#Overview
+205  186  136  Green Beige
+208  176  132  Beige
+210  170  109  Sand Yellow
+249  168    0  Signal Yellow
+228  158    0  Golden Yellow
+203  142    0  Honey Yellow
+226  144    0  Maize Yellow
+232  140    0  Daffodil Yellow
+175  128   79  Brown Beige
+221  175   39  Lemon Yellow
+227  217  198  Oyster White
+221  196  154  Ivory
+230  210  181  Light Ivory
+241  221   56  Sulfur Yellow
+246  169   80  Saffron Yellow
+250  202   48  Zinc Yellow
+164  143  122  Grey Beige
+160  143  101  Olive Yellow
+246  182    0  Rape Yellow
+247  181    0  Traffic Yellow
+186  143   76  Ochre Yellow
+255  255    0  Luminous Yellow
+167  127   14  Curry
+255  155    0  Melon Yellow
+226  163    0  Broom Yellow
+249  154   28  Dahlia Yellow
+235  156   82  Pastel Yellow
+144  131  112  Pearl Beige
+128  100   63  Pearl Gold
+240  146    0  Sun Yellow
+221  121    7  Yellow Orange
+190   78   32  Red Orange
+198   57   39  Vermilion
+250  132   43  Pastel Orange
+231   91   18  Pure Orange
+255   35    0  Luminous Orange
+255  164   33  Luminous Bright Orange
+243  117   44  Bright Red Orange
+225   85    1  Traffic Orange
+212  101   47  Signal Orange
+236  124   37  Deep Orange
+219  106   80  Salmon Orange
+149   69   39  Pearl Orange
+171   37   36  Flame Red
+160   33   40  Signal Red
+161   35   43  Carmine Red
+141   29   44  Ruby Red
+112   31   41  Purple Red
+ 94   32   40  Wine Red
+ 64   34   37  Black Red
+112   55   49  Oxide Red
+126   41   44  Brown Red
+203  141  115  Beige Red
+156   50   46  Tomato Red
+212  116  121  Antique Pink
+225  166  173  Light Pink
+172   64   52  Coral Red
+211   84   95  Rose
+209   65   82  Strawberry Red
+193   18   28  Traffic Red
+213  109   86  Salmon Pink
+247    0    0  Luminous Red
+255    0    0  Luminous Bright Red
+180   32   65  Raspberry Red
+231   37   18  Pure Red
+172   50   59  Orient Red
+113   21   33  Pearl Ruby Red
+178   76   67  Pearl Pink
+138   90  131  Red Lilac
+147   61   80  Red Violet
+209   91  143  Heather Violet
+105   22   57  Claret Violet
+131   99  157  Blue Lilac
+153   37  114  Traffic Purple
+ 74   32   59  Purple Violet
+144   70  132  Signal Violet
+163  137  149  Pastel Violet
+198   54  120  Telemagenta
+135  115  161  Pearl Violet
+107  104  128  Pearl Blackberry
+ 56   76  112  Violet Blue
+ 31   71  100  Green Blue
+ 43   44  124  Ultramarine Blue
+ 42   55   86  Sapphire Blue
+ 29   31   42  Black Blue
+ 21   72  137  Signal Blue
+ 65  103  141  Brilliant Blue
+ 49   60   72  Grey Blue
+ 46   89  120  Azure Blue
+ 19   68  124  Gentian Blue
+ 35   44   63  Steel Blue
+ 52  129  184  Light Blue
+ 35   45   83  Cobalt Blue
+108  124  152  Pigeon Blue
+ 40  116  178  Sky Blue
+ 14   81  141  Traffic Blue
+ 33  136  143  Turquoise Blue
+ 26   87  132  Capri Blue
+ 11   65   81  Ocean Blue
+  7  115  122  Water Blue
+ 47   42   90  Night Blue
+ 77  102  142  Distant Blue
+106  147  176  Pastel Blue
+ 41  100  120  Pearl Gentian Blue
+ 16   44   84  Pearl Night Blue
+ 50  118   98  Patina Green
+ 40  113   62  Emerald Green
+ 39   98   53  Leaf Green
+ 75   87   62  Olive Green
+ 14   66   67  Blue Green
+ 15   67   54  Moss Green
+ 64   67   59  Grey Olive
+ 40   52   36  Bottle Green
+ 53   56   46  Brown Green
+ 38   57   47  Fir Green
+ 62  117   59  Grass Green
+104  130   91  Reseda Green
+ 49   64   61  Black Green
+121  124   90  Reed Green
+ 68   67   55  Yellow Olive
+ 61   64   58  Black Olive
+  2  106   82  Turquoise Green
+ 70  134   65  May Green
+ 72  164   63  Yellow Green
+183  217  177  Pastel Green
+ 53   71   51  Chrome Green
+134  164  124  Pale Green
+ 62   60   50  Olive-Drab/Brown Olive
+  0  135   84  Traffic Green
+ 83  117   60  Fern Green
+  0   93   82  Opal Green
+129  192  187  Light Green
+ 45   85   70  Pine Green
+  0  114   67  Mint Green
+ 15  133   88  Signal Green
+ 71  138  132  Mint Turquoise
+127  176  178  Pastel Turquoise
+ 27   84   44  Pearl Green
+  0   93   76  Pearl Opal Green
+ 37  231   18  Pure Green
+  0  247    0  Luminous Green
+126  139  146  Squirrel Grey
+143  153  159  Silver Grey
+129  127  104  Olive Grey
+122  123  109  Moss Grey
+158  160  161  Signal Grey
+107  113  111  Mouse Grey
+117  111   97  Beige Grey
+116  102   67  Khaki Grey
+ 91   98   89  Green Grey
+ 87   93   87  Tarpaulin Grey
+ 85   93   97  Iron Grey
+ 89   97   99  Basalt Grey
+ 85   85   72  Brown Grey
+ 81   86   92  Slate Grey
+ 55   63   67  Anthracite Grey
+ 46   50   52  Black Grey
+ 75   77   70  Umbra Grey
+129  132  121  Concrete Grey
+ 71   74   80  Graphite Grey
+ 55   68   71  Granite Grey
+147  147  136  Stone Grey
+ 93  105  112  Blue Grey
+185  185  168  Pebble Grey
+129  137  121  Cement Grey
+147  145  118  Yellow Grey
+203  208  204  Light Grey
+154  150  151  Platinum Grey
+124  127  126  Dusty Grey
+180  184  176  Agate Grey
+107  105   95  Quartz Grey
+157  163  166  Window Grey
+143  150  149  Traffic Grey A
+ 78   84   81  Traffic Grey B
+189  189  178  Silk Grey
+145  150  154  Telegrey 1
+130  137  142  Telegrey 2
+207  208  207  Telegrey 4
+136  129  117  Pearl Mouse Grey
+136  113   66  Green Brown
+156  107   48  Ochre Brown
+123   81   65  Signal Brown
+128   84   47  Clay Brown
+143   78   53  Copper Brown
+111   74   47  Fawn Brown
+111   79   40  Olive Brown
+ 90   58   41  Nut Brown
+103   56   49  Red Brown
+ 73   57   45  Sepia Brown
+ 99   58   52  Chestnut Brown
+ 76   47   38  Mahogany Brown
+ 68   50   45  Chocolate Brown
+ 63   58   58  Grey Brown
+ 33   31   32  Black Brown
+166   94   47  Orange Brown
+121   85   60  Beige Brown
+117   92   73  Pale Brown
+ 78   59   43  Terra Brown
+119   60   39  Pearl Copper
+239  235  220  Cream
+221  222  212  Grey White
+244  248  244  Signal White
+ 46   48   50  Signal Black
+ 10   10   13  Jet Black
+165  168  166  White Aluminium
+143  143  140  Grey Aluminium
+247  249  239  Pure White
+ 41   44   47  Graphite Black
+247  251  245  Traffic White
+ 42   45   47  Traffic Black
+207  211  205  Papyrus White
+156  156  156  Pearl Light Grey
+126  129  130  Pearl Dark Grey

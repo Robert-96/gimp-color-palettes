@@ -32,14 +32,14 @@
               <button class="w-full h-full focus:outline-none" onclick="copyToClipboard('{{ color.hex }}')">
               </button>
             </div>
-            <div class="flex-1 text-sm break-words text-gray-500 p-3 pb-8">
+            <div class="flex-1 text-sm break-words p-3 pb-8">
               {% if color.name %}
-                <p class="font-bold text-base text-gray-400 mb-1">{{ color.name }}</p>
+                <p class="font-bold text-base mb-1">{{ color.name }}</p>
               {% endif %}
 
-              <p>{{ color.hex }}</p>
+              <p class="text-gray-500">{{ color.hex }}</p>
 
-              <p>{{ color.hex|rgb }}</p>
+              <p class="text-gray-500">{{ color.hex|rgb }}</p>
             </div>
           </div>
         {% endfor %}
