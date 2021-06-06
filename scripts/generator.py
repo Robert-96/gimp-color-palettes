@@ -16,8 +16,8 @@ from .server import WebServer
 def _has_argument(func):
     """Test whether a function expects an argument.
 
-    :param func:
-        The function to be tested for existence of an argument.
+    Args:
+        func: The function to be tested for existence of an argument.
     """
 
     sig = inspect.signature(func)
@@ -95,14 +95,39 @@ class JinjaGenerator:
 
     def is_partial(self, template_name):
         """Check if a template is a partial template.
+
+        A template is considered a partial if it or any of its parent
+        directories are prefixed with an ``_``.
+
+        Args:
+            template_name (str): the name of the template to check.
         """
 
         return any((path.startswith("_") for path in template_name.split("/")))
 
     def is_ignored(self, template_name):
+        """Check if a template is an ignored template. Ignored templates are
+        neither rendered nor used in rendering templates.
+
+        A template is considered ignored if it or any of its parent directories
+        are prefixed with an ``.``.
+
+        Args:
+            template_name (str): the name of the template to check.
+        """
+
         return any((path.startswith(".") for path in template_name.split("/")))
 
     def is_template(self, filename):
+        """Check if a file is a template.
+
+        A file is a considered a template if it is not partial, ignored, or
+        static.
+
+        Args:
+            template_name (str): the name of the template to check.
+        """
+
         if self.is_partial(filename):
             return False
         if self.is_ignored(filename):
