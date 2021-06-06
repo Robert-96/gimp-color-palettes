@@ -3,9 +3,10 @@ import json
 import shutil
 from zipfile import ZipFile
 
+from rost import Rost
+
 from .__version__ import VERSION
 from .convert import json_to_gpl, hex_to_rgb
-from .generator import JinjaGenerator
 
 
 def _has_extension(file_name, extension):
@@ -56,12 +57,12 @@ def create_gpl_palettes(palettes=None):
             fp.write(gpl)
 
 
-def copy_palettes(*args, outpath=None, **kwargs):
-    shutil.copytree("palettes", os.path.join(outpath, "palettes"))
+def copy_palettes(*args, outputpath=None, **kwargs):
+    shutil.copytree("palettes", os.path.join(outputpath, "palettes"))
 
 
-def create_archive(*args, outpath=None, **kwargs):
-    archive_path = os.path.join(outpath, "archive")
+def create_archive(*args, outputpath=None, **kwargs):
+    archive_path = os.path.join(outputpath, "archive")
     os.mkdir(archive_path)
 
     with ZipFile(os.path.join(archive_path, 'gimp-color-palettes-{}.zip'.format(VERSION)), 'w') as archive:
@@ -73,13 +74,14 @@ def before_build(*args, **kwargs):
     create_gpl_palettes()
 
 
-def after_build(*args, outpath=None, **kwargs):
-    copy_palettes(*args, outpath=outpath, **kwargs)
-    create_archive(*args, outpath=outpath, **kwargs)
+def after_build(*args, outputpath=None, **kwargs):
+    copy_palettes(*args, outputpath=outputpath, **kwargs)
+    create_archive(*args, outputpath=outputpath, **kwargs)
 
 
 def buid_project(develop=False):
-    generator = JinjaGenerator(
+    generator = Rost(
+        searchpath='templates',
         staticpaths=['public'],
         contexts=[
             ('.', get_context)
@@ -92,7 +94,7 @@ def buid_project(develop=False):
     )
 
     if develop:
-        generator.start(monitorpaths=['data'])
+        generator.watch(monitorpaths=['data'])
     else:
         generator.build()
 
