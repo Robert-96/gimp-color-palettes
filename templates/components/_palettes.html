@@ -1,4 +1,4 @@
-<main class="static w-screen self-center py-4 mb-16">
+<main class="static w-full self-center py-4 mb-16">
   {% for palette in palettes %}
     <div class="palette mb-16">
       <div class="mb-10 md:mb-5 {{ x_paddings }}">
@@ -17,7 +17,7 @@
             {% endif %}
           </div>
 
-          <a href="./palettes/{{ palette.id }}.gpl" download class="flex justify-center px-5 py-3 sm:py-0 bg-green-500 text-white transition duration-500 ease-in-out transform hover:scale-105 focus:outline-none">
+          <a href="./palettes/{{ palette.id }}.gpl" download class="flex justify-center px-5 py-3 sm:py-0 bg-green-500 text-white transition duration-500 ease-in-out transform hover:scale-y-105 focus:outline-none">
             {{ icons.download(class='w-5 h-5 mr-1 self-center') }}
 
             <p class="self-center">Download</p>
