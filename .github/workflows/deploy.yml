@@ -1,9 +1,12 @@
-name: Pipeline
+name: Deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,3 +25,14 @@ jobs:
       - name: Test with pytest
         run: |
           pytest tests
+      - name: Build
+        run: |
+          python -m scripts build
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v2
+        if: ${{ success() }}
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
