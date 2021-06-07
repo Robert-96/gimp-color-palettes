@@ -1,0 +1,36 @@
+GIMP Palette
+Name: PICO-8
+Columns: 16
+# https://en.wikipedia.org/wiki/Pico-8#Capabilities
+  0    0    0  Black
+ 29   43   83  Dark Blue
+126   37   83  Dark Magenta
+  0  135   81  Dark Green
+171   82   54  Brown
+ 95   87   79  Dark Gray
+194  195  199  Light Gray
+255  241  232  White
+255    0   77  Red
+255  163    0  Yellow-Orange
+255  236   39  Yellow
+  0  228   54  Green
+ 41  173  255  Cyan
+131  118  156  Indigo
+255  119  168  Pink
+255  204  170  Peach
+ 41   24   20  Ultra Dark Brown
+ 17   29   53  Midnight Dark Blue
+ 66   33   54  Dark Maroon
+ 18   83   89  Ultra Dark Green
+116   47   41  Dark Brown
+ 73   51   59  Dark Purple
+162  136  121  Dark Saturated Tan
+243  239  125  Bright Yellow
+190   18   80  Dark Red
+255  108   36  Orange
+168  231   46  Green-Yellow
+  0  181   67  Dark Green
+  6   90  181  Blue
+117   70  101  Purple
+255  110   89  Red-Pink
+255  157  129  Red-Tan

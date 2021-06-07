@@ -1,0 +1,69 @@
+GIMP Palette
+Name: Nintendo Entertainment System
+Columns: 16
+# https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#NES
+ 72   72   72  Unknown
+  0    8   88  Unknown
+  0    8  120  Unknown
+  0    8  112  Unknown
+ 56    0   80  Unknown
+ 88    0   16  Unknown
+ 88    0    0  Unknown
+ 64    0    0  Unknown
+ 16    0    0  Unknown
+  0   24    0  Unknown
+  0   30    0  Unknown
+  0   35   10  Unknown
+  0   24   32  Unknown
+  0    0    0  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown
+160  160  160  Unknown
+  0   72  184  Unknown
+  8   48  224  Unknown
+ 88   24  216  Unknown
+160    8  168  Unknown
+208    0   88  Unknown
+208   16    0  Unknown
+160   32    0  Unknown
+ 96   64    0  Unknown
+  8   88    0  Unknown
+  0  104    0  Unknown
+  0  104   16  Unknown
+  0   96  112  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown
+248  248  248  Unknown
+ 32  160  248  Unknown
+ 80  120  248  Unknown
+152  104  248  Unknown
+248  104  248  Unknown
+248  112  176  Unknown
+248  112  104  Unknown
+248  128   24  Unknown
+192  152    0  Unknown
+112  176    0  Unknown
+ 40  192   32  Unknown
+  0  200  112  Unknown
+  0  192  208  Unknown
+ 40   40   40  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown
+248  248  248  Unknown
+160  216  248  Unknown
+176  192  248  Unknown
+208  176  248  Unknown
+248  192  248  Unknown
+248  192  224  Unknown
+248  192  192  Unknown
+248  200  160  Unknown
+232  216  136  Unknown
+200  224  144  Unknown
+168  232  160  Unknown
+144  232  200  Unknown
+144  224  232  Unknown
+168  168  168  Unknown
+  8    8    8  Unknown
+  8    8    8  Unknown

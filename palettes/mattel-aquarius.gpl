@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Mattel Aquarius
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#Mattel_Aquarius
+  0    0    0  Black
+195    0   27  Red
+  7  191    0  Green
+200  185    7  Yellow
+  0    6  183  Blue
+183    0  209  Magenta
+  0  198  164  Cyan
+255  255  255  White
+191  191  191  Gray
+ 64  166  149  Cyan 2
+131   39  144  Magenta 2
+  5   13  104  Blue 2
+185  177   86  Yellow 2
+ 59  151   46  Green 2
+126   25   42  Red 2
+  0    0    0  Black

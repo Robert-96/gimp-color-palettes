@@ -1,0 +1,12 @@
+GIMP Palette
+Name: Game Boy
+Columns: 4
+# https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#Game_Boy
+ 15   56   15  Unknown
+ 48   98   48  Unknown
+139  172   15  Unknown
+155  188   15  Unknown
+  0    0    0  Unknown
+ 85   85   85  Unknown
+170  170  170  Unknown
+255  255  255  Unknown

@@ -1,0 +1,18 @@
+GIMP Palette
+Name: Semantic UI
+Columns: 9
+# https://semantic-ui.com/usage/theming.html#sitewide-defaults
+176   48   96  Red
+254  154  118  Orange
+255  215    0  Yellow
+ 50  205   50  Olive
+  1  105   54  Green
+  0  128  128  Teal
+ 14  110  184  Blue
+238  130  238  Violet
+180   19  236  Purple
+255   20  147  Pink
+165   42   42  Brown
+160  160  160  Grey
+  0    0    0  Black
+255  255  255  White

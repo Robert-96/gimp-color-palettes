@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Commodore VIC-20
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#VIC-20
+  0    0    0  Black
+255  255  255  White
+141   62   55  Red
+114  193  200  Cyan
+128   52  139  Purple
+ 85  160   73  Green
+ 64   49  141  Blue
+170  185   93  Yellow
+139   84   41  Orange
+213  159  116  Light Orange
+184  105   98  Light Red
+135  214  221  Light Cyan
+170   95  182  Light Purple
+148  224  137  Light Green
+128  113  204  Light Blue
+255  255  178  Light Yellow

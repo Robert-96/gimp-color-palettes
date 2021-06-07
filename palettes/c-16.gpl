@@ -1,0 +1,125 @@
+GIMP Palette
+Name: Commodore 16
+Columns: 8
+# https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_graphics#C-16_and_Plus/4
+ 32   32   32  White 0
+ 64   64   64  White 1
+ 96   96   96  White 2
+128  128  128  White 3
+159  159  159  White 4
+191  191  191  White 5
+223  223  223  White 6
+255  255  255  White 7
+ 88    9    2  Red 0
+120   41   34  Red 1
+152   73   66  Red 2
+184  105   98  Red 3
+216  136  130  Red 4
+247  168  162  Red 5
+255  200  194  Red 6
+255  232  226  Red 7
+  0   55   61  Cyan 0
+  8   87   93  Cyan 1
+ 39  119  125  Cyan 2
+ 71  150  157  Cyan 3
+103  182  189  Cyan 4
+135  214  221  Cyan 5
+167  246  253  Cyan 6
+199  255  255  Cyan 7
+ 75    0   86  Purple 0
+107   31  118  Purple 1
+139   63  150  Purple 2
+170   95  182  Purple 3
+202  127  214  Purple 4
+234  159  246  Purple 5
+255  191  255  Purple 6
+255  223  255  Purple 7
+  0   64    0  Green 0
+ 21   96    9  Green 1
+ 53  128   41  Green 2
+ 85  160   73  Green 3
+116  192  105  Green 4
+148  224  137  Green 5
+180  255  169  Green 6
+212  255  201  Green 7
+ 32   17  109  Blue 0
+ 64   49  141  Blue 1
+ 96   81  172  Blue 2
+128  113  204  Blue 3
+159  144  236  Blue 4
+191  176  255  Blue 5
+223  208  255  Blue 6
+255  240  255  Blue 7
+ 32   47    0  Yellow 0
+ 64   79    0  Yellow 1
+ 96  111   19  Yellow 2
+128  142   51  Yellow 3
+159  174   83  Yellow 4
+191  206  114  Yellow 5
+223  238  146  Yellow 6
+255  255  178  Yellow 7
+ 75   21    0  Orange 0
+107   52    9  Orange 1
+139   84   41  Orange 2
+170  116   73  Orange 3
+202  148  105  Orange 4
+234  180  137  Orange 5
+255  212  169  Orange 6
+255  244  201  Orange 7
+ 55   34    0  Brown 0
+ 87   66    0  Brown 1
+119   98   25  Brown 2
+151  129   57  Brown 3
+183  161   88  Brown 4
+215  193  120  Brown 5
+246  225  152  Brown 6
+255  255  184  Brown 7
+  9   58    0  Yellow-Green 0
+ 40   89    0  Yellow-Green 1
+ 72  121   25  Yellow-Green 2
+104  153   57  Yellow-Green 3
+136  185   88  Yellow-Green 4
+168  217  120  Yellow-Green 5
+200  249  152  Yellow-Green 6
+232  255  184  Yellow-Green 7
+ 93    1   32  Pink 0
+125   33   64  Pink 1
+156   65   96  Pink 2
+188   97  128  Pink 3
+220  128  159  Pink 4
+252  160  191  Pink 5
+255  192  223  Pink 6
+255  224  255  Pink 7
+  0   63   32  Blue-Green 0
+  3   95   64  Blue-Green 1
+ 35  127   96  Blue-Green 2
+ 67  158  128  Blue-Green 3
+ 99  190  159  Blue-Green 4
+130  222  191  Blue-Green 5
+162  254  223  Blue-Green 6
+194  255  255  Blue-Green 7
+  0   43   86  Light Blue 0
+ 21   75  118  Light Blue 1
+ 53  107  150  Light Blue 2
+ 85  139  182  Light Blue 3
+116  171  214  Light Blue 4
+148  203  246  Light Blue 5
+180  234  255  Light Blue 6
+212  255  255  Light Blue 7
+ 55    6  103  Dark Blue 0
+ 87   38  135  Dark Blue 1
+119   70  167  Dark Blue 2
+151  102  198  Dark Blue 3
+183  134  230  Dark Blue 4
+215  166  255  Dark Blue 5
+246  197  255  Dark Blue 6
+255  229  255  Dark Blue 7
+  0   66    2  Light Green 0
+  8   98   34  Light Green 1
+ 39  130   66  Light Green 2
+ 71  162   98  Light Green 3
+103  194  130  Light Green 4
+135  226  162  Light Green 5
+167  255  194  Light Green 6
+199  255  226  Light Green 7
+  0    0    0  Black
