@@ -1,7 +1,7 @@
 GIMP Palette
-Name: Tailwind CSS
+Name: Tailwind CSS v1
 Columns: 9
-# https://tailwindcss.com/docs/customizing-colors#default-color-palette
+# https://v1.tailwindcss.com/docs/customizing-colors#default-color-palette
 247  250  252  Gray 100
 237  242  247  Gray 200
 226  232  240  Gray 300

@@ -1,0 +1,226 @@
+GIMP Palette
+Name: Tailwind CSS v2
+Columns: 10
+# https://tailwindcss.com/docs/customizing-colors#color-palette-reference
+249  250  251  Blue Gray 50
+243  244  246  Blue Gray 100
+229  231  235  Blue Gray 200
+209  213  219  Blue Gray 300
+156  163  175  Blue Gray 400
+107  114  128  Blue Gray 500
+ 75   85   99  Blue Gray 600
+ 55   65   81  Blue Gray 700
+ 31   41   55  Blue Gray 800
+ 17   24   39  Blue Gray 900
+249  250  251  Cool Gray 50
+243  244  246  Cool Gray 100
+229  231  235  Cool Gray 200
+209  213  219  Cool Gray 300
+156  163  175  Cool Gray 400
+107  114  128  Cool Gray 500
+ 75   85   99  Cool Gray 600
+ 55   65   81  Cool Gray 700
+ 31   41   55  Cool Gray 800
+ 17   24   39  Cool Gray 900
+250  250  250  Gray 50
+244  244  245  Gray 100
+228  228  231  Gray 200
+212  212  216  Gray 300
+161  161  170  Gray 400
+113  113  122  Gray 500
+ 82   82   91  Gray 600
+ 63   63   70  Gray 700
+ 39   39   42  Gray 800
+ 24   24   27  Gray 900
+250  250  250  True Gray 50
+245  245  245  True Gray 100
+229  229  229  True Gray 200
+212  212  212  True Gray 300
+163  163  163  True Gray 400
+115  115  115  True Gray 500
+ 82   82   82  True Gray 600
+ 64   64   64  True Gray 700
+ 38   38   38  True Gray 800
+ 23   23   23  True Gray 900
+250  250  249  Warm Gray 50
+245  245  244  Warm Gray 100
+231  229  228  Warm Gray 200
+214  211  209  Warm Gray 300
+168  162  158  Warm Gray 400
+120  113  108  Warm Gray 500
+ 87   83   78  Warm Gray 600
+ 68   64   60  Warm Gray 700
+ 41   37   36  Warm Gray 800
+ 28   25   23  Warm Gray 900
+254  242  242  Red 50
+254  226  226  Red 100
+254  202  202  Red 200
+252  165  165  Red 300
+248  113  113  Red 400
+239   68   68  Red 500
+220   38   38  Red 600
+185   28   28  Red 700
+153   27   27  Red 800
+127   29   29  Red 900
+255  247  237  Orange 50
+255  237  213  Orange 100
+254  215  170  Orange 200
+253  186  116  Orange 300
+251  146   60  Orange 400
+249  115   22  Orange 500
+234   88   12  Orange 600
+194   65   12  Orange 700
+154   52   18  Orange 800
+124   45   18  Orange 900
+255  251  235  Amber 50
+254  243  199  Amber 100
+253  230  138  Amber 200
+252  211   77  Amber 300
+251  191   36  Amber 400
+245  158   11  Amber 500
+217  119    6  Amber 600
+180   83    9  Amber 700
+146   64   14  Amber 800
+120   53   15  Amber 900
+254  252  232  Yellow 50
+254  249  195  Yellow 100
+254  240  138  Yellow 200
+253  224   71  Yellow 300
+250  204   21  Yellow 400
+234  179    8  Yellow 500
+202  138    4  Yellow 600
+161   98    7  Yellow 700
+133   77   14  Yellow 800
+113   63   18  Yellow 900
+247  254  231  Lime 50
+236  252  203  Lime 100
+217  249  157  Lime 200
+190  242  100  Lime 300
+163  230   53  Lime 400
+132  204   22  Lime 500
+101  163   13  Lime 600
+ 77  124   15  Lime 700
+ 63   98   18  Lime 800
+ 54   83   20  Lime 900
+240  253  244  Green 50
+220  252  231  Green 100
+187  247  208  Green 200
+134  239  172  Green 300
+ 74  222  128  Green 400
+ 34  197   94  Green 500
+ 22  163   74  Green 600
+ 21  128   61  Green 700
+ 22  101   52  Green 800
+ 20   83   45  Green 900
+236  253  245  Emerald 50
+209  250  229  Emerald 100
+167  243  208  Emerald 200
+110  231  183  Emerald 300
+ 52  211  153  Emerald 400
+ 16  185  129  Emerald 500
+  5  150  105  Emerald 600
+  4  120   87  Emerald 700
+  6   95   70  Emerald 800
+  6   78   59  Emerald 900
+240  253  250  Teal 50
+204  251  241  Teal 100
+153  246  228  Teal 200
+ 94  234  212  Teal 300
+ 45  212  191  Teal 400
+ 20  184  166  Teal 500
+ 13  148  136  Teal 600
+ 15  118  110  Teal 700
+ 17   94   89  Teal 800
+ 19   78   74  Teal 900
+236  254  255  Cyan 50
+207  250  254  Cyan 100
+165  243  252  Cyan 200
+103  232  249  Cyan 300
+ 34  211  238  Cyan 400
+  6  182  212  Cyan 500
+  8  145  178  Cyan 600
+ 14  116  144  Cyan 700
+ 21   94  117  Cyan 800
+ 22   78   99  Cyan 900
+240  249  255  Light Blue 50
+224  242  254  Light Blue 100
+186  230  253  Light Blue 200
+125  211  252  Light Blue 300
+ 56  189  248  Light Blue 400
+ 14  165  233  Light Blue 500
+  2  132  199  Light Blue 600
+  3  105  161  Light Blue 700
+  7   89  133  Light Blue 800
+ 12   74  110  Light Blue 900
+239  246  255  Blue 50
+219  234  254  Blue 100
+191  219  254  Blue 200
+147  197  253  Blue 300
+ 96  165  250  Blue 400
+ 59  130  246  Blue 500
+ 37   99  235  Blue 600
+ 29   78  216  Blue 700
+ 30   64  175  Blue 800
+ 30   58  138  Blue 900
+238  242  255  Indigo 50
+224  231  255  Indigo 100
+199  210  254  Indigo 200
+165  180  252  Indigo 300
+129  140  248  Indigo 400
+ 99  102  241  Indigo 500
+ 79   70  229  Indigo 600
+ 67   56  202  Indigo 700
+ 55   48  163  Indigo 800
+ 49   46  129  Indigo 900
+245  243  255  Violet 50
+237  233  254  Violet 100
+221  214  254  Violet 200
+196  181  253  Violet 300
+167  139  250  Violet 400
+139   92  246  Violet 500
+124   58  237  Violet 600
+109   40  217  Violet 700
+ 91   33  182  Violet 800
+ 76   29  149  Violet 900
+250  245  255  Purple 50
+243  232  255  Purple 100
+233  213  255  Purple 200
+216  180  254  Purple 300
+192  132  252  Purple 400
+168   85  247  Purple 500
+147   51  234  Purple 600
+126   34  206  Purple 700
+107   33  168  Purple 800
+ 88   28  135  Purple 900
+253  244  255  Fuchsia 50
+250  232  255  Fuchsia 100
+245  208  254  Fuchsia 200
+240  171  252  Fuchsia 300
+232  121  249  Fuchsia 400
+217   70  239  Fuchsia 500
+192   38  211  Fuchsia 600
+162   28  175  Fuchsia 700
+134   25  143  Fuchsia 800
+112   26  117  Fuchsia 900
+253  242  248  Pink 50
+252  231  243  Pink 100
+251  207  232  Pink 200
+249  168  212  Pink 300
+244  114  182  Pink 400
+236   72  153  Pink 500
+219   39  119  Pink 600
+190   24   93  Pink 700
+157   23   77  Pink 800
+131   24   67  Pink 900
+255  241  242  Rose 50
+255  228  230  Rose 100
+254  205  211  Rose 200
+253  164  175  Rose 300
+251  113  133  Rose 400
+244   63   94  Rose 500
+225   29   72  Rose 600
+190   18   60  Rose 700
+159   18   57  Rose 800
+136   19   55  Rose 900
+  0    0    0  Black
+255  255  255  White

@@ -1,0 +1,896 @@
+{
+    "id": "tailwind-css-v2",
+    "name": "Tailwind CSS v2",
+    "columns": 10,
+    "url": "https://tailwindcss.com/docs/customizing-colors#color-palette-reference",
+    "colors": [
+        {
+            "name": "Blue Gray 50",
+            "hex": "#F9FAFB"
+        },
+        {
+            "name": "Blue Gray 100",
+            "hex": "#F3F4F6"
+        },
+        {
+            "name": "Blue Gray 200",
+            "hex": "#E5E7EB"
+        },
+        {
+            "name": "Blue Gray 300",
+            "hex": "#D1D5DB"
+        },
+        {
+            "name": "Blue Gray 400",
+            "hex": "#9CA3AF"
+        },
+        {
+            "name": "Blue Gray 500",
+            "hex": "#6B7280"
+        },
+        {
+            "name": "Blue Gray 600",
+            "hex": "#4B5563"
+        },
+        {
+            "name": "Blue Gray 700",
+            "hex": "#374151"
+        },
+        {
+            "name": "Blue Gray 800",
+            "hex": "#1F2937"
+        },
+        {
+            "name": "Blue Gray 900",
+            "hex": "#111827"
+        },
+        {
+            "name": "Cool Gray 50",
+            "hex": "#F9FAFB"
+        },
+        {
+            "name": "Cool Gray 100",
+            "hex": "#F3F4F6"
+        },
+        {
+            "name": "Cool Gray 200",
+            "hex": "#E5E7EB"
+        },
+        {
+            "name": "Cool Gray 300",
+            "hex": "#D1D5DB"
+        },
+        {
+            "name": "Cool Gray 400",
+            "hex": "#9CA3AF"
+        },
+        {
+            "name": "Cool Gray 500",
+            "hex": "#6B7280"
+        },
+        {
+            "name": "Cool Gray 600",
+            "hex": "#4B5563"
+        },
+        {
+            "name": "Cool Gray 700",
+            "hex": "#374151"
+        },
+        {
+            "name": "Cool Gray 800",
+            "hex": "#1F2937"
+        },
+        {
+            "name": "Cool Gray 900",
+            "hex": "#111827"
+        },
+        {
+            "name": "Gray 50",
+            "hex": "#FAFAFA"
+        },
+        {
+            "name": "Gray 100",
+            "hex": "#F4F4F5"
+        },
+        {
+            "name": "Gray 200",
+            "hex": "#E4E4E7"
+        },
+        {
+            "name": "Gray 300",
+            "hex": "#D4D4D8"
+        },
+        {
+            "name": "Gray 400",
+            "hex": "#A1A1AA"
+        },
+        {
+            "name": "Gray 500",
+            "hex": "#71717A"
+        },
+        {
+            "name": "Gray 600",
+            "hex": "#52525B"
+        },
+        {
+            "name": "Gray 700",
+            "hex": "#3F3F46"
+        },
+        {
+            "name": "Gray 800",
+            "hex": "#27272A"
+        },
+        {
+            "name": "Gray 900",
+            "hex": "#18181B"
+        },
+        {
+            "name": "True Gray 50",
+            "hex": "#FAFAFA"
+        },
+        {
+            "name": "True Gray 100",
+            "hex": "#F5F5F5"
+        },
+        {
+            "name": "True Gray 200",
+            "hex": "#E5E5E5"
+        },
+        {
+            "name": "True Gray 300",
+            "hex": "#D4D4D4"
+        },
+        {
+            "name": "True Gray 400",
+            "hex": "#A3A3A3"
+        },
+        {
+            "name": "True Gray 500",
+            "hex": "#737373"
+        },
+        {
+            "name": "True Gray 600",
+            "hex": "#525252"
+        },
+        {
+            "name": "True Gray 700",
+            "hex": "#404040"
+        },
+        {
+            "name": "True Gray 800",
+            "hex": "#262626"
+        },
+        {
+            "name": "True Gray 900",
+            "hex": "#171717"
+        },
+        {
+            "name": "Warm Gray 50",
+            "hex": "#FAFAF9"
+        },
+        {
+            "name": "Warm Gray 100",
+            "hex": "#F5F5F4"
+        },
+        {
+            "name": "Warm Gray 200",
+            "hex": "#E7E5E4"
+        },
+        {
+            "name": "Warm Gray 300",
+            "hex": "#D6D3D1"
+        },
+        {
+            "name": "Warm Gray 400",
+            "hex": "#A8A29E"
+        },
+        {
+            "name": "Warm Gray 500",
+            "hex": "#78716C"
+        },
+        {
+            "name": "Warm Gray 600",
+            "hex": "#57534E"
+        },
+        {
+            "name": "Warm Gray 700",
+            "hex": "#44403C"
+        },
+        {
+            "name": "Warm Gray 800",
+            "hex": "#292524"
+        },
+        {
+            "name": "Warm Gray 900",
+            "hex": "#1C1917"
+        },
+        {
+            "name": "Red 50",
+            "hex": "#FEF2F2"
+        },
+        {
+            "name": "Red 100",
+            "hex": "#FEE2E2"
+        },
+        {
+            "name": "Red 200",
+            "hex": "#FECACA"
+        },
+        {
+            "name": "Red 300",
+            "hex": "#FCA5A5"
+        },
+        {
+            "name": "Red 400",
+            "hex": "#F87171"
+        },
+        {
+            "name": "Red 500",
+            "hex": "#EF4444"
+        },
+        {
+            "name": "Red 600",
+            "hex": "#DC2626"
+        },
+        {
+            "name": "Red 700",
+            "hex": "#B91C1C"
+        },
+        {
+            "name": "Red 800",
+            "hex": "#991B1B"
+        },
+        {
+            "name": "Red 900",
+            "hex": "#7F1D1D"
+        },
+        {
+            "name": "Orange 50",
+            "hex": "#FFF7ED"
+        },
+        {
+            "name": "Orange 100",
+            "hex": "#FFEDD5"
+        },
+        {
+            "name": "Orange 200",
+            "hex": "#FED7AA"
+        },
+        {
+            "name": "Orange 300",
+            "hex": "#FDBA74"
+        },
+        {
+            "name": "Orange 400",
+            "hex": "#FB923C"
+        },
+        {
+            "name": "Orange 500",
+            "hex": "#F97316"
+        },
+        {
+            "name": "Orange 600",
+            "hex": "#EA580C"
+        },
+        {
+            "name": "Orange 700",
+            "hex": "#C2410C"
+        },
+        {
+            "name": "Orange 800",
+            "hex": "#9A3412"
+        },
+        {
+            "name": "Orange 900",
+            "hex": "#7C2D12"
+        },
+        {
+            "name": "Amber 50",
+            "hex": "#FFFBEB"
+        },
+        {
+            "name": "Amber 100",
+            "hex": "#FEF3C7"
+        },
+        {
+            "name": "Amber 200",
+            "hex": "#FDE68A"
+        },
+        {
+            "name": "Amber 300",
+            "hex": "#FCD34D"
+        },
+        {
+            "name": "Amber 400",
+            "hex": "#FBBF24"
+        },
+        {
+            "name": "Amber 500",
+            "hex": "#F59E0B"
+        },
+        {
+            "name": "Amber 600",
+            "hex": "#D97706"
+        },
+        {
+            "name": "Amber 700",
+            "hex": "#B45309"
+        },
+        {
+            "name": "Amber 800",
+            "hex": "#92400E"
+        },
+        {
+            "name": "Amber 900",
+            "hex": "#78350F"
+        },
+        {
+            "name": "Yellow 50",
+            "hex": "#FEFCE8"
+        },
+        {
+            "name": "Yellow 100",
+            "hex": "#FEF9C3"
+        },
+        {
+            "name": "Yellow 200",
+            "hex": "#FEF08A"
+        },
+        {
+            "name": "Yellow 300",
+            "hex": "#FDE047"
+        },
+        {
+            "name": "Yellow 400",
+            "hex": "#FACC15"
+        },
+        {
+            "name": "Yellow 500",
+            "hex": "#EAB308"
+        },
+        {
+            "name": "Yellow 600",
+            "hex": "#CA8A04"
+        },
+        {
+            "name": "Yellow 700",
+            "hex": "#A16207"
+        },
+        {
+            "name": "Yellow 800",
+            "hex": "#854D0E"
+        },
+        {
+            "name": "Yellow 900",
+            "hex": "#713F12"
+        },
+        {
+            "name": "Lime 50",
+            "hex": "#F7FEE7"
+        },
+        {
+            "name": "Lime 100",
+            "hex": "#ECFCCB"
+        },
+        {
+            "name": "Lime 200",
+            "hex": "#D9F99D"
+        },
+        {
+            "name": "Lime 300",
+            "hex": "#BEF264"
+        },
+        {
+            "name": "Lime 400",
+            "hex": "#A3E635"
+        },
+        {
+            "name": "Lime 500",
+            "hex": "#84CC16"
+        },
+        {
+            "name": "Lime 600",
+            "hex": "#65A30D"
+        },
+        {
+            "name": "Lime 700",
+            "hex": "#4D7C0F"
+        },
+        {
+            "name": "Lime 800",
+            "hex": "#3F6212"
+        },
+        {
+            "name": "Lime 900",
+            "hex": "#365314"
+        },
+        {
+            "name": "Green 50",
+            "hex": "#F0FDF4"
+        },
+        {
+            "name": "Green 100",
+            "hex": "#DCFCE7"
+        },
+        {
+            "name": "Green 200",
+            "hex": "#BBF7D0"
+        },
+        {
+            "name": "Green 300",
+            "hex": "#86EFAC"
+        },
+        {
+            "name": "Green 400",
+            "hex": "#4ADE80"
+        },
+        {
+            "name": "Green 500",
+            "hex": "#22C55E"
+        },
+        {
+            "name": "Green 600",
+            "hex": "#16A34A"
+        },
+        {
+            "name": "Green 700",
+            "hex": "#15803D"
+        },
+        {
+            "name": "Green 800",
+            "hex": "#166534"
+        },
+        {
+            "name": "Green 900",
+            "hex": "#14532D"
+        },
+        {
+            "name": "Emerald 50",
+            "hex": "#ECFDF5"
+        },
+        {
+            "name": "Emerald 100",
+            "hex": "#D1FAE5"
+        },
+        {
+            "name": "Emerald 200",
+            "hex": "#A7F3D0"
+        },
+        {
+            "name": "Emerald 300",
+            "hex": "#6EE7B7"
+        },
+        {
+            "name": "Emerald 400",
+            "hex": "#34D399"
+        },
+        {
+            "name": "Emerald 500",
+            "hex": "#10B981"
+        },
+        {
+            "name": "Emerald 600",
+            "hex": "#059669"
+        },
+        {
+            "name": "Emerald 700",
+            "hex": "#047857"
+        },
+        {
+            "name": "Emerald 800",
+            "hex": "#065F46"
+        },
+        {
+            "name": "Emerald 900",
+            "hex": "#064E3B"
+        },
+        {
+            "name": "Teal 50",
+            "hex": "#F0FDFA"
+        },
+        {
+            "name": "Teal 100",
+            "hex": "#CCFBF1"
+        },
+        {
+            "name": "Teal 200",
+            "hex": "#99F6E4"
+        },
+        {
+            "name": "Teal 300",
+            "hex": "#5EEAD4"
+        },
+        {
+            "name": "Teal 400",
+            "hex": "#2DD4BF"
+        },
+        {
+            "name": "Teal 500",
+            "hex": "#14B8A6"
+        },
+        {
+            "name": "Teal 600",
+            "hex": "#0D9488"
+        },
+        {
+            "name": "Teal 700",
+            "hex": "#0F766E"
+        },
+        {
+            "name": "Teal 800",
+            "hex": "#115E59"
+        },
+        {
+            "name": "Teal 900",
+            "hex": "#134E4A"
+        },
+        {
+            "name": "Cyan 50",
+            "hex": "#ECFEFF"
+        },
+        {
+            "name": "Cyan 100",
+            "hex": "#CFFAFE"
+        },
+        {
+            "name": "Cyan 200",
+            "hex": "#A5F3FC"
+        },
+        {
+            "name": "Cyan 300",
+            "hex": "#67E8F9"
+        },
+        {
+            "name": "Cyan 400",
+            "hex": "#22D3EE"
+        },
+        {
+            "name": "Cyan 500",
+            "hex": "#06B6D4"
+        },
+        {
+            "name": "Cyan 600",
+            "hex": "#0891B2"
+        },
+        {
+            "name": "Cyan 700",
+            "hex": "#0E7490"
+        },
+        {
+            "name": "Cyan 800",
+            "hex": "#155E75"
+        },
+        {
+            "name": "Cyan 900",
+            "hex": "#164E63"
+        },
+        {
+            "name": "Light Blue 50",
+            "hex": "#F0F9FF"
+        },
+        {
+            "name": "Light Blue 100",
+            "hex": "#E0F2FE"
+        },
+        {
+            "name": "Light Blue 200",
+            "hex": "#BAE6FD"
+        },
+        {
+            "name": "Light Blue 300",
+            "hex": "#7DD3FC"
+        },
+        {
+            "name": "Light Blue 400",
+            "hex": "#38BDF8"
+        },
+        {
+            "name": "Light Blue 500",
+            "hex": "#0EA5E9"
+        },
+        {
+            "name": "Light Blue 600",
+            "hex": "#0284C7"
+        },
+        {
+            "name": "Light Blue 700",
+            "hex": "#0369A1"
+        },
+        {
+            "name": "Light Blue 800",
+            "hex": "#075985"
+        },
+        {
+            "name": "Light Blue 900",
+            "hex": "#0C4A6E"
+        },
+        {
+            "name": "Blue 50",
+            "hex": "#EFF6FF"
+        },
+        {
+            "name": "Blue 100",
+            "hex": "#DBEAFE"
+        },
+        {
+            "name": "Blue 200",
+            "hex": "#BFDBFE"
+        },
+        {
+            "name": "Blue 300",
+            "hex": "#93C5FD"
+        },
+        {
+            "name": "Blue 400",
+            "hex": "#60A5FA"
+        },
+        {
+            "name": "Blue 500",
+            "hex": "#3B82F6"
+        },
+        {
+            "name": "Blue 600",
+            "hex": "#2563EB"
+        },
+        {
+            "name": "Blue 700",
+            "hex": "#1D4ED8"
+        },
+        {
+            "name": "Blue 800",
+            "hex": "#1E40AF"
+        },
+        {
+            "name": "Blue 900",
+            "hex": "#1E3A8A"
+        },
+        {
+            "name": "Indigo 50",
+            "hex": "#EEF2FF"
+        },
+        {
+            "name": "Indigo 100",
+            "hex": "#E0E7FF"
+        },
+        {
+            "name": "Indigo 200",
+            "hex": "#C7D2FE"
+        },
+        {
+            "name": "Indigo 300",
+            "hex": "#A5B4FC"
+        },
+        {
+            "name": "Indigo 400",
+            "hex": "#818CF8"
+        },
+        {
+            "name": "Indigo 500",
+            "hex": "#6366F1"
+        },
+        {
+            "name": "Indigo 600",
+            "hex": "#4F46E5"
+        },
+        {
+            "name": "Indigo 700",
+            "hex": "#4338CA"
+        },
+        {
+            "name": "Indigo 800",
+            "hex": "#3730A3"
+        },
+        {
+            "name": "Indigo 900",
+            "hex": "#312E81"
+        },
+        {
+            "name": "Violet 50",
+            "hex": "#F5F3FF"
+        },
+        {
+            "name": "Violet 100",
+            "hex": "#EDE9FE"
+        },
+        {
+            "name": "Violet 200",
+            "hex": "#DDD6FE"
+        },
+        {
+            "name": "Violet 300",
+            "hex": "#C4B5FD"
+        },
+        {
+            "name": "Violet 400",
+            "hex": "#A78BFA"
+        },
+        {
+            "name": "Violet 500",
+            "hex": "#8B5CF6"
+        },
+        {
+            "name": "Violet 600",
+            "hex": "#7C3AED"
+        },
+        {
+            "name": "Violet 700",
+            "hex": "#6D28D9"
+        },
+        {
+            "name": "Violet 800",
+            "hex": "#5B21B6"
+        },
+        {
+            "name": "Violet 900",
+            "hex": "#4C1D95"
+        },
+        {
+            "name": "Purple 50",
+            "hex": "#FAF5FF"
+        },
+        {
+            "name": "Purple 100",
+            "hex": "#F3E8FF"
+        },
+        {
+            "name": "Purple 200",
+            "hex": "#E9D5FF"
+        },
+        {
+            "name": "Purple 300",
+            "hex": "#D8B4FE"
+        },
+        {
+            "name": "Purple 400",
+            "hex": "#C084FC"
+        },
+        {
+            "name": "Purple 500",
+            "hex": "#A855F7"
+        },
+        {
+            "name": "Purple 600",
+            "hex": "#9333EA"
+        },
+        {
+            "name": "Purple 700",
+            "hex": "#7E22CE"
+        },
+        {
+            "name": "Purple 800",
+            "hex": "#6B21A8"
+        },
+        {
+            "name": "Purple 900",
+            "hex": "#581C87"
+        },
+        {
+            "name": "Fuchsia 50",
+            "hex": "#FDF4FF"
+        },
+        {
+            "name": "Fuchsia 100",
+            "hex": "#FAE8FF"
+        },
+        {
+            "name": "Fuchsia 200",
+            "hex": "#F5D0FE"
+        },
+        {
+            "name": "Fuchsia 300",
+            "hex": "#F0ABFC"
+        },
+        {
+            "name": "Fuchsia 400",
+            "hex": "#E879F9"
+        },
+        {
+            "name": "Fuchsia 500",
+            "hex": "#D946EF"
+        },
+        {
+            "name": "Fuchsia 600",
+            "hex": "#C026D3"
+        },
+        {
+            "name": "Fuchsia 700",
+            "hex": "#A21CAF"
+        },
+        {
+            "name": "Fuchsia 800",
+            "hex": "#86198F"
+        },
+        {
+            "name": "Fuchsia 900",
+            "hex": "#701A75"
+        },
+        {
+            "name": "Pink 50",
+            "hex": "#FDF2F8"
+        },
+        {
+            "name": "Pink 100",
+            "hex": "#FCE7F3"
+        },
+        {
+            "name": "Pink 200",
+            "hex": "#FBCFE8"
+        },
+        {
+            "name": "Pink 300",
+            "hex": "#F9A8D4"
+        },
+        {
+            "name": "Pink 400",
+            "hex": "#F472B6"
+        },
+        {
+            "name": "Pink 500",
+            "hex": "#EC4899"
+        },
+        {
+            "name": "Pink 600",
+            "hex": "#DB2777"
+        },
+        {
+            "name": "Pink 700",
+            "hex": "#BE185D"
+        },
+        {
+            "name": "Pink 800",
+            "hex": "#9D174D"
+        },
+        {
+            "name": "Pink 900",
+            "hex": "#831843"
+        },
+        {
+            "name": "Rose 50",
+            "hex": "#FFF1F2"
+        },
+        {
+            "name": "Rose 100",
+            "hex": "#FFE4E6"
+        },
+        {
+            "name": "Rose 200",
+            "hex": "#FECDD3"
+        },
+        {
+            "name": "Rose 300",
+            "hex": "#FDA4AF"
+        },
+        {
+            "name": "Rose 400",
+            "hex": "#FB7185"
+        },
+        {
+            "name": "Rose 500",
+            "hex": "#F43F5E"
+        },
+        {
+            "name": "Rose 600",
+            "hex": "#E11D48"
+        },
+        {
+            "name": "Rose 700",
+            "hex": "#BE123C"
+        },
+        {
+            "name": "Rose 800",
+            "hex": "#9F1239"
+        },
+        {
+            "name": "Rose 900",
+            "hex": "#881337"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "id": "tailwind-css",
-    "name": "Tailwind CSS",
+    "id": "tailwind-css-v1",
+    "name": "Tailwind CSS v1",
     "columns": 9,
-    "url": "https://tailwindcss.com/docs/customizing-colors#default-color-palette",
+    "url": "https://v1.tailwindcss.com/docs/customizing-colors#default-color-palette",
     "colors": [
         {
             "name": "Gray 100",
