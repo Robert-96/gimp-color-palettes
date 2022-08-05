@@ -8,13 +8,13 @@ You can preview and download all these palettes [directly in the browser](https:
 
 ## Table of Contents
 
-* [Format](#format)
-* [Adding the palettes](#adding-the-palettes)
+* [GIMP's Palettes Format](#gimps-palettes-format)
+* [Importing the palettes](#importing-the-palettes)
   * [GIMP](#gimp)
   * [Inkscape](#inkscape)
 * [License](#license)
 
-## Format
+## GIMP's Palettes Format
 
 GIMP palettes are stored using a special file format, in files with the extension `.gpl`.
 
@@ -51,7 +51,7 @@ Columns: 2
 
 > **Note**: The RGB values don't need to line up.
 
-## Adding the palettes
+## Importing the palettes
 
 ### GIMP
 
