@@ -14,7 +14,7 @@ You can preview and download all these palettes [directly in the browser](https:
   * [Inkscape](#inkscape)
 * [License](#license)
 
-## GIMP's Palettes Format
+## GIMP's palettes format
 
 GIMP palettes are stored using a special file format, in files with the extension `.gpl`.
 
