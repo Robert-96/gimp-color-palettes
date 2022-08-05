@@ -1,6 +1,6 @@
 # gimp-color-palettes
 
-A collection of color palettes for [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) (but also [Aseprite](https://www.aseprite.org/), [Drawpile](https://drawpile.net/), [Krita](https://krita.org/) and [MyPaint](http://mypaint.org/)).
+A collection of RGB color palettes for [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) (but also [Aseprite](https://www.aseprite.org/), [Drawpile](https://drawpile.net/), [Krita](https://krita.org/) and [MyPaint](http://mypaint.org/)).
 
 You can preview and download all these palettes [directly in the browser](https://robert-96.github.io/gimp-color-palettes/).
 
@@ -18,6 +18,8 @@ You can preview and download all these palettes [directly in the browser](https:
 
 GIMP palettes are stored using a special file format, in files with the extension `.gpl`.
 
+Every palette must have the following structure:
+
 ```
 GIMP Palette
 Name: <name>
@@ -29,9 +31,11 @@ Columns: <number>
 
 * `GIMP Palette` - it must be the first line of the file.
 * `Name: <name>` - sets the name of the color palette.
-* `Columns: <number>` - is just an indication for display.
-* `# <comment>` - comments must start with a `#`.
+* `Columns: <number>` - is just an indication for displaying the palette inside GIMP.
+* `# <comment>` - comments must start with a `#`. All comments are ignored by GIMP.
 * `  0    0    0  Black` - RGB values for the color followed by the color name.
+
+Here is an simple example:
 
 ```
 GIMP Palette
@@ -44,6 +48,8 @@ Columns: 2
   0  255    0  Green
   0    0  255  Blue
 ```
+
+> **Note**: The RGB values don't need to line up.
 
 ## Adding the palettes
 
