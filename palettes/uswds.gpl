@@ -1,0 +1,55 @@
+GIMP Palette
+Name: U.S. Web Design System
+Columns: 7
+# https://designsystem.digital.gov/utilities/color/
+240  240  240  Base Lightest
+223  225  226  Base Lighter
+169  174  177  Base Light
+113  118  122  Base
+ 86   92  101  Base Dark
+ 61   69   81  Base Darker
+ 27   27   27  Base Darkest
+ 27   27   27  Ink
+217  232  246  Primary Lighter
+115  179  231  Primary Light
+  0   94  162  Primary
+  0   80  216  Primary Vivid
+ 26   68  128  Primary Dark
+ 22   46   81  Primary Darker
+248  223  226  Secondary Lighter
+242  147  140  Secondary Light
+216   57   51  Secondary
+228   29   61  Secondary Vivid
+181    9    9  Secondary Dark
+139   10    3  Secondary Darker
+225  243  248  Accent Cool Lighter
+151  212  234  Accent Cool Light
+  0  189  227  Accent Cool
+ 40  160  203  Accent Cool Dark
+  7  100  141  Accent Cool Darker
+242  228  212  Accent Warm Light
+255  188  120  Accent Warm Lighter
+250  148   65  Accent Warm
+192   86    0  Accent Warm Dark
+119   85   64  Accent Warm Darker
+156   61   16  Emergency
+ 51   45   41  Emergency Dark
+255  255  255  White
+240  240  240  Gray 5
+230  230  230  Gray 10
+173  173  173  Gray 30
+117  117  117  Gray 50
+ 69   69   69  Gray 70
+ 23   23   23  Gray 90
+  0    0    0  Black
+229   34    7  Red
+230  111   14  Orange
+255  190   46  Gold
+254  230  133  Yellow
+ 83  130    0  Green
+  4  197  133  Mint
+  0  158  193  Cyan
+  0  118  214  Blue
+103  108  200  Indigo
+129  104  179  Violet
+215   45  121  Magenta

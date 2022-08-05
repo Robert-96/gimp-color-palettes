@@ -1,0 +1,212 @@
+{
+    "id": "uswds",
+    "name": "U.S. Web Design System",
+    "columns": 7,
+    "url": "https://designsystem.digital.gov/utilities/color/",
+    "colors": [
+        {
+            "name": "Base Lightest",
+            "hex": "#F0F0F0"
+        },
+        {
+            "name": "Base Lighter",
+            "hex": "#DFE1E2"
+        },
+        {
+            "name": "Base Light",
+            "hex": "#A9AEB1"
+        },
+        {
+            "name": "Base",
+            "hex": "#71767A"
+        },
+        {
+            "name": "Base Dark",
+            "hex": "#565C65"
+        },
+        {
+            "name": "Base Darker",
+            "hex": "#3D4551"
+        },
+        {
+            "name": "Base Darkest",
+            "hex": "#1B1B1B"
+        },
+        {
+            "name": "Ink",
+            "hex": "#1B1B1B"
+        },
+        {
+            "name": "Primary Lighter",
+            "hex": "#D9E8F6"
+        },
+        {
+            "name": "Primary Light",
+            "hex": "#73B3E7"
+        },
+        {
+            "name": "Primary",
+            "hex": "#005EA2"
+        },
+        {
+            "name": "Primary Vivid",
+            "hex": "#0050D8"
+        },
+        {
+            "name": "Primary Dark",
+            "hex": "#1A4480"
+        },
+        {
+            "name": "Primary Darker",
+            "hex": "#162E51"
+        },
+        {
+            "name": "Secondary Lighter",
+            "hex": "#F8DFE2"
+        },
+        {
+            "name": "Secondary Light",
+            "hex": "#F2938C"
+        },
+        {
+            "name": "Secondary",
+            "hex": "#D83933"
+        },
+        {
+            "name": "Secondary Vivid",
+            "hex": "#E41D3D"
+        },
+        {
+            "name": "Secondary Dark",
+            "hex": "#B50909"
+        },
+        {
+            "name": "Secondary Darker",
+            "hex": "#8B0A03"
+        },
+        {
+            "name": "Accent Cool Lighter",
+            "hex": "#E1F3F8"
+        },
+        {
+            "name": "Accent Cool Light",
+            "hex": "#97D4EA"
+        },
+        {
+            "name": "Accent Cool",
+            "hex": "#00BDE3"
+        },
+        {
+            "name": "Accent Cool Dark",
+            "hex": "#28A0CB"
+        },
+        {
+            "name": "Accent Cool Darker",
+            "hex": "#07648D"
+        },
+        {
+            "name": "Accent Warm Light",
+            "hex": "#F2E4D4"
+        },
+        {
+            "name": "Accent Warm Lighter",
+            "hex": "#FFBC78"
+        },
+        {
+            "name": "Accent Warm",
+            "hex": "#FA9441"
+        },
+        {
+            "name": "Accent Warm Dark",
+            "hex": "#C05600"
+        },
+        {
+            "name": "Accent Warm Darker",
+            "hex": "#775540"
+        },
+        {
+            "name": "Emergency",
+            "hex": "#9C3D10"
+        },
+        {
+            "name": "Emergency Dark",
+            "hex": "#332D29"
+        },
+        {
+            "name": "White",
+            "hex": "#FFFFFF"
+        },
+        {
+            "name": "Gray 5",
+            "hex": "#F0F0F0"
+        },
+        {
+            "name": "Gray 10",
+            "hex": "#E6E6E6"
+        },
+        {
+            "name": "Gray 30",
+            "hex": "#ADADAD"
+        },
+        {
+            "name": "Gray 50",
+            "hex": "#757575"
+        },
+        {
+            "name": "Gray 70",
+            "hex": "#454545"
+        },
+        {
+            "name": "Gray 90",
+            "hex": "#171717"
+        },
+        {
+            "name": "Black",
+            "hex": "#000000"
+        },
+        {
+            "name": "Red",
+            "hex": "#E52207"
+        },
+        {
+            "name": "Orange",
+            "hex": "#E66F0E"
+        },
+        {
+            "name": "Gold",
+            "hex": "#FFBE2E"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#FEE685"
+        },
+        {
+            "name": "Green",
+            "hex": "#538200"
+        },
+        {
+            "name": "Mint",
+            "hex": "#04C585"
+        },
+        {
+            "name": "Cyan",
+            "hex": "#009EC1"
+        },
+        {
+            "name": "Blue",
+            "hex": "#0076D6"
+        },
+        {
+            "name": "Indigo",
+            "hex": "#676CC8"
+        },
+        {
+            "name": "Violet",
+            "hex": "#8168B3"
+        },
+        {
+            "name": "Magenta",
+            "hex": "#D72D79"
+        }
+    ]
+}

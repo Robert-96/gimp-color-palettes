@@ -1,0 +1,105 @@
+GIMP Palette
+Name: Bootstrap
+Columns: 9
+# https://getbootstrap.com/docs/5.2/customize/color/#all-colors
+207  226  255  Blue 100
+158  197  254  Blue 200
+110  168  254  Blue 300
+ 61  139  253  Blue 400
+ 13  110  253  Blue 500
+ 10   88  202  Blue 600
+  8   66  152  Blue 700
+  5   44  101  Blue 800
+  3   22   51  Blue 900
+224  207  252  Indigo 100
+194  159  250  Indigo 200
+163  112  247  Indigo 300
+133   64  245  Indigo 400
+102   16  242  Indigo 500
+ 82   13  194  Indigo 600
+ 61   10  145  Indigo 700
+ 41    6   97  Indigo 800
+ 20    3   48  Indigo 900
+226  217  243  Purple 100
+197  179  230  Purple 200
+169  142  218  Purple 300
+140  104  205  Purple 400
+111   66  193  Purple 500
+ 89   53  154  Purple 600
+ 67   40  116  Purple 700
+ 44   26   77  Purple 800
+ 22   13   39  Purple 900
+247  214  230  Pink 100
+239  173  206  Pink 200
+230  133  181  Pink 300
+222   92  157  Pink 400
+214   51  132  Pink 500
+171   41  106  Pink 600
+128   31   79  Pink 700
+ 86   20   53  Pink 800
+ 43   10   26  Pink 900
+248  215  218  Red 100
+241  174  181  Red 200
+234  134  143  Red 300
+227   93  106  Red 400
+220   53   69  Red 500
+176   42   55  Red 600
+132   32   41  Red 700
+ 88   21   28  Red 800
+ 44   11   14  Red 900
+255  229  208  Orange 100
+254  203  161  Orange 200
+254  178  114  Orange 300
+253  152   67  Orange 400
+253  126   20  Orange 500
+202  101   16  Orange 600
+152   76   12  Orange 700
+101   50    8  Orange 800
+ 51   25    4  Orange 900
+255  243  205  Yellow 100
+255  230  156  Yellow 200
+255  218  106  Yellow 300
+255  205   57  Yellow 400
+255  193    7  Yellow 500
+204  154    6  Yellow 600
+153  116    4  Yellow 700
+102   77    3  Yellow 800
+ 51   39    1  Yellow 900
+209  231  221  Green 100
+163  207  187  Green 200
+117  183  152  Green 300
+ 71  159  118  Green 400
+ 25  135   84  Green 500
+ 20  108   67  Green 600
+ 15   81   50  Green 700
+ 10   54   34  Green 800
+  5   27   17  Green 900
+210  244  234  Teal 100
+166  233  213  Teal 200
+121  223  193  Teal 300
+ 77  212  172  Teal 400
+ 32  201  151  Teal 500
+ 26  161  121  Teal 600
+ 19  121   91  Teal 700
+ 13   80   60  Teal 800
+  6   40   30  Teal 900
+207  244  252  Cyan 100
+158  234  249  Cyan 200
+110  223  246  Cyan 300
+ 61  213  243  Cyan 400
+ 13  202  240  Cyan 500
+ 10  162  192  Cyan 600
+  8  121  144  Cyan 700
+  5   81   96  Cyan 800
+  3   40   48  Cyan 900
+248  249  250  Gray 100
+233  236  239  Gray 200
+222  226  230  Gray 300
+206  212  218  Gray 400
+173  181  189  Gray 500
+108  117  125  Gray 600
+ 73   80   87  Gray 700
+ 52   58   64  Gray 800
+ 33   37   41  Gray 900
+  0    0    0  Black
+255  255  255  White
