@@ -22,6 +22,7 @@ jobs:
           flake8 .
 
   test:
+    needs: lint
     runs-on: ubuntu-latest
 
     steps:
@@ -42,6 +43,7 @@ jobs:
           pytest tests
 
   build:
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
