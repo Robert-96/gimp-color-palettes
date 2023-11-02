@@ -1,0 +1,68 @@
+{
+    "id": "color-blind",
+    "name": "Color Blind",
+    "columns": 8,
+    "url": "https://jacksonlab.agronomy.wisc.edu/2016/05/23/15-level-colorblind-friendly-palette",
+    "colors": [
+        {
+            "name": "One",
+            "hex": "#000000"
+        },
+        {
+            "name": "Two",
+            "hex": "#004949"
+        },
+        {
+            "name": "Three",
+            "hex": "#009292"
+        },
+        {
+            "name": "Four",
+            "hex": "#FF6DB6"
+        },
+        {
+            "name": "Five",
+            "hex": "#FFB6DB"
+        },
+        {
+            "name": "Six",
+            "hex": "#490092"
+        },
+        {
+            "name": "Seven",
+            "hex": "#006DDB"
+        },
+        {
+            "name": "Eight",
+            "hex": "#B66DFF"
+        },
+        {
+            "name": "Nine",
+            "hex": "#6DB6FF"
+        },
+        {
+            "name": "Ten",
+            "hex": "#B6DBFF"
+        },
+        {
+            "name": "Eleven",
+            "hex": "#920000"
+        },
+        {
+            "name": "Twelve",
+            "hex": "#924900"
+        },
+        {
+            "name": "Thirteen",
+            "hex": "#DB6D00"
+        },
+        {
+            "name": "Fourteen",
+            "hex": "#24FF24"
+        },
+        {
+            "name": "Fifteen",
+            "hex": "#FFFF6D"
+        }
+    ]
+}

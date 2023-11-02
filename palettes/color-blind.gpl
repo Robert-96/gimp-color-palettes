@@ -1,0 +1,19 @@
+GIMP Palette
+Name: Color Blind
+Columns: 8
+# https://jacksonlab.agronomy.wisc.edu/2016/05/23/15-level-colorblind-friendly-palette
+  0    0    0  One
+  0   73   73  Two
+  0  146  146  Three
+255  109  182  Four
+255  182  219  Five
+ 73    0  146  Six
+  0  109  219  Seven
+182  109  255  Eight
+109  182  255  Nine
+182  219  255  Ten
+146    0    0  Eleven
+146   73    0  Twelve
+219  109    0  Thirteen
+ 36  255   36  Fourteen
+255  255  109  Fifteen
