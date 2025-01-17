@@ -1,7 +1,7 @@
 GIMP Palette
 Name: Elementary OS
 Columns: 5
-# https://elementary.io/docs/human-interface-guidelines#color
+# https://elementary.io/brand
 255  140  130  Strawberry 100
 237   83   83  Strawberry 300
 198   38   46  Strawberry 500
@@ -42,6 +42,11 @@ Columns: 5
 222   62  128  Bubblegum 500
 188   36   93  Bubblegum 700
 145   14   56  Bubblegum 900
+239  223  196  Late 100
+231  197  145  Late 300
+207  162   94  Late 500
+182  128   46  Late 700
+128   75    0  Late 900
 163  144  124  Cocoa 100
 138  113   94  Cocoa 300
 113   83   68  Cocoa 500
