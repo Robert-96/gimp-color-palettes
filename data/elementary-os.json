@@ -2,7 +2,7 @@
     "id": "elementary-os",
     "name": "Elementary OS",
     "columns": 5,
-    "url": "https://elementary.io/docs/human-interface-guidelines#color",
+    "url": "https://elementary.io/brand",
     "colors": [
         {
             "name": "Strawberry 100",
@@ -163,6 +163,26 @@
         {
             "name": "Bubblegum 900",
             "hex": "#910E38"
+        },
+        {
+            "name": "Late 100",
+            "hex": "#EFDFC4"
+        },
+        {
+            "name": "Late 300",
+            "hex": "#E7C591"
+        },
+        {
+            "name": "Late 500",
+            "hex": "#CFA25E"
+        },
+        {
+            "name": "Late 700",
+            "hex": "#B6802E"
+        },
+        {
+            "name": "Late 900",
+            "hex": "#804B00"
         },
         {
             "name": "Cocoa 100",
