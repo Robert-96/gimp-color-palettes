@@ -1,0 +1,732 @@
+{
+    "id": "montana-black",
+    "name": "Montana Black",
+    "columns": 8,
+    "url": "https://www.montana-cans.com/procreate/",
+    "colors": [
+        {
+            "name": "Smash137's Potato",
+            "hex": "#F1DD8D"
+        },
+        {
+            "name": "Easter Yellow",
+            "hex": "#FEE370"
+        },
+        {
+            "name": "Kicking Yellow",
+            "hex": "#FCD635"
+        },
+        {
+            "name": "Yellow",
+            "hex": "#F4B827"
+        },
+        {
+            "name": "Melon Yellow",
+            "hex": "#EC9E2D"
+        },
+        {
+            "name": "Topaz",
+            "hex": "#F1DD8D"
+        },
+        {
+            "name": "Hazle",
+            "hex": "#C2772F"
+        },
+        {
+            "name": "Pecan Nut",
+            "hex": "#A15039"
+        },
+        {
+            "name": "Maroon",
+            "hex": "#552824"
+        },
+        {
+            "name": "Indian Spice",
+            "hex": "#3C1A17"
+        },
+        {
+            "name": "Masala",
+            "hex": "#D29C28"
+        },
+        {
+            "name": "Delhi",
+            "hex": "#A28D39"
+        },
+        {
+            "name": "Bombay",
+            "hex": "#8B752B"
+        },
+        {
+            "name": "Juice",
+            "hex": "#EC963E"
+        },
+        {
+            "name": "Clockwork Orange",
+            "hex": "#E6792F"
+        },
+        {
+            "name": "Pure Orange",
+            "hex": "#E16329"
+        },
+        {
+            "name": "Halloween",
+            "hex": "#DE542A"
+        },
+        {
+            "name": "Code Red",
+            "hex": "#D7222B"
+        },
+        {
+            "name": "Tomorrow",
+            "hex": "#E88550"
+        },
+        {
+            "name": "Atom's Megablast",
+            "hex": "#E26737"
+        },
+        {
+            "name": "Fire Rose",
+            "hex": "#AD2328"
+        },
+        {
+            "name": "Cardinal",
+            "hex": "#510D20"
+        },
+        {
+            "name": "Merlot",
+            "hex": "#2D1516"
+        },
+        {
+            "name": "Cherry",
+            "hex": "#200A18"
+        },
+        {
+            "name": "Winegum",
+            "hex": "#360220"
+        },
+        {
+            "name": "Miss Piggy",
+            "hex": "#EDA9B4"
+        },
+        {
+            "name": "Pink Cadillac",
+            "hex": "#E783A3"
+        },
+        {
+            "name": "Pink Panther",
+            "hex": "#DD4D86"
+        },
+        {
+            "name": "Punk Pink",
+            "hex": "#B0245F"
+        },
+        {
+            "name": "Beast",
+            "hex": "#DB478B"
+        },
+        {
+            "name": "Freak",
+            "hex": "#B21771"
+        },
+        {
+            "name": "Purple Rain",
+            "hex": "#882966"
+        },
+        {
+            "name": "Good Times",
+            "hex": "#991663"
+        },
+        {
+            "name": "Imperator",
+            "hex": "#661C3D"
+        },
+        {
+            "name": "Cocktail",
+            "hex": "#F1B2A7"
+        },
+        {
+            "name": "Mr.Crab",
+            "hex": "#EA8F7B"
+        },
+        {
+            "name": "Sushi",
+            "hex": "#E67D64"
+        },
+        {
+            "name": "Patpong",
+            "hex": "#E36D75"
+        },
+        {
+            "name": "Pink Lemonade",
+            "hex": "#DF4E61"
+        },
+        {
+            "name": "Lollipop",
+            "hex": "#E43857"
+        },
+        {
+            "name": "Bloody Mary",
+            "hex": "#A62945"
+        },
+        {
+            "name": "Illusion",
+            "hex": "#8E3B84"
+        },
+        {
+            "name": "Magic",
+            "hex": "#AB669A"
+        },
+        {
+            "name": "Bubble Bath",
+            "hex": "#B594AE"
+        },
+        {
+            "name": "Ms Jackson",
+            "hex": "#A480AD"
+        },
+        {
+            "name": "Monster",
+            "hex": "#7A4A88"
+        },
+        {
+            "name": "Pimp Violet",
+            "hex": "#5B2B6C"
+        },
+        {
+            "name": "Galaxy",
+            "hex": "#331039"
+        },
+        {
+            "name": "Lavender",
+            "hex": "#9994B1"
+        },
+        {
+            "name": "Blue Velvet",
+            "hex": "#817AA2"
+        },
+        {
+            "name": "Royal Purple",
+            "hex": "#59548F"
+        },
+        {
+            "name": "Wizard",
+            "hex": "#4C3E7A"
+        },
+        {
+            "name": "Universe",
+            "hex": "#0A0029"
+        },
+        {
+            "name": "Gut",
+            "hex": "#98878C"
+        },
+        {
+            "name": "Kidney",
+            "hex": "#6F5C65"
+        },
+        {
+            "name": "Liver",
+            "hex": "#54434E"
+        },
+        {
+            "name": "Dummy",
+            "hex": "#D2A6AC"
+        },
+        {
+            "name": "Plum",
+            "hex": "#9F6972"
+        },
+        {
+            "name": "Amethyst",
+            "hex": "#5A2E3A"
+        },
+        {
+            "name": "Edelgard",
+            "hex": "#BCC3C8"
+        },
+        {
+            "name": "Brunhilde",
+            "hex": "#909FBA"
+        },
+        {
+            "name": "Waltraut",
+            "hex": "#647CAA"
+        },
+        {
+            "name": "Irmgard",
+            "hex": "#4B568D"
+        },
+        {
+            "name": "Baby Blue",
+            "hex": "#5BC1DD"
+        },
+        {
+            "name": "Light Blue",
+            "hex": "#289DC5"
+        },
+        {
+            "name": "Horizon",
+            "hex": "#216DAA"
+        },
+        {
+            "name": "Royal Blue",
+            "hex": "#16477E"
+        },
+        {
+            "name": "Ultramarine",
+            "hex": "#0B2B57"
+        },
+        {
+            "name": "Dark Indigo",
+            "hex": "#021027"
+        },
+        {
+            "name": "Dove",
+            "hex": "#8AA8A2"
+        },
+        {
+            "name": "Seal",
+            "hex": "#365056"
+        },
+        {
+            "name": "Space",
+            "hex": "#21343D"
+        },
+        {
+            "name": "Trout",
+            "hex": "#859EAF"
+        },
+        {
+            "name": "Marlin",
+            "hex": "#49627B"
+        },
+        {
+            "name": "Whale",
+            "hex": "#213F57"
+        },
+        {
+            "name": "Ice Blue",
+            "hex": "#B4D1DE"
+        },
+        {
+            "name": "Lenor",
+            "hex": "#85B6CF"
+        },
+        {
+            "name": "Blue Lagoon",
+            "hex": "#598AB4"
+        },
+        {
+            "name": "Knock Out Blue",
+            "hex": "#1A5592"
+        },
+        {
+            "name": "Sorrento Blue",
+            "hex": "#1F3F6C"
+        },
+        {
+            "name": "Pistachio",
+            "hex": "#D3DD49"
+        },
+        {
+            "name": "Acid",
+            "hex": "#B7D043"
+        },
+        {
+            "name": "Slimer",
+            "hex": "#96C03F"
+        },
+        {
+            "name": "Oasis",
+            "hex": "#8F983F"
+        },
+        {
+            "name": "Spring",
+            "hex": "#BACF70"
+        },
+        {
+            "name": "Wild Lime",
+            "hex": "#A1C849"
+        },
+        {
+            "name": "Irish Green",
+            "hex": "#49AE46"
+        },
+        {
+            "name": "Boston",
+            "hex": "#098245"
+        },
+        {
+            "name": "Celtic",
+            "hex": "#04522E"
+        },
+        {
+            "name": "Banknote",
+            "hex": "#012D15"
+        },
+        {
+            "name": "TAG Green",
+            "hex": "#011D0A"
+        },
+        {
+            "name": "Hippie",
+            "hex": "#70BB74"
+        },
+        {
+            "name": "Mascaline",
+            "hex": "#43A768"
+        },
+        {
+            "name": "Woodstock",
+            "hex": "#039151"
+        },
+        {
+            "name": "Plant",
+            "hex": "#007036"
+        },
+        {
+            "name": "Tiffany",
+            "hex": "#71C2BB"
+        },
+        {
+            "name": "Cool Cologne",
+            "hex": "#20B2B0"
+        },
+        {
+            "name": "Mermaid",
+            "hex": "#008181"
+        },
+        {
+            "name": "Neptune",
+            "hex": "#00363B"
+        },
+        {
+            "name": "Riffs",
+            "hex": "#002124"
+        },
+        {
+            "name": "Drops",
+            "hex": "#6BC1BA"
+        },
+        {
+            "name": "Nappies",
+            "hex": "#1AB1A8"
+        },
+        {
+            "name": "Surgery",
+            "hex": "#00A291"
+        },
+        {
+            "name": "E2E Green",
+            "hex": "#84C38F"
+        },
+        {
+            "name": "Revolt Green",
+            "hex": "#43AE65"
+        },
+        {
+            "name": "Atlantis",
+            "hex": "#008066"
+        },
+        {
+            "name": "Olymp",
+            "hex": "#B7D1B9"
+        },
+        {
+            "name": "Hope",
+            "hex": "#9BCEB2"
+        },
+        {
+            "name": "Patina",
+            "hex": "#59B393"
+        },
+        {
+            "name": "Chopper Green",
+            "hex": "#02715D"
+        },
+        {
+            "name": "Trabi",
+            "hex": "#C2C8AF"
+        },
+        {
+            "name": "Beetle",
+            "hex": "#ADB889"
+        },
+        {
+            "name": "Reseda",
+            "hex": "#8F9D73"
+        },
+        {
+            "name": "Fog",
+            "hex": "#93A48D"
+        },
+        {
+            "name": "Mist",
+            "hex": "#637B6B"
+        },
+        {
+            "name": "Storm",
+            "hex": "#374835"
+        },
+        {
+            "name": "Bamboo",
+            "hex": "#C0BA7C"
+        },
+        {
+            "name": "Hemp",
+            "hex": "#91874E"
+        },
+        {
+            "name": "Boa",
+            "hex": "#7F7941"
+        },
+        {
+            "name": "Pan",
+            "hex": "#61543C"
+        },
+        {
+            "name": "Pear Green",
+            "hex": "#A8AD45"
+        },
+        {
+            "name": "Lost Island",
+            "hex": "#697E3E"
+        },
+        {
+            "name": "Troops",
+            "hex": "#424D27"
+        },
+        {
+            "name": "Toad",
+            "hex": "#243621"
+        },
+        {
+            "name": "Face",
+            "hex": "#C7C2A2"
+        },
+        {
+            "name": "Hannibal",
+            "hex": "#97A282"
+        },
+        {
+            "name": "Murdock",
+            "hex": "#757D63"
+        },
+        {
+            "name": "B.a Bosko",
+            "hex": "#323528"
+        },
+        {
+            "name": "Jaws",
+            "hex": "#DFE2D5"
+        },
+        {
+            "name": "Mouse",
+            "hex": "#ABAA9E"
+        },
+        {
+            "name": "Shark",
+            "hex": "#6E7870"
+        },
+        {
+            "name": "Rhino",
+            "hex": "#47514B"
+        },
+        {
+            "name": "Ant",
+            "hex": "#3A3834"
+        },
+        {
+            "name": "Gambetta",
+            "hex": "#B6AA97"
+        },
+        {
+            "name": "Lennox",
+            "hex": "#676157"
+        },
+        {
+            "name": "Lambrate",
+            "hex": "#949092"
+        },
+        {
+            "name": "Industriilor",
+            "hex": "#757175"
+        },
+        {
+            "name": "Houdini",
+            "hex": "#4C4B50"
+        },
+        {
+            "name": "Morpheus",
+            "hex": "#8E8C87"
+        },
+        {
+            "name": "Nostradamus",
+            "hex": "#63625C"
+        },
+        {
+            "name": "Ghetto",
+            "hex": "#363330"
+        },
+        {
+            "name": "Dumbo",
+            "hex": "#77736E"
+        },
+        {
+            "name": "Slate",
+            "hex": "#423C39"
+        },
+        {
+            "name": "Ivory",
+            "hex": "#EBE0B7"
+        },
+        {
+            "name": "Sand",
+            "hex": "#8F7349"
+        },
+        {
+            "name": "Beige",
+            "hex": "#C9AB7A"
+        },
+        {
+            "name": "Iced Coffee",
+            "hex": "#C99D84"
+        },
+        {
+            "name": "Cremino",
+            "hex": "#B58567"
+        },
+        {
+            "name": "Frapp\u00e9",
+            "hex": "#916851"
+        },
+        {
+            "name": "Chocolate",
+            "hex": "#614533"
+        },
+        {
+            "name": "Jawa",
+            "hex": "#341B19"
+        },
+        {
+            "name": "Rust",
+            "hex": "#7F3336"
+        },
+        {
+            "name": "Arabian",
+            "hex": "#B09A6E"
+        },
+        {
+            "name": "Gobi",
+            "hex": "#95825F"
+        },
+        {
+            "name": "Syrian",
+            "hex": "#796548"
+        },
+        {
+            "name": "After",
+            "hex": "#8B6559"
+        },
+        {
+            "name": "Snail",
+            "hex": "#EC9981"
+        },
+        {
+            "name": "Koi",
+            "hex": "#DC4939"
+        },
+        {
+            "name": "Falling",
+            "hex": "#9D362C"
+        },
+        {
+            "name": "Candy Bar",
+            "hex": "#5D3C33"
+        },
+        {
+            "name": "Mud",
+            "hex": "#381D1D"
+        },
+        {
+            "name": "Black",
+            "hex": "#000101"
+        },
+        {
+            "name": "Ture Yellow",
+            "hex": "#F8E916"
+        },
+        {
+            "name": "50% Tr. Yellow",
+            "hex": "#FCF47C"
+        },
+        {
+            "name": "Ture Magenta",
+            "hex": "#C01961"
+        },
+        {
+            "name": "50% Tr. Magenta",
+            "hex": "#D86889"
+        },
+        {
+            "name": "True Cyan",
+            "hex": "#26AEBC"
+        },
+        {
+            "name": "50% Tr. Cyan",
+            "hex": "#77C6C5"
+        },
+        {
+            "name": "Power Yellow",
+            "hex": "#FBD51D"
+        },
+        {
+            "name": "Power Orange",
+            "hex": "#E0612A"
+        },
+        {
+            "name": "Power Red",
+            "hex": "#D8362A"
+        },
+        {
+            "name": "Power Pink",
+            "hex": "#DC4D8E"
+        },
+        {
+            "name": "Power Violet",
+            "hex": "#1D1B46"
+        },
+        {
+            "name": "Power Blue",
+            "hex": "#1A5191"
+        },
+        {
+            "name": "Power Green",
+            "hex": "#5DB248"
+        },
+        {
+            "name": "Infra Yellow",
+            "hex": "#ECE859"
+        },
+        {
+            "name": "Infra Orange",
+            "hex": "#E98D45"
+        },
+        {
+            "name": "Infra Red",
+            "hex": "#DC4933"
+        },
+        {
+            "name": "Infra Pink",
+            "hex": "#D91A6B"
+        },
+        {
+            "name": "Infra Violet",
+            "hex": "#724A86"
+        },
+        {
+            "name": "Infra Green",
+            "hex": "#73BB63"
+        }
+    ]
+}
