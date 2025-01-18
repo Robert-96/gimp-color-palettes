@@ -1,7 +1,7 @@
 {
     "id": "metro-ui",
     "name": "Metro UI",
-    "colomns": 8,
+    "columns": 8,
     "colors": [
         {
             "name": "Light Green",
